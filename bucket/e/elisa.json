@@ -1,0 +1,45 @@
+{
+    "version": "25.08.3",
+    "description": "Simple and easy-to-use music player",
+    "homepage": "https://apps.kde.org/elisa/",
+    "license": "LGPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-25.08/windows/elisa-release_25.08-4094-windows-cl-msvc2022-x86_64.7z",
+            "hash": "3b68041b8e506493bc6774797fd15947b6fae86d5021983e7f871334f56f2726"
+        }
+    },
+    "bin": "bin\\elisa.exe",
+    "shortcuts": [
+        [
+            "bin\\elisa.exe",
+            "Elisa"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$feed_url = 'https://apps.kde.org/{0}/index.xml' -f $app",
+            "$rss_feed = [xml](Invoke-WebRequest -Uri $feed_url -UseBasicParsing).Content",
+            "$release_title = $rss_feed.rss.channel.item[0].title",
+            "if ($release_title -match 'Release (?<version>[\\d.]+)') {",
+            "    $version = $Matches['version']",
+            "    $minor_branch = ($version -split '\\.')[0..1] -join '.'",
+            "    $release_url = 'https://cdn.kde.org/ci-builds/multimedia/{0}/release-{1}/windows/' -f $app, $minor_branch",
+            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
+            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -First 1 -Expand href",
+            "    Write-Output \"$version , $archive_name\"",
+            "}"
+        ],
+        "regex": "([\\d.]+) , elisa-release_(?<release>[\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-$majorVersion.$minorVersion/windows/elisa-release_$matchRelease-windows-cl-$matchLib-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}

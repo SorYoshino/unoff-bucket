@@ -1,0 +1,46 @@
+{
+    "version": "25.08.3",
+    "description": "Communications and data transfer between devices over local networks",
+    "homepage": "https://kdeconnect.kde.org",
+    "license": "GPL-2.0-or-later",
+    "notes": "If you want to get the latest development branch-based installer, please install `kdeconnect-nightly` from Versions bucket.",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/release-25.08/windows/kdeconnect-kde-release_25.08-5449-windows-cl-msvc2022-x86_64.7z",
+            "hash": "8ba514d855ee5f82435b845bc5d7ef1aa94ab1337eb7088589b3680e88a9e11c"
+        }
+    },
+    "bin": "bin\\kdeconnect-cli.exe",
+    "shortcuts": [
+        [
+            "bin\\kdeconnect-app.exe",
+            "KDEConnect"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$feed_url = 'https://apps.kde.org/{0}/index.xml' -f $app",
+            "$rss_feed = [xml](Invoke-WebRequest -Uri $feed_url -UseBasicParsing).Content",
+            "$release_title = $rss_feed.rss.channel.item[0].title",
+            "if ($release_title -match 'Release (?<version>[\\d.]+)') {",
+            "    $version = $Matches['version']",
+            "    $minor_branch = ($version -split '\\.')[0..1] -join '.'",
+            "    $release_url = 'https://cdn.kde.org/ci-builds/network/{0}-kde/release-{1}/windows/' -f $app, $minor_branch",
+            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
+            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -First 1 -Expand href",
+            "    Write-Output \"$version , $archive_name\"",
+            "}"
+        ],
+        "regex": "([\\d.]+) , kdeconnect-kde-release_(?<release>[\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/release-$majorVersion.$minorVersion/windows/kdeconnect-kde-release_$matchRelease-windows-cl-$matchLib-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}

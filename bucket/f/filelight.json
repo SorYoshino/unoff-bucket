@@ -1,0 +1,46 @@
+{
+    "version": "25.08.3",
+    "description": "Disk usage visualizer",
+    "homepage": "https://apps.kde.org/filelight/",
+    "license": "GPL-2.0-or-later",
+    "notes": "If you want to get the latest development branch-based installer, please install `filelight-nightly` from Versions bucket.",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-25.08/windows/filelight-release_25.08-1931-windows-cl-msvc2022-x86_64.7z",
+            "hash": "555189997ee5f9052f85d15199a792075c4158794d897cb25581a8283d94f59a"
+        }
+    },
+    "bin": "bin\\filelight.exe",
+    "shortcuts": [
+        [
+            "bin\\filelight.exe",
+            "Filelight"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$feed_url = 'https://apps.kde.org/{0}/index.xml' -f $app",
+            "$rss_feed = [xml](Invoke-WebRequest -Uri $feed_url -UseBasicParsing).Content",
+            "$release_title = $rss_feed.rss.channel.item[0].title",
+            "if ($release_title -match 'Release (?<version>[\\d.]+)') {",
+            "    $version = $Matches['version']",
+            "    $minor_branch = ($version -split '\\.')[0..1] -join '.'",
+            "    $release_url = 'https://cdn.kde.org/ci-builds/utilities/{0}/release-{1}/windows/' -f $app, $minor_branch",
+            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
+            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -First 1 -Expand href",
+            "    Write-Output \"$version , $archive_name\"",
+            "}"
+        ],
+        "regex": "([\\d.]+) , filelight-release_(?<release>[\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/utilities/filelight/release-$majorVersion.$minorVersion/windows/filelight-release_$matchRelease-windows-cl-$matchLib-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "version": "25.08.3",
+    "description": "Video editing software based on the MLT Framework, KDE and Qt",
+    "homepage": "https://kdenlive.org",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-25.08/windows/kdenlive-release_25.08-11431-windows-gcc-x86_64.7z",
+            "hash": "f909302e14c876b28b56d562c1e0a78601e8fca4caaaa14bf04f182bd438e4f6"
+        }
+    },
+    "bin": "bin\\kdenlive.exe",
+    "shortcuts": [
+        [
+            "bin\\kdenlive.exe",
+            "Kdenlive"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$feed_url = 'https://apps.kde.org/{0}/index.xml' -f $app",
+            "$rss_feed = [xml](Invoke-WebRequest -Uri $feed_url -UseBasicParsing).Content",
+            "$release_title = $rss_feed.rss.channel.item[0].title",
+            "if ($release_title -match 'Release (?<version>[\\d.]+)') {",
+            "    $version = $Matches['version']",
+            "    $minor_branch = ($version -split '\\.')[0..1] -join '.'",
+            "    $release_url = 'https://cdn.kde.org/ci-builds/multimedia/{0}/release-{1}/windows/' -f $app, $minor_branch",
+            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
+            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -First 1 -Expand href",
+            "    Write-Output \"$version , $archive_name\"",
+            "}"
+        ],
+        "regex": "([\\d.]+) , kdenlive-release_(?<release>[\\d.-]+)-windows-gcc-x86_64\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-$majorVersion.$minorVersion/windows/kdenlive-release_$matchRelease-windows-gcc-x86_64.7z",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}

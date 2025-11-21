@@ -14,10 +14,10 @@
     },
     "installer": {
         "script": [
-            "Start-Process -FilePath \"$dir\\$fname\" -ArgumentList @(\"$env:PUBLIC\") -Wait",
-            "Move-Item -Path \"$env:PUBLIC\\Calibre Portable\\*\" -Destination \"$dir\" -Force",
-            "Remove-Item -Path \"$dir\\$fname\", \"$env:PUBLIC\\Calibre Portable\" -Force -ErrorAction SilentlyContinue",
-            "Icacls $dir /t /c /reset"
+            "Start-Process -FilePath \"$dir\\$fname\" -ArgumentList @($env:PUBLIC) -Wait",
+            "Move-Item -Path \"$env:PUBLIC\\Calibre Portable\\*\" -Destination $dir -Force",
+            "Remove-Item -Path \"$dir\\$fname\", \"$env:PUBLIC\\Calibre Portable\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "Icacls $dir /t /c /reset | Out-Null"
         ]
     },
     "bin": [

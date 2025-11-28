@@ -34,8 +34,8 @@
             "$comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
             "$comments | ForEach-Object { $_.ParentNode.RemoveChild($_) | Out-Null }",
             "$xml.SelectSingleNode('//Setting[@name=''Disable update check'']').InnerText = '1'",
-            "$xml.SelectSingleNode('//Setting[@name=''Config Location'']').InnerText = 'data\\config'",
             "$xml.SelectSingleNode('//Setting[@name=''Cache directory'']').InnerText = 'data\\cache'",
+            "$xml.SelectSingleNode('//Setting[@name=''Config Location'']').InnerText = 'data\\config'",
             "$xml.Save(\"$dir\\fzdefaults.xml\")"
         ]
     },

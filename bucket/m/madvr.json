@@ -16,14 +16,14 @@
     ],
     "installer": {
         "script": [
-            "if (-not (is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
-            "Invoke-Expression -Command \"$dir\\install.bat\""
+            "if (-not (is_admin)) { abort \"$app requires admin rights to $cmd\" }",
+            "Start-Process -FilePath \"$dir\\install.bat\" -NoNewWindow -Wait"
         ]
     },
     "uninstaller": {
         "script": [
-            "if (-not (is_admin)) { error \"$app requires admin rights to $cmd\"; break }",
-            "Invoke-Expression -Command \"$dir\\uninstall.bat\""
+            "if (-not (is_admin)) { abort \"$app requires admin rights to $cmd\" }",
+            "Start-Process -FilePath \"$dir\\uninstall.bat\" -NoNewWindow -Wait"
         ]
     },
     "shortcuts": [

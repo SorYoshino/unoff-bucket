@@ -1,6 +1,6 @@
 {
     "version": "0.3.0",
-    "description": "Yet another SIP003 plugin based on IETF-QUIC",
+    "description": "Yet another SIP003 plugin based on IETF-QUIC.",
     "homepage": "https://github.com/shadowsocks/qtun",
     "license": "MIT",
     "suggest": {
@@ -14,9 +14,11 @@
     },
     "installer": {
         "script": [
-            "$archive_name = Get-ChildItem -Path $dir -File -Include '*.zip' -Recurse | Select-Object -Expand Name",
-            "Expand-7zipArchive -Path \"$dir\\$archive_name\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Removal",
-            "Remove-Item -Path \"$dir\\*sha256\" -Recurse -Force -ErrorAction SilentlyContinue"
+            "$archive = Get-ChildItem -Path $dir -File -Include '*.zip' -Recurse | Select-Object -First 1",
+            "if ($null -ne $archive.Name) {",
+            "    Expand-7zipArchive -Path \"$dir\\$($archive.Name)\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Removal",
+            "    Remove-Item -Path \"$dir\\*sha256\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "}"
         ]
     },
     "bin": [

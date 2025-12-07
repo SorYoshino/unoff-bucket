@@ -13,9 +13,7 @@
         }
     },
     "installer": {
-        "script": [
-            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Removal"
-        ]
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Remova"
     },
     "bin": "Moosync.exe",
     "shortcuts": [

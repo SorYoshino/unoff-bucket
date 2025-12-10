@@ -1,12 +1,12 @@
 # unoff-bucket
 
-This is an unofficial bucket, either slightly modified from the official bucket's manifest or used for testing a PR submission to the official bucket.
+This is an unofficial bucket, and its current purposes are as follows:
 
-## How do I install these manifests?
+- Storing manifests for personal use
+- Testing pull requests submitted to the official buckets and tracking their subsequent updates
 
-After manifests have been committed and pushed, run the following:
+## Notes
 
-```powershell
-scoop bucket add unoff-bucket https://github.com/SorYoshino/unoff-bucket
-scoop install unoff-bucket/<manifestname>
-```
+- This repository is periodically cleaned to remove manifests that are no longer needed for tracking. **Installing applications using manifests from this repository is not recommended**.
+- This repository only accepts follow-up tracking requests for manifests submitted to the official buckets. All other types of requests will not be accepted.
+  - For manifests that have been submitted to the official buckets and also exist in this repository, if any issues arise, you may open an issue. I will address it as soon as possible.

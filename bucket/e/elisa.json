@@ -1,12 +1,12 @@
 {
-    "version": "25.08.3",
+    "version": "25.12.0",
     "description": "Simple and easy-to-use music player",
     "homepage": "https://apps.kde.org/elisa/",
     "license": "LGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-25.08/windows/elisa-release_25.08-4094-windows-cl-msvc2022-x86_64.7z",
-            "hash": "3b68041b8e506493bc6774797fd15947b6fae86d5021983e7f871334f56f2726"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-25.12/windows/elisa-release_25.12-4140-windows-cl-msvc2022-x86_64.7z",
+            "hash": "d66a5ee06dbf49d3190538b34fe44e3c08fa0cc15372743c951b100c3f1ee25d"
         }
     },
     "bin": "bin\\elisa.exe",

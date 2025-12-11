@@ -1,13 +1,13 @@
 {
-    "version": "25.08.3",
+    "version": "25.12.0",
     "description": "Disk usage visualizer",
     "homepage": "https://apps.kde.org/ark/",
     "license": "GPL-2.0-or-later",
     "notes": "If you want to get the latest development branch-based installer, please install `ark-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-25.08/windows/ark-release_25.08-2322-windows-cl-msvc2022-x86_64.7z",
-            "hash": "fdfc27f325c1836988533535165edbfd8f25da48d6cf9ec3396b69fc2febcd8e"
+            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-25.12/windows/ark-release_25.12-2373-windows-cl-msvc2022-x86_64.7z",
+            "hash": "82fc70afdd9e2a20aa2f516b7e27c5e7b63ca44d83a51cafcdb1aa3d03c3be12"
         }
     },
     "bin": "bin\\ark.exe",

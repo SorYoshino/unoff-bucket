@@ -48,7 +48,8 @@
         "$calibre_path = (Join-Path -Path $dir -ChildPath 'Calibre') -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\Unofficial\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
-        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+        "    if ($_.Name -ne 'unregister-file-associations.reg' `",
+        "            -and $global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{calibre_dir}}', $calibre_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding utf8",
         "}",
         "if (-not (Test-Path \"$persist_dir\\Calibre Settings\\global.py.json\")) {",
@@ -68,7 +69,7 @@
         "}"
     ],
     "env_set": {
-        "CALIBRE_TEMP_DIR ": "$persist_dir\\.tmp",
+        "CALIBRE_TEMP_DIR": "$persist_dir\\.tmp",
         "CALIBRE_CACHE_DIRECTORY": "$persist_dir\\.cache",
         "CALIBRE_CONFIG_DIRECTORY": "$persist_dir\\Calibre Settings"
     },

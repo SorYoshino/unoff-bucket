@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Classes\.ggb\OpenWithProgIDs]
+"GeoGebra.AssocFile"=-
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\GeoGebra.AssocFile]

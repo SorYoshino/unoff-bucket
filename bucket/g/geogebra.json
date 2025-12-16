@@ -14,7 +14,7 @@
     "hash": "d5b8d37d4326da11b4eb225659faf3b2b8af8dd48c857b151cec82467e5f241d",
     "post_install": [
         "$geogebra_path = $dir -replace '\\\\', '\\\\'",
-        "Get-ChildItem -Path \"$bucketsdir\\Unofficial\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{geogebra_dir}}', $geogebra_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding utf8",
@@ -49,7 +49,7 @@
         ]
     ],
     "uninstaller": {
-        "script": "if ($cmd -eq 'uninstall') { reg import \"$dir\\unregister-file-associations.reg\" }"
+        "script": "if ($cmd -eq 'uninstall') { reg import \"$dir\\unregister-file-associations.reg\" *> $null }"
     },
     "checkver": {
         "script": [

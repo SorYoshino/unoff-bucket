@@ -1,0 +1,56 @@
+{
+    "version": "1.0.9218",
+    "description": "A voice, video and text communication platform.",
+    "homepage": "https://discord.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://discord.com/terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9218/DiscordSetup.exe",
+            "hash": "583617068d1b44c7b374c6ff9d5ff4db93cae858175517947b1447679cf721a4"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Removal",
+            "$nupkg_file = Get-ChildItem -Path $dir -Filter '*.nupkg' -File | Select-Object -ExpandProperty FullName",
+            "Expand-7zipArchive -Path $nupkg_file -DestinationPath \"$dir\\app-$version\" -ExtractDir 'lib\\net45' -Removal",
+            "Move-Item -Path \"$dir\\app-$version\\installer.db\" -Destination $dir",
+            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination $dir",
+            "New-Item -Path \"$dir\\packages\" -ItemType Directory -Force | Out-Null",
+            "Move-Item -Path \"$dir\\RELEASES\" -Destination \"$dir\\packages\""
+        ]
+    },
+    "shortcuts": [
+        [
+            "Update.exe",
+            "Discord",
+            "--processStart Discord.exe",
+            "app.ico"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "$params = @{ channel = 'stable'; platform = 'win'; arch = 'x64' }",
+            "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
+            "$query_string = ($params.GetEnumerator() | ForEach-Object { \"$($_.Key)=$($_.Value)\" }) -join '&'",
+            "$download_url = $base_url + '?' + $query_string",
+            "$http_handler = New-Object System.Net.Http.HttpClientHandler",
+            "$http_handler.AllowAutoRedirect = $true",
+            "$client = [System.Net.Http.HttpClient]::new($http_handler)",
+            "$request = New-Object System.Net.Http.HttpRequestMessage 'HEAD', $download_url",
+            "$response = $client.SendAsync($request).Result",
+            "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri"
+        ],
+        "regex": "x64/([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/$version/DiscordSetup.exe"
+            }
+        }
+    }
+}

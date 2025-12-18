@@ -6,8 +6,8 @@
     "notes": "If you want to get the latest development branch-based installer, please install `kate-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-25.12/windows/kate-release_25.12-10709-windows-cl-msvc2022-x86_64.7z",
-            "hash": "f4a3a52d8e391805db277e5ccb94bb4998c36c47314dd94ca2053196df1ac8c2"
+            "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-25.12/windows/kate-release_25.12-10763-windows-cl-msvc2022-x86_64.7z",
+            "hash": "7996c8678d19c8035d2289056b946db539756d30dafd81e6f6c483c023a32690"
         }
     },
     "bin": "bin\\kate.exe",

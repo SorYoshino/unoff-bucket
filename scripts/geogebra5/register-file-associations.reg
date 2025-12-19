@@ -9,7 +9,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="GeoGebra File"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\DefaultIcon]
-@="{{geogebra_dir}}\\GeoGebra.exe,0"
+@="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\shell]
 
@@ -29,7 +29,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="GeoGebra Tool"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\DefaultIcon]
-@="{{geogebra_dir}}\\GeoGebra.exe,0"
+@="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
 [HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\shell]
 

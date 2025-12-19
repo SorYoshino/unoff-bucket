@@ -50,7 +50,7 @@
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($_.Name -ne 'unregister-file-associations.reg' `",
         "            -and $global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
-        "    $content -replace '{{calibre_dir}}', $calibre_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding utf8",
+        "    $content -replace '{{calibre_dir}}', $calibre_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}",
         "if (-not (Test-Path \"$persist_dir\\Calibre Settings\\global.py.json\")) {",
         "    New-Item -Path \"$persist_dir\\Calibre Settings\\global.py.json\" -ItemType File -Force | Out-Null",

@@ -1,0 +1,109 @@
+{
+    "version": "1.107.1",
+    "description": "Visual Studio Code is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
+    "homepage": "https://code.visualstudio.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://code.visualstudio.com/License"
+    },
+    "notes": [
+        "To register file associations, please execute the following command:",
+        "- `reg import \"$dir\\register-file-associations.reg\"`",
+        "To register the context menu entry, please execute the following command:",
+        "- `reg import \"$dir\\register-context-menu.reg\"`",
+        "To register the installed program entry (required for integration with other applications), please execute the following command:",
+        "- `reg import \"$dir\\register-installed-program.reg\"`"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://update.code.visualstudio.com/1.107.1/win32-x64-archive/stable#/dl.7z",
+            "hash": "f2bdbb4acf43d9d2d721ab5b2dba7ba02ad214d71ec78ad3b3b43fede31187af"
+        },
+        "arm64": {
+            "url": "https://update.code.visualstudio.com/1.107.1/win32-arm64-archive/stable#/dl.7z",
+            "hash": "7797e80afb6a8b1f73003e47670576c7d9e1867ba86db77c87b1e4f92f1322e0"
+        }
+    },
+    "pre_install": [
+        "$data_path = (Join-Path -Path $dir -ChildPath 'data') -replace '\\\\', '/'",
+        "$extensions_file = \"$env:USERPROFILE\\.vscode\\extensions\\extensions.json\"",
+        "if (-not (Test-Path $extensions_file)) { return }",
+        "$cfg = Get-Content -Path $extensions_file -Encoding utf8 | ConvertFrom-Json",
+        "$cfg | ForEach-Object {",
+        "    $_.location.PSObject.Properties.Remove('_sep')",
+        "    $_.location.PSObject.Properties.Remove('fsPath')",
+        "    $_.location.PSObject.Properties.Remove('external')",
+        "    $_.location.path = $_.location.path -replace '(?<=/).+(?=/extensions)', $data_path",
+        "    if (-not $_.identifier.uuid -and $_.metadata.id) {",
+        "        $_.identifier | Add-Member -NotePropertyName uuid -NotePropertyValue $_.metadata.id",
+        "    }",
+        "}",
+        "$cfg | ConvertTo-Json -Depth 5 -Compress | Set-Content -Path $extensions_file -NoNewline -Encoding utf8"
+    ],
+    "post_install": [
+        "$vscode_path = $dir -replace '\\\\', '\\\\'",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
+        "    $content = Get-Content -Path $_.FullName -Encoding utf8",
+        "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
+        "    $content -replace '{{vscode_dir}}', $vscode_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "}",
+        "if (-not (Test-Path \"$dir\\data\\user-data\\*\") -and (Test-Path \"$env:AppData\\Code\\*\")) {",
+        "    info \"[Portable Mode] Migrating user data to '$dir\\data'...\"",
+        "    Copy-Item -Path \"$env:AppData\\Code\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
+        "}",
+        "'argv.json', 'extensions' | ForEach-Object {",
+        "    if (-not (Test-Path \"$dir\\data\\$_\") -and (Test-Path \"$env:USERPROFILE\\.vscode\\$_\")) {",
+        "        info \"[Portable Mode] Migrating $_ to '$dir\\data'...\"",
+        "        Copy-Item -Path \"$env:USERPROFILE\\.vscode\\$_\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
+        "    }",
+        "}",
+        "$remove_list = 'argv.json', 'extensions' | ForEach-Object { \"$env:USERPROFILE\\.vscode\\$_\" }",
+        "$remove_list + @(\"$env:AppData\\Code\") | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue",
+        "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
+        "if (Test-Path $extensions_file) {",
+        "    info 'Adjusting path in extensions file...'",
+        "    $cfg = Get-Content -Path $extensions_file -Encoding utf8",
+        "    $replace_regex = '(?<=vscode[/\\\\]+)[\\d.]+(?=[/\\\\]+data[/\\\\]+extensions)'",
+        "    $cfg -replace $replace_regex, $version | Set-Content -Path $extensions_file -NoNewline -Encoding utf8",
+        "}"
+    ],
+    "env_add_path": "bin",
+    "shortcuts": [
+        [
+            "Code.exe",
+            "Visual Studio Code"
+        ]
+    ],
+    "persist": "data",
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
+            "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
+            "    reg import \"$dir\\unregister-installed-program.reg\" *> $null",
+            "}"
+        ]
+    },
+    "checkver": {
+        "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/latest",
+        "jsonpath": "$.productVersion"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
+                "hash": {
+                    "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/latest",
+                    "jsonpath": "$.sha256hash"
+                }
+            },
+            "arm64": {
+                "url": "https://update.code.visualstudio.com/$version/win32-arm64-archive/stable#/dl.7z",
+                "hash": {
+                    "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/stable/latest",
+                    "jsonpath": "$.sha256hash"
+                }
+            }
+        }
+    }
+}

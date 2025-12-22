@@ -38,12 +38,14 @@
     },
     "checkver": {
         "script": [
-            "$name_filter = 'GeoGebra-Windows-Portable-*.zip'",
-            "$release_url = 'https://download.geogebra.org/installers/5.2/'",
-            "$download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
-            "$version_sort = { if ($_.href -match '(?!-)[\\d-]+') { [version]($Matches[0] -replace '-', '.') } }",
-            "$name_list = $download_page.links | Where-Object href -Like $name_filter | Sort-Object $version_sort -Descending | Select-Object -ExpandProperty href",
-            "$latest_version = $name_list[0] -replace '[^\\d]+([\\d-]+).+', '$1' -replace '-', '.'",
+            "$http_handler = New-Object System.Net.Http.HttpClientHandler",
+            "$http_handler.AllowAutoRedirect = $true",
+            "$client = [System.Net.Http.HttpClient]::new($http_handler)",
+            "$package_entry_url = 'https://download.geogebra.org/package/win'",
+            "$request = New-Object System.Net.Http.HttpRequestMessage 'HEAD', $package_entry_url",
+            "$response = $client.SendAsync($request).Result",
+            "$package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",
+            "$latest_version = $package_name -replace '[^\\d]+([\\d-]+).+', '$1' -replace '-', '.'",
             "Write-Output $latest_version"
         ],
         "regex": "([\\d.]+)"

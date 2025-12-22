@@ -4,8 +4,8 @@
     "description": "A file type manager for Windows that allows you to edit program associations, icons, context menus and a few other things.",
     "license": "GPL-3.0-or-later",
     "url": [
-        "https://ystr.github.io/types/Types.zip#/Types-2.6.5.zip",
-        "https://ystr.github.io/types/CTypes.zip#/CTypes-2.6.5.zip"
+        "https://ystr.github.io/types/Types.zip",
+        "https://ystr.github.io/types/CTypes.zip"
     ],
     "hash": [
         "531cb8f4af718b32c6d65da19afa8d2830ac8d88d70aa455d86f25d616efebc0",
@@ -36,15 +36,16 @@
             "Invoke-WebRequest -Uri $download_url -OutFile $download_dir -UseBasicParsing",
             "Start-Process -FilePath '7z.exe' -ArgumentList $args_list @output_options -Wait",
             "$version_info = [System.Diagnostics.FileVersionInfo]::GetVersionInfo(\"$tmp_dir\\Types.exe\")",
-            "Remove-Item -Path $tmp_dir, $download_dir -Recurse -Force -ErrorAction SilentlyContinue",
+            "Move-Item -Path $download_dir -Destination (cache_path $app $version_info.ProductVersion $download_url)",
+            "Remove-Item -Path $tmp_dir -Recurse -Force -ErrorAction SilentlyContinue",
             "Write-Output $version_info.ProductVersion"
         ],
         "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "url": [
-            "https://ystr.github.io/types/Types.zip#/Types-$version.zip",
-            "https://ystr.github.io/types/CTypes.zip#/CTypes-$version.zip"
+            "https://ystr.github.io/types/Types.zip",
+            "https://ystr.github.io/types/CTypes.zip"
         ]
     }
 }

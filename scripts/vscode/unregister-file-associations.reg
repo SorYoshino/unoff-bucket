@@ -239,8 +239,6 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.dockerignore]
 
-"AlwaysShowExt"=""
-
 
 [HKEY_CURRENT_USER\Software\Classes\.dot\OpenWithProgIDs]
 "VSCode.dot"=-
@@ -331,23 +329,17 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.gitattributes]
 
-"AlwaysShowExt"=""
-
 
 [HKEY_CURRENT_USER\Software\Classes\.gitconfig\OpenWithProgIDs]
 "VSCode.gitconfig"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.gitconfig]
 
-"AlwaysShowExt"=""
-
 
 [HKEY_CURRENT_USER\Software\Classes\.gitignore\OpenWithProgIDs]
 "VSCode.gitignore"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.gitignore]
-
-"AlwaysShowExt"=""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.go\OpenWithProgIDs]
@@ -500,6 +492,12 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.jsonc]
 
 
+[HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
+"VSCode.jsonld"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld]
+
+
 [HKEY_CURRENT_USER\Software\Classes\.jsp\OpenWithProgIDs]
 "VSCode.jsp"=-
 
@@ -624,8 +622,6 @@ Windows Registry Editor Version 5.00
 "VSCode.npmignore"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.npmignore]
-
-"AlwaysShowExt"=""
 
 
 [HKEY_CURRENT_USER\Software\Classes\.nu\OpenWithProgIDs]
@@ -752,6 +748,18 @@ Windows Registry Editor Version 5.00
 "VSCode.rb"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.rb]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rdf\OpenWithProgIDs]
+"VSCode.rdf"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.rdf]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.reg\OpenWithProgIDs]
+"VSCode.reg"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.reg]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rhistory\OpenWithProgIDs]

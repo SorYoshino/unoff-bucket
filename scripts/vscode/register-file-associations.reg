@@ -1808,6 +1808,28 @@ Windows Registry Editor Version 5.00
 
 
 
+[HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
+"VSCode.jsonld"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld]
+@="JSON for Linked Data Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="JSON for Linked Data Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell\open]
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
 [HKEY_CURRENT_USER\Software\Classes\.jsp\OpenWithProgIDs]
 "VSCode.jsp"=hex(0):
 
@@ -2729,6 +2751,50 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rb\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rdf\OpenWithProgIDs]
+"VSCode.rdf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.rdf]
+@="RDF Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="RDF Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell\open]
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.reg\OpenWithProgIDs]
+"VSCode.reg"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.reg]
+@="Windows Registry Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="Windows Registry Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.reg\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell\open]
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 

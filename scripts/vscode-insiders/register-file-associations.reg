@@ -1,0 +1,3563 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.adoc\OpenWithProgIDs]
+"VSCodeInsiders.adoc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc]
+@="AsciiDoc Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="AsciiDoc Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ascx\OpenWithProgIDs]
+"VSCodeInsiders.ascx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx]
+@="ASCX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ASCX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.asp\OpenWithProgIDs]
+"VSCodeInsiders.asp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp]
+@="ASP Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ASP Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.aspx\OpenWithProgIDs]
+"VSCodeInsiders.aspx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx]
+@="ASPX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ASPX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bash\OpenWithProgIDs]
+"VSCodeInsiders.bash"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash]
+@="Bash Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bash Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bashrc\OpenWithProgIDs]
+"VSCodeInsiders.bashrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc]
+@="Bash Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bash Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bash_login\OpenWithProgIDs]
+"VSCodeInsiders.bash_login"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login]
+@="Bash Login Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bash Login Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bash_logout\OpenWithProgIDs]
+"VSCodeInsiders.bash_logout"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout]
+@="Bash Logout Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bash Logout Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bash_profile\OpenWithProgIDs]
+"VSCodeInsiders.bash_profile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile]
+@="Bash Profile Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bash Profile Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bib\OpenWithProgIDs]
+"VSCodeInsiders.bib"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib]
+@="BibTeX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="BibTeX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bowerrc\OpenWithProgIDs]
+"VSCodeInsiders.bowerrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc]
+@="Bower RC Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Bower RC Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\bower.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.c\OpenWithProgIDs]
+"VSCodeInsiders.c"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c]
+@="C Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\c.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.c++\OpenWithProgIDs]
+"VSCodeInsiders.c++"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cc\OpenWithProgIDs]
+"VSCodeInsiders.cc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cfg\OpenWithProgIDs]
+"VSCodeInsiders.cfg"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg]
+@="Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cjs\OpenWithProgIDs]
+"VSCodeInsiders.cjs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JavaScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.clj\OpenWithProgIDs]
+"VSCodeInsiders.clj"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj]
+@="Clojure Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Clojure Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cljs\OpenWithProgIDs]
+"VSCodeInsiders.cljs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs]
+@="ClojureScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ClojureScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cljx\OpenWithProgIDs]
+"VSCodeInsiders.cljx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx]
+@="CLJX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CLJX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.clojure\OpenWithProgIDs]
+"VSCodeInsiders.clojure"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure]
+@="Clojure Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Clojure Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cls\OpenWithProgIDs]
+"VSCodeInsiders.cls"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls]
+@="LaTeX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="LaTeX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cmake\OpenWithProgIDs]
+"VSCodeInsiders.cmake"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake]
+@="CMake Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CMake Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.code-workspace\OpenWithProgIDs]
+"VSCodeInsiders.code-workspace"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace]
+@="Code Workspace Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Code Workspace Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.coffee\OpenWithProgIDs]
+"VSCodeInsiders.coffee"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee]
+@="CoffeeScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CoffeeScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.conf\OpenWithProgIDs]
+"VSCodeInsiders.conf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf]
+@="Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.config\OpenWithProgIDs]
+"VSCodeInsiders.config"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config]
+@="Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.containerfile\OpenWithProgIDs]
+"VSCodeInsiders.containerfile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile]
+@="Containerfile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Containerfile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cpp\OpenWithProgIDs]
+"VSCodeInsiders.cpp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cs\OpenWithProgIDs]
+"VSCodeInsiders.cs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs]
+@="C# Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C# Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\csharp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cshtml\OpenWithProgIDs]
+"VSCodeInsiders.cshtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml]
+@="CSHTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CSHTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.csproj\OpenWithProgIDs]
+"VSCodeInsiders.csproj"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj]
+@="C# Project Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C# Project Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.css\OpenWithProgIDs]
+"VSCodeInsiders.css"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css]
+@="CSS Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CSS Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\css.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.csv\OpenWithProgIDs]
+"VSCodeInsiders.csv"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv]
+@="Comma Separated Values Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Comma Separated Values Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.csx\OpenWithProgIDs]
+"VSCodeInsiders.csx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx]
+@="C# Script Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C# Script Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\csharp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ctp\OpenWithProgIDs]
+"VSCodeInsiders.ctp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp]
+@="CakePHP Template Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="CakePHP Template Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cxx\OpenWithProgIDs]
+"VSCodeInsiders.cxx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx]
+@="C++ Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dart\OpenWithProgIDs]
+"VSCodeInsiders.dart"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart]
+@="Dart Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Dart Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.diff\OpenWithProgIDs]
+"VSCodeInsiders.diff"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff]
+@="Diff Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Diff Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dockerfile\OpenWithProgIDs]
+"VSCodeInsiders.dockerfile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile]
+@="Dockerfile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Dockerfile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dockerignore\OpenWithProgIDs]
+"VSCodeInsiders.dockerignore"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore]
+@="Docker Ignore Source File"
+"AlwaysShowExt"=""
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Docker Ignore Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dot\OpenWithProgIDs]
+"VSCodeInsiders.dot"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot]
+@="Dot Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Dot Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dtd\OpenWithProgIDs]
+"VSCodeInsiders.dtd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd]
+@="Document Type Definition Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Document Type Definition Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.editorconfig\OpenWithProgIDs]
+"VSCodeInsiders.editorconfig"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig]
+@="Editor Config Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Editor Config Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.edn\OpenWithProgIDs]
+"VSCodeInsiders.edn"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn]
+@="Extensible Data Notation Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Extensible Data Notation Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.env\OpenWithProgIDs]
+"VSCodeInsiders.env"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env]
+@="Environment Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Environment Configuration File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.erb\OpenWithProgIDs]
+"VSCodeInsiders.erb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb]
+@="Ruby Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Ruby Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.eyaml\OpenWithProgIDs]
+"VSCodeInsiders.eyaml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml]
+@="Hiera Eyaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Hiera Eyaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.eyml\OpenWithProgIDs]
+"VSCodeInsiders.eyml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml]
+@="Hiera Eyaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Hiera Eyaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fish\OpenWithProgIDs]
+"VSCodeInsiders.fish"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish]
+@="Fish Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Fish Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fs\OpenWithProgIDs]
+"VSCodeInsiders.fs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs]
+@="F# Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="F# Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fsi\OpenWithProgIDs]
+"VSCodeInsiders.fsi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi]
+@="F# Signature Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="F# Signature Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fsscript\OpenWithProgIDs]
+"VSCodeInsiders.fsscript"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript]
+@="F# Script Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="F# Script Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fsx\OpenWithProgIDs]
+"VSCodeInsiders.fsx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx]
+@="F# Script Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="F# Script Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gemspec\OpenWithProgIDs]
+"VSCodeInsiders.gemspec"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec]
+@="Gemspec Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Gemspec Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gitattributes\OpenWithProgIDs]
+"VSCodeInsiders.gitattributes"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes]
+@="Git Attributes Source File"
+"AlwaysShowExt"=""
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Git Attributes Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gitconfig\OpenWithProgIDs]
+"VSCodeInsiders.gitconfig"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig]
+@="Git Config Source File"
+"AlwaysShowExt"=""
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Git Config Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gitignore\OpenWithProgIDs]
+"VSCodeInsiders.gitignore"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore]
+@="Git Ignore Source File"
+"AlwaysShowExt"=""
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Git Ignore Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.go\OpenWithProgIDs]
+"VSCodeInsiders.go"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go]
+@="Go Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Go Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\go.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gradle\OpenWithProgIDs]
+"VSCodeInsiders.gradle"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle]
+@="Gradle Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Gradle Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.groovy\OpenWithProgIDs]
+"VSCodeInsiders.groovy"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy]
+@="Groovy Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Groovy Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.h\OpenWithProgIDs]
+"VSCodeInsiders.h"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h]
+@="C Header Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C Header Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\c.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.h++\OpenWithProgIDs]
+"VSCodeInsiders.h++"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Header Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.handlebars\OpenWithProgIDs]
+"VSCodeInsiders.handlebars"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars]
+@="Handlebars Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Handlebars Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.hbs\OpenWithProgIDs]
+"VSCodeInsiders.hbs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs]
+@="Handlebars Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Handlebars Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.hh\OpenWithProgIDs]
+"VSCodeInsiders.hh"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Header Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.hpp\OpenWithProgIDs]
+"VSCodeInsiders.hpp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Header Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgIDs]
+"VSCodeInsiders.htm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="HTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgIDs]
+"VSCodeInsiders.html"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="HTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.hxx\OpenWithProgIDs]
+"VSCodeInsiders.hxx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx]
+@="C++ Header Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="C++ Header Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\cpp.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ini\OpenWithProgIDs]
+"VSCodeInsiders.ini"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini]
+@="INI Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="INI Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.inputrc\OpenWithProgIDs]
+"VSCodeInsiders.inputrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc]
+@="Readline Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Readline Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ipynb\OpenWithProgIDs]
+"VSCodeInsiders.ipynb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb]
+@="Jupyter Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Jupyter Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jade\OpenWithProgIDs]
+"VSCodeInsiders.jade"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade]
+@="Jade Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Jade Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\jade.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jav\OpenWithProgIDs]
+"VSCodeInsiders.jav"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav]
+@="Java Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Java Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\java.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.java\OpenWithProgIDs]
+"VSCodeInsiders.java"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java]
+@="Java Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Java Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\java.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.js\OpenWithProgIDs]
+"VSCodeInsiders.js"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JavaScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jscsrc\OpenWithProgIDs]
+"VSCodeInsiders.jscsrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc]
+@="JSCS RC Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSCS RC Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jshintrc\OpenWithProgIDs]
+"VSCodeInsiders.jshintrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc]
+@="JSHint RC Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSHint RC Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jshtm\OpenWithProgIDs]
+"VSCodeInsiders.jshtm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm]
+@="JavaScript HTML Template Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JavaScript HTML Template Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.json\OpenWithProgIDs]
+"VSCodeInsiders.json"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json]
+@="JSON Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.json5\OpenWithProgIDs]
+"VSCodeInsiders.json5"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5]
+@="JSON5 Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON5 Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jsonc\OpenWithProgIDs]
+"VSCodeInsiders.jsonc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc]
+@="JSON with Comments Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON with Comments Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
+"VSCodeInsiders.jsonld"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld]
+@="JSON for Linked Data Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON for Linked Data Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jsp\OpenWithProgIDs]
+"VSCodeInsiders.jsp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp]
+@="Java Server Pages Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Java Server Pages Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.jsx\OpenWithProgIDs]
+"VSCodeInsiders.jsx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JavaScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\react.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.less\OpenWithProgIDs]
+"VSCodeInsiders.less"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less]
+@="LESS Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="LESS Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\less.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.log\OpenWithProgIDs]
+"VSCodeInsiders.log"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log]
+@="Log file Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Log file Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lua\OpenWithProgIDs]
+"VSCodeInsiders.lua"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua]
+@="Lua Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Lua Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.m\OpenWithProgIDs]
+"VSCodeInsiders.m"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m]
+@="Objective C Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Objective C Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.makefile\OpenWithProgIDs]
+"VSCodeInsiders.makefile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile]
+@="Makefile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Makefile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.markdown\OpenWithProgIDs]
+"VSCodeInsiders.markdown"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.md\OpenWithProgIDs]
+"VSCodeInsiders.md"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mdoc\OpenWithProgIDs]
+"VSCodeInsiders.mdoc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc]
+@="MDoc Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="MDoc Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mdown\OpenWithProgIDs]
+"VSCodeInsiders.mdown"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mdtext\OpenWithProgIDs]
+"VSCodeInsiders.mdtext"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mdtxt\OpenWithProgIDs]
+"VSCodeInsiders.mdtxt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mdwn\OpenWithProgIDs]
+"VSCodeInsiders.mdwn"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mjs\OpenWithProgIDs]
+"VSCodeInsiders.mjs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs]
+@="JavaScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JavaScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\javascript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mk\OpenWithProgIDs]
+"VSCodeInsiders.mk"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk]
+@="Makefile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Makefile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mkd\OpenWithProgIDs]
+"VSCodeInsiders.mkd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mkdn\OpenWithProgIDs]
+"VSCodeInsiders.mkdn"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn]
+@="Markdown Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Markdown Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ml\OpenWithProgIDs]
+"VSCodeInsiders.ml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml]
+@="OCaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="OCaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mli\OpenWithProgIDs]
+"VSCodeInsiders.mli"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli]
+@="OCaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="OCaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.npmignore\OpenWithProgIDs]
+"VSCodeInsiders.npmignore"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore]
+@="NPM Ignore Source File"
+"AlwaysShowExt"=""
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="NPM Ignore Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.nu\OpenWithProgIDs]
+"VSCodeInsiders.nu"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu]
+@="Nushell Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Nushell Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.php\OpenWithProgIDs]
+"VSCodeInsiders.php"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php]
+@="PHP Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PHP Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\php.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.phtml\OpenWithProgIDs]
+"VSCodeInsiders.phtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml]
+@="PHP HTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PHP HTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pl\OpenWithProgIDs]
+"VSCodeInsiders.pl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pl6\OpenWithProgIDs]
+"VSCodeInsiders.pl6"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6]
+@="Perl 6 Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl 6 Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.plist\OpenWithProgIDs]
+"VSCodeInsiders.plist"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist]
+@="Properties file Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Properties file Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pm\OpenWithProgIDs]
+"VSCodeInsiders.pm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm]
+@="Perl Module Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl Module Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pm6\OpenWithProgIDs]
+"VSCodeInsiders.pm6"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6]
+@="Perl 6 Module Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl 6 Module Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pod\OpenWithProgIDs]
+"VSCodeInsiders.pod"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod]
+@="Perl POD Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl POD Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pp\OpenWithProgIDs]
+"VSCodeInsiders.pp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.profile\OpenWithProgIDs]
+"VSCodeInsiders.profile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile]
+@="Profile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Profile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.properties\OpenWithProgIDs]
+"VSCodeInsiders.properties"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties]
+@="Properties Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Properties Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ps1\OpenWithProgIDs]
+"VSCodeInsiders.ps1"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1]
+@="PowerShell Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PowerShell Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ps1xml\OpenWithProgIDs]
+"VSCodeInsiders.ps1xml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml]
+@="PowerShell XML Definition Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PowerShell XML Definition Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.psd1\OpenWithProgIDs]
+"VSCodeInsiders.psd1"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1]
+@="PowerShell Module Manifest Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PowerShell Module Manifest Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.psgi\OpenWithProgIDs]
+"VSCodeInsiders.psgi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi]
+@="Perl CGI Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl CGI Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.psm1\OpenWithProgIDs]
+"VSCodeInsiders.psm1"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1]
+@="PowerShell Module Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="PowerShell Module Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\powershell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.py\OpenWithProgIDs]
+"VSCodeInsiders.py"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py]
+@="Python Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Python Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\python.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pyi\OpenWithProgIDs]
+"VSCodeInsiders.pyi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi]
+@="Python Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Python Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\python.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.r\OpenWithProgIDs]
+"VSCodeInsiders.r"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r]
+@="R Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="R Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rb\OpenWithProgIDs]
+"VSCodeInsiders.rb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb]
+@="Ruby Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Ruby Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\ruby.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rdf\OpenWithProgIDs]
+"VSCodeInsiders.rdf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf]
+@="RDF Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="RDF Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.reg\OpenWithProgIDs]
+"VSCodeInsiders.reg"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg]
+@="Windows Registry Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Windows Registry Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rhistory\OpenWithProgIDs]
+"VSCodeInsiders.rhistory"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory]
+@="R History Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="R History Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rprofile\OpenWithProgIDs]
+"VSCodeInsiders.rprofile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile]
+@="R Profile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="R Profile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rs\OpenWithProgIDs]
+"VSCodeInsiders.rs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs]
+@="Rust Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Rust Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rst\OpenWithProgIDs]
+"VSCodeInsiders.rst"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst]
+@="Restructured Text Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Restructured Text Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rt\OpenWithProgIDs]
+"VSCodeInsiders.rt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt]
+@="Rich Text Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Rich Text Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.sass\OpenWithProgIDs]
+"VSCodeInsiders.sass"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass]
+@="Sass Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Sass Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\sass.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.scss\OpenWithProgIDs]
+"VSCodeInsiders.scss"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss]
+@="Sass Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Sass Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\sass.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.sh\OpenWithProgIDs]
+"VSCodeInsiders.sh"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh]
+@="SH Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="SH Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgIDs]
+"VSCodeInsiders.shtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml]
+@="SHTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="SHTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.sql\OpenWithProgIDs]
+"VSCodeInsiders.sql"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql]
+@="SQL Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="SQL Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\sql.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.svg\OpenWithProgIDs]
+"VSCodeInsiders.svg"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg]
+@="SVG Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="SVG Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.t\OpenWithProgIDs]
+"VSCodeInsiders.t"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t]
+@="Perl Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Perl Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tex\OpenWithProgIDs]
+"VSCodeInsiders.tex"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex]
+@="LaTeX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="LaTeX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.toml\OpenWithProgIDs]
+"VSCodeInsiders.toml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml]
+@="Toml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Toml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ts\OpenWithProgIDs]
+"VSCodeInsiders.ts"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts]
+@="TypeScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="TypeScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\typescript.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tsx\OpenWithProgIDs]
+"VSCodeInsiders.tsx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx]
+@="TypeScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="TypeScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\react.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.txt\OpenWithProgIDs]
+"VSCodeInsiders.txt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt]
+@="Text Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Text Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.vb\OpenWithProgIDs]
+"VSCodeInsiders.vb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb]
+@="Visual Basic Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Visual Basic Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.vbs\OpenWithProgIDs]
+"VSCodeInsiders.vbs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs]
+@="VBScript Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="VBScript Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.vue\OpenWithProgIDs]
+"VSCodeInsiders.vue"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue]
+@="VUE Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="VUE Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\vue.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.wxi\OpenWithProgIDs]
+"VSCodeInsiders.wxi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi]
+@="WiX Include Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="WiX Include Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.wxl\OpenWithProgIDs]
+"VSCodeInsiders.wxl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl]
+@="WiX Localization Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="WiX Localization Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.wxs\OpenWithProgIDs]
+"VSCodeInsiders.wxs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs]
+@="WiX Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="WiX Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xaml\OpenWithProgIDs]
+"VSCodeInsiders.xaml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml]
+@="XAML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="XAML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgIDs]
+"VSCodeInsiders.xhtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml]
+@="HTML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="HTML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\html.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xml\OpenWithProgIDs]
+"VSCodeInsiders.xml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml]
+@="XML Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="XML Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.yaml\OpenWithProgIDs]
+"VSCodeInsiders.yaml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml]
+@="Yaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Yaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.yml\OpenWithProgIDs]
+"VSCodeInsiders.yml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml]
+@="Yaml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Yaml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\yaml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zlogin\OpenWithProgIDs]
+"VSCodeInsiders.zlogin"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin]
+@="ZSH Login Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Login Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zlogout\OpenWithProgIDs]
+"VSCodeInsiders.zlogout"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout]
+@="ZSH Logout Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Logout Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zprofile\OpenWithProgIDs]
+"VSCodeInsiders.zprofile"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile]
+@="ZSH Profile Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Profile Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zsh\OpenWithProgIDs]
+"VSCodeInsiders.zsh"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh]
+@="ZSH Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zshenv\OpenWithProgIDs]
+"VSCodeInsiders.zshenv"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv]
+@="ZSH Environment Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Environment Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zshrc\OpenWithProgIDs]
+"VSCodeInsiders.zshrc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc]
+@="ZSH Configuration Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="ZSH Configuration Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\shell.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile]
+@="Visual Studio Code - Insiders Source File"
+"FriendlyTypeName"="Visual Studio Code - Insiders Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell\open]
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""

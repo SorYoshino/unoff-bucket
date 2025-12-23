@@ -1,5 +1,5 @@
 {
-    "version": "1.108.0",
+    "version": "1.108.0-7f08f95",
     "description": "Visual Studio Code Insiders is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
     "homepage": "https://code.visualstudio.com",
     "license": {
@@ -16,16 +16,22 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/1.108.0-insider/win32-x64-archive/insider#/dl.7z",
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/7f08f95ad54782bd242f5536470b330282197333/VSCode-win32-x64-1.108.0-insider.zip",
             "hash": "7f49a25143325ff1381df4e8e155103fd66e13f37be41bbd5cedbfa5e9a3b750"
         },
         "arm64": {
-            "url": "https://update.code.visualstudio.com/1.108.0-insider/win32-arm64-archive/insider#/dl.7z",
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/7f08f95ad54782bd242f5536470b330282197333/VSCode-win32-arm64-1.108.0-insider.zip",
             "hash": "97576068052e86b101cc7767eaf75b2fc8f2b607daae84baa73721084db9090c"
         }
     },
     "pre_install": [
         "ensure \"$dir\\resources\\app\\resources\\win32\" | Out-Null",
+        "$commit_dir = (Get-ChildItem -Path $dir -Directory | Where-Object { $_.Name -match '^[a-f0-9]{7,}$' }).FullName",
+        "if ($null -ne $commit_dir -and (Test-Path \"$commit_dir\\resources\\app\\resources\\win32\\*\")) {",
+        "    $original_resources_dir = \"$commit_dir\\resources\\app\\resources\\win32\"",
+        "    $resources_dir = \"$dir\\resources\\app\\resources\\win32\"",
+        "    Copy-Item -Path \"$original_resources_dir\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\"",
+        "}",
         "$data_path = (Join-Path -Path $dir -ChildPath 'data') -replace '\\\\', '/'",
         "$extensions_file = \"$env:USERPROFILE\\.vscode-insiders\\extensions\\extensions.json\"",
         "if (-not (Test-Path $extensions_file)) { return }",
@@ -39,10 +45,7 @@
         "        $_.identifier | Add-Member -NotePropertyName uuid -NotePropertyValue $_.metadata.id",
         "    }",
         "}",
-        "$cfg | ConvertTo-Json -Depth 5 -Compress | Set-Content -Path $extensions_file -NoNewline -Encoding utf8",
-        "$commit_dir = (Get-ChildItem -Path $dir -Directory | Where-Object { $_.Name -match '^[0-9a-f]{7,}$' }).FullName",
-        "if ($null -eq $commit_dir -or -not (Test-Path \"$commit_dir\\resources\\app\\resources\\win32\\*\")) {return}",
-        "Copy-Item -Path \"$commit_dir\\resources\\app\\resources\\win32\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\""
+        "$cfg | ConvertTo-Json -Depth 5 -Compress | Set-Content -Path $extensions_file -NoNewline -Encoding utf8"
     ],
     "post_install": [
         "$vscode_insiders_path = $dir -replace '\\\\', '\\\\'",
@@ -51,7 +54,7 @@
         "    if ($global) {",
         "        $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE'",
         "        $content = $content -replace '(?<={).+(?=}_is1)', '1287CAD5-7C8D-410D-88B9-0D1EE4A83FF2'",
-        "}",
+        "    }",
         "    $content -replace '{{vscode_insiders_dir}}', $vscode_insiders_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}",
         "if (-not (Test-Path \"$dir\\data\\user-data\\*\") -and (Test-Path \"$env:AppData\\Code - Insiders\\*\")) {",
@@ -93,20 +96,21 @@
     },
     "checkver": {
         "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
-        "jsonpath": "$.productVersion",
-        "regex": "([\\d.]+)(?=-insider)"
+        "jsonpath": "$.url",
+        "regex": "/(?<commit>(?<suffix>[a-f0-9]{7})[^/]+)/VSCode-win32-x64-(?<prefix>[\\d.]+)",
+        "replace": "${prefix}-${suffix}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/$version-insider/win32-x64-archive/insider#/dl.7z",
+                "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
                     "jsonpath": "$.sha256hash"
                 }
             },
             "arm64": {
-                "url": "https://update.code.visualstudio.com/$version-insider/win32-arm64-archive/insider#/dl.7z",
+                "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/$matchCommit/VSCode-win32-arm64-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/insider/latest",
                     "jsonpath": "$.sha256hash"

@@ -1,10 +1,10 @@
 {
-    "version": "1.107.1",
-    "description": "Visual Studio Code is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
+    "version": "1.108.0",
+    "description": "Visual Studio Code Insiders is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
     "homepage": "https://code.visualstudio.com",
     "license": {
         "identifier": "Freeware",
-        "url": "https://code.visualstudio.com/License"
+        "url": "https://code.visualstudio.com/license/insiders"
     },
     "notes": [
         "To register file associations, please execute the following command:",
@@ -16,17 +16,18 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/1.107.1/win32-x64-archive/stable#/dl.7z",
-            "hash": "f2bdbb4acf43d9d2d721ab5b2dba7ba02ad214d71ec78ad3b3b43fede31187af"
+            "url": "https://update.code.visualstudio.com/1.108.0-insider/win32-x64-archive/insider#/dl.7z",
+            "hash": "7f49a25143325ff1381df4e8e155103fd66e13f37be41bbd5cedbfa5e9a3b750"
         },
         "arm64": {
-            "url": "https://update.code.visualstudio.com/1.107.1/win32-arm64-archive/stable#/dl.7z",
-            "hash": "7797e80afb6a8b1f73003e47670576c7d9e1867ba86db77c87b1e4f92f1322e0"
+            "url": "https://update.code.visualstudio.com/1.108.0-insider/win32-arm64-archive/insider#/dl.7z",
+            "hash": "97576068052e86b101cc7767eaf75b2fc8f2b607daae84baa73721084db9090c"
         }
     },
     "pre_install": [
+        "ensure \"$dir\\resources\\app\\resources\\win32\" | Out-Null",
         "$data_path = (Join-Path -Path $dir -ChildPath 'data') -replace '\\\\', '/'",
-        "$extensions_file = \"$env:USERPROFILE\\.vscode\\extensions\\extensions.json\"",
+        "$extensions_file = \"$env:USERPROFILE\\.vscode-insiders\\extensions\\extensions.json\"",
         "if (-not (Test-Path $extensions_file)) { return }",
         "$cfg = Get-Content -Path $extensions_file -Encoding utf8 | ConvertFrom-Json",
         "$cfg | ForEach-Object {",
@@ -38,30 +39,33 @@
         "        $_.identifier | Add-Member -NotePropertyName uuid -NotePropertyValue $_.metadata.id",
         "    }",
         "}",
-        "$cfg | ConvertTo-Json -Depth 5 -Compress | Set-Content -Path $extensions_file -NoNewline -Encoding utf8"
+        "$cfg | ConvertTo-Json -Depth 5 -Compress | Set-Content -Path $extensions_file -NoNewline -Encoding utf8",
+        "$commit_dir = (Get-ChildItem -Path $dir -Directory | Where-Object { $_.Name -match '^[0-9a-f]{7,}$' }).FullName",
+        "if ($null -eq $commit_dir -or -not (Test-Path \"$commit_dir\\resources\\app\\resources\\win32\\*\")) {return}",
+        "Copy-Item -Path \"$commit_dir\\resources\\app\\resources\\win32\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\""
     ],
     "post_install": [
-        "$vscode_path = $dir -replace '\\\\', '\\\\'",
+        "$vscode_insiders_path = $dir -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) {",
         "        $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE'",
-        "        $content = $content -replace '(?<={).+(?=}_is1)', 'EA457B21-F73E-494C-ACAB-524FDE069978'",
+        "        $content = $content -replace '(?<={).+(?=}_is1)', '1287CAD5-7C8D-410D-88B9-0D1EE4A83FF2'",
         "}",
-        "    $content -replace '{{vscode_dir}}', $vscode_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "    $content -replace '{{vscode_insiders_dir}}', $vscode_insiders_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}",
-        "if (-not (Test-Path \"$dir\\data\\user-data\\*\") -and (Test-Path \"$env:AppData\\Code\\*\")) {",
+        "if (-not (Test-Path \"$dir\\data\\user-data\\*\") -and (Test-Path \"$env:AppData\\Code - Insiders\\*\")) {",
         "    info \"[Portable Mode] Migrating user data to '$dir\\data'...\"",
-        "    Copy-Item -Path \"$env:AppData\\Code\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
+        "    Copy-Item -Path \"$env:AppData\\Code - Insiders\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
         "}",
         "'argv.json', 'extensions' | ForEach-Object {",
-        "    if (-not (Test-Path \"$dir\\data\\$_\") -and (Test-Path \"$env:USERPROFILE\\.vscode\\$_\")) {",
+        "    if (-not (Test-Path \"$dir\\data\\$_\") -and (Test-Path \"$env:USERPROFILE\\.vscode-insiders\\$_\")) {",
         "        info \"[Portable Mode] Migrating $_ to '$dir\\data'...\"",
-        "        Copy-Item -Path \"$env:USERPROFILE\\.vscode\\$_\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
+        "        Copy-Item -Path \"$env:USERPROFILE\\.vscode-insiders\\$_\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
         "    }",
         "}",
-        "$remove_list = 'argv.json', 'extensions' | ForEach-Object { \"$env:USERPROFILE\\.vscode\\$_\" }",
-        "$remove_list + @(\"$env:AppData\\Code\") | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue",
+        "$remove_list = 'argv.json', 'extensions' | ForEach-Object { \"$env:USERPROFILE\\.vscode-insiders\\$_\" }",
+        "$remove_list + @(\"$env:AppData\\Code - Insiders\") | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue",
         "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
         "if (Test-Path $extensions_file) {",
         "    info 'Adjusting path in extensions file...'",
@@ -73,8 +77,8 @@
     "env_add_path": "bin",
     "shortcuts": [
         [
-            "Code.exe",
-            "Visual Studio Code"
+            "Code - Insiders.exe",
+            "Visual Studio Code - Insiders"
         ]
     ],
     "persist": "data",
@@ -88,22 +92,23 @@
         ]
     },
     "checkver": {
-        "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/latest",
-        "jsonpath": "$.productVersion"
+        "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
+        "jsonpath": "$.productVersion",
+        "regex": "([\\d.]+)(?=-insider)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
+                "url": "https://update.code.visualstudio.com/$version-insider/win32-x64-archive/insider#/dl.7z",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/latest",
+                    "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
                     "jsonpath": "$.sha256hash"
                 }
             },
             "arm64": {
-                "url": "https://update.code.visualstudio.com/$version/win32-arm64-archive/stable#/dl.7z",
+                "url": "https://update.code.visualstudio.com/$version-insider/win32-arm64-archive/insider#/dl.7z",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/stable/latest",
+                    "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/insider/latest",
                     "jsonpath": "$.sha256hash"
                 }
             }

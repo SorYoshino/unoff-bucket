@@ -6,8 +6,8 @@
     "notes": "If you want to get the latest development branch-based installer, please install `ark-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-25.12/windows/ark-release_25.12-2387-windows-cl-msvc2022-x86_64.7z",
-            "hash": "b830820757d46348e953c02b47f3dde0ee61f02ab9d884ef70938ec34c35e633"
+            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-25.12/windows/ark-release_25.12-2392-windows-cl-msvc2022-x86_64.7z",
+            "hash": "f960700402f24baff6819dcf4bf8fe08333290fc89941cd83edb2f08975a78e0"
         }
     },
     "bin": "bin\\ark.exe",

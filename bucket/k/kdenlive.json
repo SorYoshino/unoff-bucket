@@ -5,8 +5,8 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-25.12/windows/kdenlive-release_25.12-11764-windows-gcc-x86_64.7z",
-            "hash": "ff7c3197428416d4fe123ed00dc2cf45b42eefa847b044326b6a29be90353c25"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-25.12/windows/kdenlive-release_25.12-11785-windows-gcc-x86_64.7z",
+            "hash": "d18d025b8a12caec9c07b64ca419591ca32be2e83d6d27920c5b5209107091f0"
         }
     },
     "bin": "bin\\kdenlive.exe",

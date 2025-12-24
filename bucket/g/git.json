@@ -74,6 +74,14 @@
             "Git\\Git GUI"
         ]
     ],
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
+            "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
+            "}"
+        ]
+    },
     "checkver": {
         "url": "https://api.github.com/repositories/23216272/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /Portable/i)].browser_download_url",

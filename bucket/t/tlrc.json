@@ -7,6 +7,9 @@
         "url": "https://github.com/tldr-pages/tlrc/blob/HEAD/LICENSE"
     },
     "notes": "Pages are not bundled with the application and will be automatically downloaded on first use.",
+    "suggest": {
+        "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/tldr-pages/tlrc/releases/download/v1.12.0/tlrc-v1.12.0-x86_64-pc-windows-msvc.zip",

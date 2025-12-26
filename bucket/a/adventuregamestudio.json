@@ -1,13 +1,13 @@
 {
     "version": "3.6.2.15",
-    "homepage": "https://www.adventuregamestudio.co.uk/",
+    "homepage": "https://www.adventuregamestudio.co.uk",
     "description": "An IDE and the engine meant for creating and running videogames of adventure (aka “quest”) genre.",
     "license": {
         "identifier": "Artistic-2.0",
-        "url": "https://github.com/adventuregamestudio/ags/blob/master/License.txt"
+        "url": "https://github.com/adventuregamestudio/ags/blob/HEAD/License.txt"
     },
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
     },
     "url": "https://github.com/adventuregamestudio/ags/releases/download/v3.6.2.15/AGS-3.6.2.15-P5.exe",
     "hash": "24c72db3e522b8fd2e1c915788479a4a4300058cdf59efad8a0099c6a9e70fac",
@@ -30,8 +30,7 @@
     "autoupdate": {
         "url": "https://github.com/adventuregamestudio/ags/releases/download/$matchTag/$matchName",
         "hash": {
-            "url": "$baseurl/checksums.sha256",
-            "regex": "$sha256\\s+$basename"
+            "url": "$baseurl/checksums.sha256"
         }
     }
 }

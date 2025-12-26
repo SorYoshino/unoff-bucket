@@ -4,10 +4,10 @@
     "homepage": "https://deskflow.org",
     "license": {
         "identifier": "GPL-2.0-or-later",
-        "url": "https://github.com/deskflow/deskflow/blob/master/LICENSE"
+        "url": "https://github.com/deskflow/deskflow/blob/HEAD/LICENSE"
     },
     "suggest": {
-        "Microsoft Visual C++ Redistributable": "extras/vcredist"
+        "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

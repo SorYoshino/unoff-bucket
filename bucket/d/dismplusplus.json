@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Chuyu-Team/Dism-Multi-language",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/blob/master/LICENSE"
+        "url": "https://github.com/Chuyu-Team/Dism-Multi-language/blob/HEAD/LICENSE"
     },
     "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/v10.1.1002.2/Dism%2B%2B10.1.1002.1B.zip",
     "hash": "5bbab96d60704854efd8246a7d9371688b9102261544827fc8884126d70bcb3b",
@@ -56,7 +56,7 @@
         }
     },
     "pre_install": [
-        "if (-not (Test-Path \"$persist_dir\\Config\\Config.ini\")) {",
+        "if (-not (Test-Path -Path \"$persist_dir\\Config\\Config.ini\" -PathType Leaf)) {",
         "    New-Item -Path \"$dir\\Config\\Config.ini\" -ItemType File -Force | Out-Null",
         "}"
     ],

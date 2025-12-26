@@ -35,12 +35,12 @@
         "script": [
             "$params = @{ channel = 'stable'; platform = 'win'; arch = 'x64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
-            "$query_string = ($params.GetEnumerator() | ForEach-Object { \"$($_.Key)=$($_.Value)\" }) -join '&'",
+            "$query_string = ($params.GetEnumerator() | ForEach-Object -Process { \"$($_.Key)=$($_.Value)\" }) -join '&'",
             "$download_url = $base_url + '?' + $query_string",
-            "$http_handler = New-Object System.Net.Http.HttpClientHandler",
+            "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",
-            "$request = New-Object System.Net.Http.HttpRequestMessage 'HEAD', $download_url",
+            "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $download_url",
             "$response = $client.SendAsync($request).Result",
             "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri"
         ],

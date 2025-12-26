@@ -8,7 +8,7 @@
     },
     "suggest": {
         "everything": "extras/everything",
-        ".NET Windows Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
+        "Microsoft .NET Windows Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
     },
     "innosetup": true,
     "architecture": {

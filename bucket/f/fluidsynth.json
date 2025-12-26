@@ -3,8 +3,8 @@
     "description": "Software synthesizer based on the SoundFont 2 specifications.",
     "homepage": "https://www.fluidsynth.org",
     "license": {
-        "identifier": "LGPL-2.1-only",
-        "url": "https://github.com/FluidSynth/fluidsynth/blob/master/LICENSE"
+        "identifier": "LGPL-2.1-or-later",
+        "url": "https://github.com/FluidSynth/fluidsynth/blob/HEAD/LICENSE"
     },
     "architecture": {
         "64bit": {

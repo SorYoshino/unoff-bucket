@@ -1,9 +1,11 @@
 {
-    "version": "25.12.0",
-    "description": "Disk usage visualizer",
+    "version": "25.12-2392",
+    "description": "A graphical archive management utility that allows users to efficiently browse, create, extract, and modify compressed archives through an intuitive user interface.",
     "homepage": "https://apps.kde.org/ark/",
-    "license": "GPL-2.0-or-later",
-    "notes": "If you want to get the latest development branch-based installer, please install `ark-nightly` from Versions bucket.",
+    "license": {
+        "identifier": "GPL-2.0-or-later",
+        "url": "https://invent.kde.org/utilities/ark/-/blob/HEAD/LICENSES/GPL-2.0-or-later.txt"
+    },
     "architecture": {
         "64bit": {
             "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-25.12/windows/ark-release_25.12-2392-windows-cl-msvc2022-x86_64.7z",
@@ -19,24 +21,26 @@
     ],
     "checkver": {
         "script": [
-            "$feed_url = 'https://apps.kde.org/{0}/index.xml' -f $app",
-            "$rss_feed = [xml](Invoke-WebRequest -Uri $feed_url -UseBasicParsing).Content",
-            "$release_title = $rss_feed.rss.channel.item[0].title",
-            "if ($release_title -match 'Release (?<version>[\\d.]+)') {",
-            "    $version = $Matches['version']",
-            "    $minor_branch = ($version -split '\\.')[0..1] -join '.'",
-            "    $release_url = 'https://cdn.kde.org/ci-builds/utilities/{0}/release-{1}/windows/' -f $app, $minor_branch",
-            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing",
-            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -First 1 -Expand href",
-            "    Write-Output \"$version , $archive_name\"",
+            "$app_type = 'utilities'",
+            "$path_filter = 'release-*/'",
+            "$releases_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/' -f $app, $app_type",
+            "$version_sort = { if ($_.href -match '([\\d.]+)/$') { [Version]$Matches[1] } }",
+            "$releases_page = Invoke-WebRequest -Uri $releases_url -UseBasicParsing -ErrorAction Stop",
+            "$path_segments = $releases_page.links | Where-Object { $_.href -Like $path_filter } |",
+            "        Sort-Object -Property $version_sort -Descending | Select-Object -ExpandProperty href",
+            "foreach ($path_segment in $path_segments.TrimEnd('/')) {",
+            "    $release_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/{2}/windows/' -f $app, $app_type, $path_segment",
+            "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
+            "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -ExpandProperty href -First 1",
+            "    if ($null -ne $archive_name) { Write-Output $archive_name; break }",
             "}"
         ],
-        "regex": "([\\d.]+) , ark-release_(?<release>[\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
+        "regex": "ark-release_([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-$majorVersion.$minorVersion/windows/ark-release_$matchRelease-windows-cl-$matchLib-x86_64.7z",
+                "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-$matchHead/windows/ark-release_$version-windows-cl-$matchLib-x86_64.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }

@@ -4,7 +4,7 @@
     "homepage": "https://github.com/EutropicAI/Final2x",
     "license": {
         "identifier": "BSD-3-Clause",
-        "url": "https://github.com/EutropicAI/Final2x/blob/main/LICENSE"
+        "url": "https://github.com/EutropicAI/Final2x/blob/HEAD/LICENSE"
     },
     "architecture": {
         "64bit": {

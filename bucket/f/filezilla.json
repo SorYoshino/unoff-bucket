@@ -39,13 +39,6 @@
             "$xml.Save(\"$dir\\fzdefaults.xml\")"
         ]
     },
-    "post_install": [
-        "# Data Migration (Removed on 1 December 2026)",
-        "if (-not (Test-Path \"$persist_dir\\config\")) { return }",
-        "ensure \"$persist_dir\\data\\config\" | Out-Null",
-        "Copy-Item -Path \"$persist_dir\\config\\*\" -Destination \"$persist_dir\\data\\config\" -Force -Recurse",
-        "Remove-Item -Path \"$persist_dir\\config\" -Recurse -Force -ErrorAction SilentlyContinue"
-    ],
     "bin": "filezilla.exe",
     "shortcuts": [
         [

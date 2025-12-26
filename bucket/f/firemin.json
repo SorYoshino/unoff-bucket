@@ -1,11 +1,10 @@
 {
     "version": "11.8.3.8520",
-    "description": "Utility to reduce the memory usage of Firefox or other browsers",
+    "description": "A utility that optimizes memory usage for Firefox and other web browsers.",
     "homepage": "https://www.rizonesoft.com/downloads/firemin",
     "license": "GPL-3.0-or-later",
     "url": "https://rizonesoft.com/?gdm_process_download=1&download_id=18327#/firemin.exe",
     "hash": "68feaa9da6a48a1c25e6661fa518c262f0609d0add215c15befbceaacf1c488b",
-    "innosetup": true,
     "architecture": {
         "64bit": {
             "pre_install": [
@@ -20,6 +19,7 @@
             ]
         }
     },
+    "innosetup": true,
     "shortcuts": [
         [
             "Firemin.exe",
@@ -27,8 +27,8 @@
         ]
     ],
     "persist": "Firemin.ini",
-    "checkver": "(?msi)Version:.+>([\\d.]+)<.+href=\"(?<url>[^\"]+)\".+title=\"Firemin\"",
+    "checkver": "(?msi)Version:.+>([\\d.]+)<.+href=\"https://rizonesoft.com/(?<string>[^\"]+)\".+title=\"Firemin\"",
     "autoupdate": {
-        "url": "$matchUrl#/firemin.exe"
+        "url": "https://rizonesoft.com/$matchString#/firemin.exe"
     }
 }

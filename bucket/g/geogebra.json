@@ -14,7 +14,7 @@
     "hash": "d5b8d37d4326da11b4eb225659faf3b2b8af8dd48c857b151cec82467e5f241d",
     "post_install": [
         "$geogebra_path = $dir -replace '\\\\', '\\\\'",
-        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{geogebra_dir}}', $geogebra_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
@@ -53,11 +53,11 @@
     },
     "checkver": {
         "script": [
-            "$http_handler = New-Object System.Net.Http.HttpClientHandler",
+            "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",
             "$package_entry_url = 'https://download.geogebra.org/package/win-suite'",
-            "$request = New-Object System.Net.Http.HttpRequestMessage 'HEAD', $package_entry_url",
+            "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $package_entry_url",
             "$response = $client.SendAsync($request).Result",
             "$package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",
             "$latest_version = $package_name -replace '[^\\d]+([\\d-]+).+', '$1' -replace '-', '.'",

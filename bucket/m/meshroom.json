@@ -4,7 +4,7 @@
     "homepage": "https://alicevision.org",
     "license": {
         "identifier": "MPL-2.0",
-        "url": "https://github.com/alicevision/Meshroom/blob/develop/LICENSE-MPL2.md"
+        "url": "https://github.com/alicevision/Meshroom/blob/HEAD/LICENSE-MPL2.md"
     },
     "architecture": {
         "64bit": {

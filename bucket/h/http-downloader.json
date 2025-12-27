@@ -14,8 +14,8 @@
         }
     },
     "pre_install": [
-        "'portable', 'download_history', 'http_downloader_settings' | ForEach-Object {",
-        "    if (-not (Test-Path \"$persist_dir\\$_\")) {",
+        "'portable', 'download_history', 'http_downloader_settings' | ForEach-Object -Process {",
+        "    if (-not (Test-Path -Path \"$persist_dir\\$_\" -PathType Leaf)) {",
         "        New-Item -Path \"$dir\\$_\" -ItemType File -Force | Out-Null",
         "    }",
         "}"

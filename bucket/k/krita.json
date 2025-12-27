@@ -1,8 +1,11 @@
 {
     "version": "5.2.14",
-    "description": "A free digital painting application",
+    "description": "A professional free and open-source digital painting application.",
     "homepage": "https://krita.org/",
-    "license": "GPL-3.0-or-later",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://krita.org/en/about/license/"
+    },
     "architecture": {
         "64bit": {
             "url": "https://download.kde.org/stable/krita/5.2.14/krita-x64-5.2.14.zip",

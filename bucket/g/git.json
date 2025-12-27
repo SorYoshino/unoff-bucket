@@ -3,8 +3,8 @@
     "description": "A free and open source distributed version control system.",
     "homepage": "https://gitforwindows.org",
     "license": {
-        "identifier": "GPL-2.0-or-later",
-        "url": "https://github.com/git-for-windows/build-extra/blob/HEAD/LICENSE.txt"
+        "identifier": "GPL-2.0-only",
+        "url": "https://github.com/git-for-windows/git/blob/HEAD/COPYING"
     },
     "notes": [
         "To register file associations, please execute the following command:",
@@ -16,17 +16,20 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-64-bit.7z.exe#/dl.7z",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-64-bit.7z.exe",
             "hash": "1dc4046dcfb138f62aa04a46b5529adc8abed5033b2af29bb60b66872a836cf8"
         },
         "arm64": {
-            "url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-arm64.7z.exe#/dl.7z",
+            "url": "https://github.com/git-for-windows/git/releases/download/v2.52.0.windows.1/PortableGit-2.52.0-arm64.7z.exe",
             "hash": "bdc2884b321152225498fadc97cad68c244e047310ea686e4fe18ad7257e5b72"
         }
     },
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!uninst*' -Removal"
+    },
     "post_install": [
         "$git_path = $dir -replace '\\\\', '\\\\'",
-        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object {",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{git_dir}}', $git_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
@@ -90,10 +93,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/git-for-windows/git/releases/download/$matchTag/PortableGit-$version-64-bit.7z.exe#/dl.7z"
+                "url": "https://github.com/git-for-windows/git/releases/download/$matchTag/PortableGit-$version-64-bit.7z.exe"
             },
             "arm64": {
-                "url": "https://github.com/git-for-windows/git/releases/download/$matchTag/PortableGit-$version-arm64.7z.exe#/dl.7z"
+                "url": "https://github.com/git-for-windows/git/releases/download/$matchTag/PortableGit-$version-arm64.7z.exe"
             }
         },
         "hash": {

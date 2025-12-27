@@ -3,13 +3,13 @@
     "description": "A standalone benchmark/stability test tool based on software from the maker of Furmark.",
     "homepage": "https://www.geeks3d.com/furmark/kombustor/",
     "license": "Freeware",
-    "innosetup": true,
     "architecture": {
         "64bit": {
             "url": "https://gpuscore.top/msi/MSI_Kombustor4_Setup_v4.1.36_x64.exe",
             "hash": "f578cbcc7487596756c6b5c9b3f8419375f5232f087154c8ec318196b871eb65"
         }
     },
+    "innosetup": true,
     "bin": [
         [
             "MSI-Kombustor-x64.exe",
@@ -27,10 +27,10 @@
         "script": [
             "$page -match 'href=\"/dl/show/([\\d]+)\"(?!.+zip)'",
             "$release_url = 'https://geeks3d.com/dl/get/{0}' -f $Matches[1]",
-            "$http_handler = New-Object System.Net.Http.HttpClientHandler",
+            "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",
-            "$request = New-Object System.Net.Http.HttpRequestMessage 'HEAD', $release_url",
+            "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $release_url",
             "$response = $client.SendAsync($request).Result",
             "$response.RequestMessage.RequestUri.AbsoluteUri -match 'v([\\d.]+)'",
             "Write-Output \"$release_url, $($Matches[1])\""

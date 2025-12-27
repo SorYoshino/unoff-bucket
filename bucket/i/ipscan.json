@@ -1,15 +1,15 @@
 {
     "version": "3.9.3",
-    "description": "Angry IP Scanner - fast and friendly network scanner.",
+    "description": "Angry IP Scanner - A fast and friendly network scanner.",
     "homepage": "https://angryip.org",
     "license": {
         "identifier": "GPL-2.0-or-later",
-        "url": "https://github.com/angryip/ipscan/blob/master/LICENSE"
+        "url": "https://github.com/angryip/ipscan/blob/HEAD/LICENSE"
     },
     "notes": [
         "To install a plugin, place the .jar file in \"$env:USERPROFILE\\.ipscan\" and restart the application.",
-        "For more information, see: https://angryip.org/contribute/plugins",
-        "For common issues and troubleshooting, visit: https://angryip.org/faq"
+        "For more information, see: https://angryip.org/contribute/plugins.",
+        "For common issues and troubleshooting, visit: https://angryip.org/faq."
     ],
     "architecture": {
         "64bit": {
@@ -18,7 +18,7 @@
         }
     },
     "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!uninst*' -Removal"
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!uninst*' -Removal"
     },
     "bin": "ipscan.exe",
     "shortcuts": [

@@ -16,14 +16,14 @@
     "architecture": {
         "64bit": {
             "pre_install": [
-                "Get-ChildItem -Path $dir -Exclude '*64*' -Recurse | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -include '*.exe' -Recurse | Rename-Item -NewName 'setup.exe'"
+                "Get-ChildItem -Path $dir -Exclude '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName 'setup.exe'"
             ]
         },
         "32bit": {
             "pre_install": [
-                "Get-ChildItem -Path $dir -Exclude '*32*' -Recurse | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -include '*.exe' -Recurse | Rename-Item -NewName 'setup.exe'"
+                "Get-ChildItem -Path $dir -Exclude '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName 'setup.exe'"
             ]
         }
     },
@@ -32,7 +32,7 @@
             "Expand-7zipArchive -Path \"$dir\\setup.exe\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Removal",
             "[xml]$xml = Get-Content -Path \"$dir\\docs\\fzdefaults.xml.example\" -Encoding ascii",
             "$comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
-            "$comments | ForEach-Object { $_.ParentNode.RemoveChild($_) | Out-Null }",
+            "$comments | ForEach-Object -Process { $_.ParentNode.RemoveChild($_) | Out-Null }",
             "$xml.SelectSingleNode('//Setting[@name=''Disable update check'']').InnerText = '1'",
             "$xml.SelectSingleNode('//Setting[@name=''Cache directory'']').InnerText = 'data\\cache'",
             "$xml.SelectSingleNode('//Setting[@name=''Config Location'']').InnerText = 'data\\config'",

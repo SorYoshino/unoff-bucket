@@ -10,7 +10,6 @@
         "everything": "extras/everything",
         "Microsoft .NET Windows Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
     },
-    "innosetup": true,
     "architecture": {
         "64bit": {
             "url": "https://github.com/srwi/EverythingToolbar/releases/download/2.1.1/EverythingToolbar-2.1.1-x64.exe",
@@ -21,6 +20,7 @@
             "hash": "422acdd1c2ebcbb9d6fb770c2a45af2043d81eaaef5f46895cf387670948f020"
         }
     },
+    "innosetup": true,
     "pre_install": [
         "Get-ChildItem -Path $dir -Include '*,1*' -Recurse | Remove-Item -Force -ErrorAction SilentlyContinue",
         "Get-ChildItem -Path $dir -Include '*,2*' -Recurse | Rename-Item -NewName { $_.FullName -replace ',2\\.', '.' }"

@@ -51,10 +51,11 @@
         "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!uninst*' -Removal"
     },
     "post_install": [
-        "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader','Extension' | ForEach-Object {",
-        "    if (Test-Path -Path \"$dir\\$_.original\" -PathType Container) {",
-        "        Copy-Item -Path \"$source_dir\\*\" -Destination \"$dir\\$_\" -Recurse",
-        "        Remove-Item -Path $source_dir -Recurse -Force -ErrorAction SilentlyContinue",
+        "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader', 'Extension' | ForEach-Object -Process {",
+        "    $original_data_dir = \"$dir\\$_.original\"",
+        "    if (Test-Path -Path $original_data_dir -PathType Container) {",
+        "        Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$dir\\$_\" -Recurse -Force",
+        "        Remove-Item -Path $original_data_dir -Recurse -Force -ErrorAction SilentlyContinue",
         "    }",
         "}"
     ],

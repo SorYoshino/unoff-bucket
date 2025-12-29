@@ -36,7 +36,7 @@
             "    Set-Content -Path \"$dir\\$setting_name\" -Value $cfg -Encoding ASCII",
             "}",
             "persist_data @{ persist = $setting_name } $original_dir $persist_dir",
-            "Get-ChildItem -Path $persist_dir -File -Include '*64_KEY.txt' -Recurse -File | Copy-Item -Destination $dir"
+            "Get-ChildItem -Path $persist_dir -Include '*64_KEY.txt' -Recurse -File | Copy-Item -Destination $dir"
         ]
     },
     "bin": "HWiNFO.exe",
@@ -47,7 +47,7 @@
         ]
     ],
     "pre_uninstall": [
-        "Get-ChildItem -Path $dir -File -Include '*64_KEY.txt' -Recurse | Copy-Item -Destination $persist_dir -Force",
+        "Get-ChildItem -Path $dir -Include '*64_KEY.txt' -Recurse -File | Copy-Item -Destination $persist_dir -Force",
         "$setting_name = if ($architecture -match '\\d{2}(?=bit)') { 'HWiNFO{0}.INI' -f $matches[0] } else { 'HWiNFO_ARM64.INI' }",
         "unlink_persist_data @{ persist = $setting_name } $dir"
     ],

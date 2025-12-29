@@ -7,7 +7,7 @@
         "url": "https://github.com/gluons/powershell-git-aliases/blob/HEAD/LICENSE"
     },
     "notes": [
-        "Use this module by executing: `Import-Module git-aliases -DisableNameChecking`.",
+        "Use this module by executing: `Import-Module -Name git-aliases -DisableNameChecking`.",
         "Add the above command to your $PROFILE to enable automatic loading in future sessions."
     ],
     "suggest": {

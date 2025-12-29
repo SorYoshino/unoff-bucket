@@ -1,6 +1,6 @@
 {
     "version": "138.0.7260.298-r8",
-    "description": "Chromium fork for Windows XP/2003 and up",
+    "description": "An up-to-date Chromium-based web browser compatible with Windows Vista, 7 and 8.x.",
     "homepage": "https://win32subsystem.live/supermium/",
     "license": {
         "identifier": "BSD-3-Clause",
@@ -18,12 +18,15 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -ExtractDir 'Supermium' -Switches '-xr!unins*' -Removal",
-            "if ((Test-Path \"$env:LocalAppData\\Supermium\\User Data\") -and -not (Test-Path \"$dir\\User Data\\*\")) {",
-            "    info '[Portable Mode]: Copying user data...'",
-            "    Copy-Item -Path \"$env:LocalAppData\\Supermium\\User Data\\*\" -Destination \"$dir\\User Data\" -Force -Recurse",
-            "    Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Recurse -Force -ErrorAction SilentlyContinue",
-            "}"
+            "$argument_list = '-xr!$* -xr!uninst*'",
+            "ensure \"$persist_dir\\User Data\" | Out-Null",
+            "$original_data_dir = \"$env:LocalAppData\\Supermium\\User Data\"",
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -ExtractDir 'Supermium' -Switches $argument_list -Removal",
+            "if (-not (Test-Path -Path \"$persist_dir\\User Data\\*\") -and (Test-Path -Path \"$original_data_dir\\*\")) {",
+            "    Write-Host \"`nINFO  Migrating user data to '$persist_dir\\User Data'...\" -ForegroundColor darkgray",
+            "    Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$persist_dir\\User Data\" -Recurse",
+            "}",
+            "Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Recurse -Force -ErrorAction SilentlyContinue"
         ]
     },
     "bin": [
@@ -43,8 +46,11 @@
     "persist": "User Data",
     "checkver": {
         "url": "https://api.github.com/repositories/638089306/releases/latest",
-        "jsonpath": "$..['tag_name', 'name']",
-        "regex": "(?i)\"(?<tag>v?[\\d]+(?<suffix>-[^\"]+)?)\",\"[^\"]+?(?<prefix>[\\d.]+)",
+        "script": [
+            "$release = $page | ConvertFrom-Json -ErrorAction Stop",
+            "Write-Output \"$($release.tag_name), $($release.name)\""
+        ],
+        "regex": "(?i)(?<tag>v?[\\d]+(?<suffix>-[^,]+)?),.+?(?<prefix>[\\d.]+)",
         "replace": "${prefix}${suffix}"
     },
     "autoupdate": {
@@ -55,6 +61,10 @@
             "32bit": {
                 "url": "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_32_setup.exe"
             }
+        },
+        "hash": {
+            "url": "https://github.com/win32ss/supermium/releases/tag/$matchTag",
+            "regex": "(?s)$basename.+?$checksum"
         }
     }
 }

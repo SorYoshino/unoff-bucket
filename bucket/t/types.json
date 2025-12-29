@@ -23,7 +23,7 @@
     ],
     "checkver": {
         "script": [
-            "$tmp_dir = Join-Path -Path $cachedir -ChildPath 'tmp'",
+            "$tmp_dir = \"$cachedir\\tmp\"",
             "$download_url = 'https://ystr.github.io/types/Types.zip'",
             "$download_dir = cache_path $app 'unknown' $download_url",
             "New-Item -Path $tmp_dir -ItemType Directory -Force | Out-Null",

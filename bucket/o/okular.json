@@ -2,10 +2,7 @@
     "version": "25.12-7043",
     "description": "A universal document viewer developed by KDE.",
     "homepage": "https://okular.kde.org",
-    "license": {
-        "identifier": "GPL-2.0-or-later|GFDL-1.3-or-later",
-        "url": "https://invent.kde.org/graphics/okular/-/blob/HEAD/LICENSES/GPL-2.0-or-later.txt|https://invent.kde.org/graphics/okular/-/blob/HEAD/LICENSES/GFDL-1.2-or-later.txt"
-    },
+    "license": "GPL-2.0-or-later|GFDL-1.3-or-later",
     "architecture": {
         "64bit": {
             "url": "https://cdn.kde.org/ci-builds/graphics/okular/release-25.12/windows/okular-release_25.12-7043-windows-cl-msvc2022-x86_64.7z",

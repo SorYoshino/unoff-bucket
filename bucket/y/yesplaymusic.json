@@ -1,21 +1,27 @@
 {
     "version": "0.4.10",
-    "description": "Cloud music player based on NetEase Player, featuring more elegant UI",
+    "description": "A cloud-based music player built on NetEase Player, offering a refined and elegant user interface.",
     "homepage": "https://music.qier222.com",
     "license": {
         "identifier": "MIT",
-        "url": "https://github.com/qier222/YesPlayMusic/blob/master/LICENSE"
+        "url": "https://github.com/qier222/YesPlayMusic/blob/HEAD/LICENSE"
+    },
+    "suggest": {
+        "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.10/YesPlayMusic-Setup-0.4.10.exe#/dl.7z",
+            "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.10/YesPlayMusic-Setup-0.4.10.exe",
             "hash": "sha512:d7dfbf49275475742b861e5da04b79cc82687dcc7c6221d7a8261f54d2c878a36d9f74f9793ef923091f6f70dbb38358cfdb13cac0c08b64712f33359de6a5e4"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
-        "Remove-Item -Path \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue"
-    ],
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\tmp\" -ExtractDir '$PLUGINSDIR' -Removal",
+            "Get-ChildItem -Path \"$dir\\tmp\" -Filter '*.7z' -FIle | Expand-7zipArchive -DestinationPath $dir -Removal",
+            "Remove-Item -Path \"$dir\\tmp\" -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
     "shortcuts": [
         [
             "YesPlayMusic.exe",
@@ -30,12 +36,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qier222/YesPlayMusic/releases/download/v$version/$matchName#/dl.7z"
+                "url": "https://github.com/qier222/YesPlayMusic/releases/download/v$version/$matchName"
             }
         },
         "hash": {
             "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s+$base64"
+            "regex": "(?s)$basename.+?$base64"
         }
     }
 }

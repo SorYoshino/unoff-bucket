@@ -1,6 +1,6 @@
 {
     "version": "250909",
-    "description": "Highly customizable media player",
+    "description": "A versatile multimedia player offering robust playback capabilities with broad support for numerous video codecs and formats.",
     "homepage": "https://potplayer.daum.net",
     "license": {
         "identifier": "Freeware",
@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup64.exe#/dl.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup64.exe",
             "hash": "1063f1159fc846acb54223a1055df024b51639ede61fd3ebd5a0e6fdddb497e7",
             "shortcuts": [
                 [
@@ -22,7 +22,7 @@
             ]
         },
         "32bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup.exe#/dl.7z",
+            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/250909/PotPlayerSetup.exe",
             "hash": "564ecf6a028c36981cc5eee938697b42028ced26bf9466738b786996594bd37e",
             "shortcuts": [
                 [
@@ -37,27 +37,23 @@
         }
     },
     "pre_install": [
-        "Remove-Item -Path \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",
         "$cfg = @(",
-        "    '[Settings]'",
-        "    'AutoUpdateStart=0'",
-        "    'CheckAutoUpdate=0'",
-        "    'FastAutoUpdate=0'",
+        "    '[Settings]', 'AutoUpdateStart=0',",
+        "    'CheckAutoUpdate=0', 'FastAutoUpdate=0'",
         ")",
-        "# Disable automatic updates for all PotPlayer executables",
-        "'PotPlayer.ini', 'PotPlayer64.ini', 'PotPlayerMini.ini', 'PotPlayerMini64.ini' | ForEach-Object {",
-        "    if (-not (Test-Path \"$persist_dir\\$_\")) {",
-        "        info \"File $_ does not exist. Creating...\"",
-        "        Set-Content -Path \"$dir\\$_\" -Value $cfg -Encoding Ascii",
+        "'PotPlayer', 'PotPlayer64', 'PotPlayerMini', 'PotPlayerMini64' | ForEach-Object -Process {",
+        "    if (-not (Test-Path -Path \"$persist_dir\\$_.ini\" -PathType Leaf)) {",
+        "        Set-Content -Path \"$dir\\$_.ini\" -Value $cfg -Encoding ascii",
         "    }",
         "}"
     ],
+    "installer": {
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!uninst*' -Removal"
+    },
     "post_install": [
         "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader','Extension' | ForEach-Object {",
-        "    $source_dir = Join-Path $dir \"$_.original\"",
-        "    $destination_dir = Join-Path $dir $_",
-        "    if (Test-Path \"$source_dir\") {",
-        "        Copy-Item -Path \"$source_dir\\*\" -Destination $destination_dir -Force -Recurse",
+        "    if (Test-Path -Path \"$dir\\$_.original\" -PathType Container) {",
+        "        Copy-Item -Path \"$source_dir\\*\" -Destination \"$dir\\$_\" -Recurse",
         "        Remove-Item -Path $source_dir -Recurse -Force -ErrorAction SilentlyContinue",
         "    }",
         "}"
@@ -87,10 +83,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe"
             },
             "32bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup.exe#/dl.7z"
+                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup.exe"
             }
         }
     }

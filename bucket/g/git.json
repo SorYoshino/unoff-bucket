@@ -101,7 +101,7 @@
         },
         "hash": {
             "url": "https://github.com/git-for-windows/git/releases/tag/$matchTag",
-            "regex": "(?s)$basename.*?$sha256"
+            "regex": "(?s)$basename.+?$sha256"
         }
     }
 }

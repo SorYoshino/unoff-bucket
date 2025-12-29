@@ -18,17 +18,15 @@
     },
     "extract_dir": "smplayer-portable",
     "pre_install": [
-        "# Disable automatic update checking and set the correct path for the screenshots directory",
-        "$cfg_dir = Join-Path -Path $persist_dir -ChildPath 'config\\smplayer.ini'",
-        "if (-not (Test-Path -Path $cfg_dir)) {",
-        "    info \"File $cfg_dir does not exist. Creating...\"",
+        "$cfg_dir = \"$persist_dir\\config\\smplayer.ini'",
+        "if (-not (Test-Path -Path $cfg_dir -PathType Leaf)) {",
         "    New-Item -Path $cfg_dir -ItemType File -Force | Out-Null",
         "    $cfg = @(",
         "        '[update_checker]', 'enabled=false',",
-        "        '[%General]', 'screenshot_folder={screenshots_dir}'",
+        "        '[%General]', 'screenshot_folder={{screenshots_dir}}'",
         "    )",
         "    $screenshots_dir = (Join-Path -Path $persist_dir -ChildPath 'screenshots') -replace '\\\\', '\\\\'",
-        "    $cfg | ForEach-Object { $_ -replace '{.+}', $screenshots_dir } | Set-Content -Path $cfg_dir -Encoding Ascii",
+        "    $cfg | ForEach-Object { $_ -replace '{{.+}}', $screenshots_dir } | Set-Content -Path $cfg_dir -Encoding ascii",
         "}"
     ],
     "shortcuts": [
@@ -42,16 +40,17 @@
         "screenshots"
     ],
     "checkver": {
-        "url": "https://www.smplayer.info/en/download-smplayer-portable",
-        "regex": "smplayer-portable-([\\d.]+)-win32-qt(?<qtversion>[\\d.]+)\\.7z"
+        "url": "https://api.github.com/repositories/347905832/releases/latest",
+        "jsonpath": "$.assets[?(@.name =~ /portable/i)].browser_download_url",
+        "regex": "(?i)download/(?<tag>v?[\\d.]+)/smplayer-portable-([\\d.]+)-win32-qt(?<qtversion>[\\d.]+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/smplayer-dev/smplayer/releases/download/v$matchHead/smplayer-portable-$version-x64.7z"
+                "url": "https://github.com/smplayer-dev/smplayer/releases/download/$matchTag/smplayer-portable-$version-x64.7z"
             },
             "32bit": {
-                "url": "https://github.com/smplayer-dev/smplayer/releases/download/v$matchHead/smplayer-portable-$version-win32-qt$matchQtversion.7z"
+                "url": "https://github.com/smplayer-dev/smplayer/releases/download/$matchTag/smplayer-portable-$version-win32-qt$matchQtversion.7z"
             }
         }
     }

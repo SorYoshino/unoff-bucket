@@ -1,14 +1,27 @@
 {
     "version": "2.7.9",
-    "description": "A PowerShell wrapper around the fuzzy finder fzf",
+    "description": "A PowerShell wrapper around the fuzzy finder fzf.",
     "homepage": "https://github.com/kelleyma49/PSFzf",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/kelleyma49/PSFzf/blob/HEAD/LICENSE"
+    },
+    "notes": [
+        "Use this module by executing: `Import-Module -Name PSFzf`.",
+        "Add the above command to your $PROFILE to enable automatic loading in future sessions."
+    ],
     "suggest": {
         "fzf": "fzf"
     },
     "url": "https://cdn.powershellgallery.com/packages/psfzf.2.7.9.nupkg",
     "hash": "5b20d267048512b5acc6d51e74d7f660cfd8aacb607260a063a6ac835931fb57",
-    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "pre_install": [
+        "$remove_list = @(",
+        "    '_rels', 'package',",
+        "    '*.nuspec', '*Content*.xml'",
+        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue"
+    ],
     "psmodule": {
         "name": "PSFzf"
     },

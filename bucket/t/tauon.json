@@ -1,10 +1,10 @@
 {
     "version": "8.2.3",
-    "description": "Tauon Music Box is a free, open-source, lightweight music player for Windows built with Electron",
+    "description": "Tauon Music Box is a free, open-source, lightweight music player for Windows built with Electron.",
     "homepage": "https://github.com/Taiko2k/Tauon",
     "license": {
         "identifier": "GPL-3.0-or-later",
-        "url": "https://github.com/Taiko2k/Tauon/blob/master/LICENSE"
+        "url": "https://github.com/Taiko2k/Tauon/blob/HEAD/LICENSE"
     },
     "architecture": {
         "64bit": {

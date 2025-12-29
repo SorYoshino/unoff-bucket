@@ -29,9 +29,6 @@
         "script": [
             "$cfg_dir = \"$dir\\config.toml\"",
             "if (Test-Path -Path \"$persist_dir\\config.toml\" -PathType Leaf) { return }",
-            "if (Test-Path -Path \"$persist_dir\\config.toml\" -PathType Container) {",
-            "    Remove-Item -Path \"$persist_dir\\config.toml\" -Recurse -Force -ErrorAction SilentlyContinue",
-            "}",
             "if (-not (Test-Path -Path $cfg_dir -PathType Leaf)) {",
             "    $output_options = @{ NoNewWindow = $true; RedirectStandardOutput = $cfg_dir }",
             "    Start-Process -FilePath \"$dir\\tldr.exe\" -ArgumentList '--gen-config' @output_options -Wait",

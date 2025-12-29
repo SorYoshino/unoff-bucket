@@ -40,8 +40,7 @@
     },
     "extract_dir": "SweetHome3D-7.5-portable",
     "pre_install": [
-        "if (-not (Test-Path -Path \"$persist_dir\\data\\preferences.xml\")) {",
-        "    info \"File \"$dir\\data\\preferences.xml\" does not exist. Creating...\"",
+        "if (-not (Test-Path -Path \"$persist_dir\\data\\preferences.xml\" -PathType Leaf)) {",
         "    New-Item -Path \"$dir\\data\\preferences.xml\" -ItemType File -Force | Out-Null",
         "    @(",
         "        '<!DOCTYPE properties SYSTEM \"http://java.sun.com/dtd/properties.dtd\">'",
@@ -53,11 +52,10 @@
     ],
     "post_install": [
         "'plugins', 'textures', 'furniture' | ForEach-Object {",
-        "    $source_dir = Join-Path $dir \"data\\$_.original\"",
-        "    $destination_dir = Join-Path $dir \"data\\$_\"",
-        "    if (Test-Path -Path \"$source_dir\") {",
-        "        Copy-Item -Path \"$source_dir\\*\" -Destination $destination_dir -Force -Recurse",
-        "        Remove-Item -Path $source_dir -Recurse -Force -ErrorAction SilentlyContinue",
+        "    $original_data_dir = \"$dir\\data\\$_.original\"",
+        "    if (Test-Path -Path $original_data_dir -PathType Container) {",
+        "        Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
+        "        Remove-Item -Path $original_data_dir -Recurse -Force -ErrorAction SilentlyContinue",
         "    }",
         "}"
     ],

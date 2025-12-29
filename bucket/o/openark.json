@@ -34,7 +34,7 @@
         },
         "hash": {
             "url": "http://openark.blackint3.com:88/release/openark-v$cleanVersion",
-            "regex": ">$basename</a>\\s*$sha1\\s*\\(SHA1\\)"
+            "regex": ">$basename.+?$sha1\\s*\\(SHA1\\)"
         }
     }
 }

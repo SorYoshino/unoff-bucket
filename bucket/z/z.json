@@ -1,20 +1,32 @@
 {
     "version": "1.1.14",
-    "description": "z lets you quickly navigate the file system in PowerShell based on your cd command history.",
+    "description": "A PowerShell utility that enables efficient navigation of the file system by leveraging your directory history, reducing the need to manually type full paths.",
     "homepage": "https://github.com/badmotorfinger/z",
-    "license": "Unknown",
+    "license": {
+        "identifier": "Unlicense",
+        "url": "https://github.com/badmotorfinger/z/blob/HEAD/LICENSE"
+    },
+    "notes": [
+        "Use this module by executing: `Import-Module -Name z`.",
+        "Add the above command to your $PROFILE to enable automatic loading in future sessions."
+    ],
     "url": "https://cdn.powershellgallery.com/packages/z.1.1.14.nupkg",
     "hash": "c3f808b1f63fe2ed8252126a82d882c6250f97ae9d07f7126c90c013f21f51ce",
-    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "pre_install": [
+        "$remove_list = @(",
+        "    '_rels', 'package',",
+        "    '*.nuspec', '*Content*.xml'",
+        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue"
+    ],
     "psmodule": {
         "name": "z"
     },
     "checkver": {
         "url": "https://www.powershellgallery.com/packages/z",
-        "regex": "Downloads of\\s+([\\d.]+)"
+        "regex": "<h2>([\\d.]+)</h2>"
     },
     "autoupdate": {
-        "url": "https://cdn.powershellgallery.com/packages/z.$version.nupkg",
-        "extract_dir": "z-$version"
+        "url": "https://cdn.powershellgallery.com/packages/z.$version.nupkg"
     }
 }

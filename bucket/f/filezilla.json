@@ -55,7 +55,7 @@
         "url": "https://packages.chocolatey.org/filezilla.$version.nupkg",
         "hash": {
             "url": "https://community.chocolatey.org/packages/filezilla/$version",
-            "regex": "$sha256.*?$basename"
+            "regex": "$sha256.+?$basename"
         }
     }
 }

@@ -9,7 +9,7 @@
     "notes": [
         "This module requires PowerShell 7.2 or later together with PSReadLine version 2.2.2 or later.",
         "To enable the predictor functionality, add the following entries to your PowerShell profile:",
-        "- `Import-Module CompletionPredictor`",
+        "- `Import-Module -Name CompletionPredictor`",
         "- `Set-PSReadLineOption -PredictionSource HistoryAndPlugin`",
         "The prediction display mode can be toggled between Inline and List views by using the F2 key.",
         "For detailed documentation, refer to the official repository at https://github.com/PowerShell/CompletionPredictor."

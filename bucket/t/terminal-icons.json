@@ -1,16 +1,24 @@
 {
     "version": "0.11.0",
-    "description": "A PowerShell module to show file and folder icons in the terminal",
+    "description": "A PowerShell module to show file and folder icons in the terminal.",
     "homepage": "https://github.com/devblackops/Terminal-Icons",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/devblackops/Terminal-Icons/blob/HEAD/LICENSE"
+    },
     "notes": [
-        "Use the module by running: 'Import-Module Terminal-Icons'",
-        "Add it to your $PROFILE to make it permanent",
-        "A Nerd Font is required for this module to work"
+        "Use this module by executing: `Import-Module -Name Terminal-Icons`.",
+        "Add the above command to your $PROFILE to enable automatic loading in future sessions."
     ],
     "url": "https://cdn.powershellgallery.com/packages/terminal-icons.0.11.0.nupkg",
     "hash": "0d5086fbd48b4b12d5c00b1e226393b326b38c3e06dbf8825f522188e9dfe4dd",
-    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "pre_install": [
+        "$remove_list = @(",
+        "    '_rels', 'package',",
+        "    '*.nuspec', '*Content*.xml'",
+        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue"
+    ],
     "psmodule": {
         "name": "Terminal-Icons"
     },

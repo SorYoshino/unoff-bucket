@@ -84,7 +84,8 @@
         ]
     },
     "checkver": {
-        "github": "https://github.com/ip7z/7zip"
+        "github": "https://github.com/ip7z/7zip",
+        "regex": "(?i)tag/([\\d.]+)(?=\")"
     },
     "autoupdate": {
         "architecture": {

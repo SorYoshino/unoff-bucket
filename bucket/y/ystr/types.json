@@ -27,7 +27,7 @@
             "$download_url = 'https://ystr.github.io/types/Types.zip'",
             "$download_dir = cache_path $app 'unknown' $download_url",
             "New-Item -Path $tmp_dir -ItemType Directory -Force | Out-Null",
-            "$args_list = @('x', $download_dir, \"-o`\"$tmp_dir`\"\", '-aoa', '-y')",
+            "$args_list = @('x', \"`\"$download_dir`\"\", \"-o`\"$tmp_dir`\"\", '-aoa', '-y')",
             "$output_options = @{",
             "    NoNewWindow = $true",
             "    RedirectStandardError = Join-Path -Path $tmp_dir -ChildPath 'err.txt'",

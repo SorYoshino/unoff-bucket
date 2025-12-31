@@ -28,11 +28,11 @@
         "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!uninst*' -Removal"
     },
     "post_install": [
-        "$git_path = $dir -replace '\\\\', '\\\\'",
+        "$git_dir = $dir -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
-        "    $content -replace '{{git_dir}}', $git_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "    $content -replace '{{git_dir}}', $git_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}"
     ],
     "env_add_path": "cmd",

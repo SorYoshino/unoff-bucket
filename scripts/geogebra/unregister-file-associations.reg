@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.ggb\OpenWithProgIDs]
-"GeoGebra.AssocFile"=-
+"GeoGebra.ggb"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile]
+[-HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb]

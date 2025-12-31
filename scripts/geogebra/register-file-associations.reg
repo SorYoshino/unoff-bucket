@@ -1,19 +1,19 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.ggb\OpenWithProgIDs]
-"GeoGebra.AssocFile"=hex(0):
+"GeoGebra.ggb"=hex(0):
 
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb]
 @="GeoGebra File"
 "FriendlyTypeName"="GeoGebra File"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb\DefaultIcon]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile\shell]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb\shell]
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb\shell\open]
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra.AssocFile\shell\open\command]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.ggb\shell\open\command]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\" \"%1\""

@@ -1,0 +1,102 @@
+{
+    "version": "25.01",
+    "description": "A multi-format file archiver with high compression ratios.",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "notes": [
+        "To register file associations, please execute the following command:",
+        "- `reg import \"$dir\\register-file-associations.reg\"`",
+        "To register the context menu entry, please execute the following command:",
+        "- `reg import \"$dir\\register-context-menu.reg\"`"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ip7z/7zip/releases/download/25.01/7z2501-x64.exe",
+            "hash": "78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f"
+        },
+        "32bit": {
+            "url": "https://github.com/ip7z/7zip/releases/download/25.01/7z2501.exe",
+            "hash": "b96831eec5928384f0543d6b57c1f802952a0f2668e662882c0a785a2b52fb3b"
+        },
+        "arm64": {
+            "url": "https://github.com/ip7z/7zip/releases/download/25.01/7z2501-arm64.exe",
+            "hash": "6365c7c44e217b9c1009e065daf9f9aa37454e64315b4aaa263f7f8f060755dc"
+        }
+    },
+    "installer": {
+        "script": [
+            "$log_path = \"$dir\\7zip.log\"",
+            "ensure \"$dir\\tmp\" | Out-Null",
+            "$download_path = \"$dir\\tmp\\7zr.exe\"",
+            "$download_url = 'https://www.7-zip.org/a/7zr.exe'",
+            "Invoke-WebRequest -Uri $download_url -OutFile $download_path -UseBasicParsing",
+            "$args_list = @('x', \"`\"$dir\\$fname`\"\", \"-o`\"$dir`\"\", '-xr!$*', '-xr!unins*', '-aoa', '-y')",
+            "$status = Invoke-ExternalCommand -FilePath $download_path -ArgumentList $args_list -LogPath $log_path",
+            "if (-not $status) {",
+            "    @(",
+            "        \"`e[31m`nFailed to extract archive: '$dir\\$fname'`e[0m\",",
+            "        \"`e[96m`nDetails:`e[0m\",",
+            "        \"  `e[33m- Operation: extraction`e[0m\",",
+            "        \"  `e[33m- Status   :`e[0m `e[31mfailed`e[0m\",",
+            "        \"  `e[33m- Log file : $(friendly_path $log_path)`e[0m\",",
+            "        \"`e[37m`nPlease review the log file for specific error messages.`e[0m\"",
+            "    ) | Write-Output; exit 1",
+            "}",
+            "$log_path, \"$dir\\tmp\", \"$dir\\$fname\" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "post_install": [
+        "$7zip_dir = $dir -replace '\\\\', '\\\\'",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
+        "    $content = Get-Content -Path $_.FullName -Encoding utf8",
+        "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
+        "    $content -replace '{{7zip_dir}}', $7zip_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "}"
+    ],
+    "bin": [
+        "7z.exe",
+        "7zG.exe",
+        "7zFM.exe"
+    ],
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip\\7-Zip File Manager"
+        ],
+        [
+            "7-zip.chm",
+            "7-Zip\\7-Zip Help"
+        ]
+    ],
+    "persist": [
+        "Codecs",
+        "Formats"
+    ],
+    "uninstaller": {
+        "script": [
+            "if ($cmd -eq 'uninstall') {",
+            "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
+            "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
+            "}"
+        ]
+    },
+    "checkver": {
+        "github": "https://github.com/ip7z/7zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-x64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-arm64.exe"
+            }
+        }
+    }
+}

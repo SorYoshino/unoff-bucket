@@ -1,31 +1,48 @@
 Windows Registry Editor Version 5.00
 
+; Defines per-user configuration parameters for 7-Zip shell integration and UI behavior
+; Effective only when configured under the HKEY_CURRENT_USER hive.
+
 [HKEY_CURRENT_USER\Software\7-Zip\Options]
-"MenuIcons"=dword:00000001
 "CascadedMenu"=dword:00000001
+"ContextMenu"=dword:40000151
+"MenuIcons"=dword:00000001
+"WriteZoneIdExtract"=dword:00000001
 
 
+
+; Registers 7-Zip as the context menu handler for all files
 
 [HKEY_CURRENT_USER\Software\Classes\*\shellex\ContextMenuHandlers\7-Zip]
 @="{23170F69-40C1-278A-1000-000100020000}"
 
 
+; Registers 7-Zip as the context menu handler for directory
+
 [HKEY_CURRENT_USER\Software\Classes\Directory\shellex\ContextMenuHandlers\7-Zip]
 @="{23170F69-40C1-278A-1000-000100020000}"
 
+
+; Registers 7-Zip as the drag-and-drop handler for directories
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\shellex\DragDropHandlers\7-Zip]
 @="{23170F69-40C1-278A-1000-000100020000}"
 
 
+; Registers 7-Zip as the drag-and-drop handler for drives
+
 [HKEY_CURRENT_USER\Software\Classes\Drive\shellex\DragDropHandlers\7-Zip]
 @="{23170F69-40C1-278A-1000-000100020000}"
 
+
+; Registers 7-Zip as the context menu handler for folder shell objects
 
 [HKEY_CURRENT_USER\Software\Classes\Folder\shellex\ContextMenuHandlers\7-Zip]
 @="{23170F69-40C1-278A-1000-000100020000}"
 
 
+
+; Registers the CLSID and the in-process COM server DLL for the 7-Zip shell extension
 
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{23170F69-40C1-278A-1000-000100020000}]
 @="7-Zip Shell Extension"

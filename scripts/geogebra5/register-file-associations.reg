@@ -1,39 +1,39 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.ggb\OpenWithProgIDs]
-"GeoGebra.File"=hex(0):
+"GeoGebra5.ggb"=hex(0):
 
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb]
 @="GeoGebra File"
 "FriendlyTypeName"="GeoGebra File"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\DefaultIcon]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\shell]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell]
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open]
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File\shell\open\command]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open\command]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\" \"%1\""
 
 
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\.ggt\OpenWithProgIDs]
-"GeoGebra.Tool"=hex(0):
+[HKEY_CURRENT_USER\Software\Classes\.ggt\OpenWithProgIDs]
+"GeoGebra5.ggt"=hex(0):
 
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt]
 @="GeoGebra Tool"
 "FriendlyTypeName"="GeoGebra Tool"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\DefaultIcon]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\shell]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell]
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open]
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool\shell\open\command]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open\command]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\" \"%1\""

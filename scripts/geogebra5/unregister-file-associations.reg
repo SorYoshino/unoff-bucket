@@ -1,12 +1,12 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.ggb\OpenWithProgIDs]
-"GeoGebra.File"=-
+"GeoGebra5.ggb"=-
 
-[-HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.File]
+[-HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb]
 
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\.ggt\OpenWithProgIDs]
-"GeoGebra.Tool"=-
+[HKEY_CURRENT_USER\Software\Classes\.ggt\OpenWithProgIDs]
+"GeoGebra5.ggt"=-
 
-[-HKEY_CURRENT_USER\SOFTWARE\Classes\GeoGebra.Tool]
+[-HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt]

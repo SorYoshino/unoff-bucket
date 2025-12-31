@@ -40,12 +40,12 @@
         ]
     },
     "post_install": [
-        "$calibre_path = \"$dir\\Calibre\" -replace '\\\\', '\\\\'",
+        "$calibre_dir = \"$dir\\Calibre\" -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($_.Name -ne 'unregister-file-associations.reg' `",
         "            -and $global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
-        "    $content -replace '{{calibre_dir}}', $calibre_path | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "    $content -replace '{{calibre_dir}}', $calibre_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}",
         "'.tmp', '.cache' | ForEach-Object -Process { ensure \"$persist_dir\\$_\" | Out-Null }",
         "if (-not (Test-Path -Path \"$persist_dir\\Calibre Settings\\global.py.json\" -PathType Leaf)) {",

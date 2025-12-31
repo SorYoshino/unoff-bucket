@@ -1,0 +1,839 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.001\OpenWithProgIDs]
+"7-Zip.001"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.001]
+@="001 Archive File"
+"FriendlyTypeName"="001 Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.001\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",9"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.7z\OpenWithProgIDs]
+"7-Zip.7z"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.7z]
+@="7z Archive File"
+"FriendlyTypeName"="7z Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.apfs\OpenWithProgIDs]
+"7-Zip.apfs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs]
+@="apfs Archive File"
+"FriendlyTypeName"="apfs Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",25"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.arj\OpenWithProgIDs]
+"7-Zip.arj"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.arj]
+@="arj Archive File"
+"FriendlyTypeName"="arj Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",4"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bz2\OpenWithProgIDs]
+"7-Zip.bz2"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2]
+@="bz2 Archive File"
+"FriendlyTypeName"="bz2 Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",2"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.bzip2\OpenWithProgIDs]
+"7-Zip.bzip2"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2]
+@="bzip2 Archive File"
+"FriendlyTypeName"="bzip2 Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",2"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cab\OpenWithProgIDs]
+"7-Zip.cab"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cab]
+@="cab Archive File"
+"FriendlyTypeName"="cab Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",7"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cpio\OpenWithProgIDs]
+"7-Zip.cpio"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio]
+@="cpio Archive File"
+"FriendlyTypeName"="cpio Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",12"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.deb\OpenWithProgIDs]
+"7-Zip.deb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.deb]
+@="deb Archive File"
+"FriendlyTypeName"="deb Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",11"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.dmg\OpenWithProgIDs]
+"7-Zip.dmg"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg]
+@="dmg Archive File"
+"FriendlyTypeName"="dmg Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",17"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.esd\OpenWithProgIDs]
+"7-Zip.esd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.esd]
+@="esd Archive File"
+"FriendlyTypeName"="esd Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",15"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fat\OpenWithProgIDs]
+"7-Zip.fat"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.fat]
+@="fat Archive File"
+"FriendlyTypeName"="fat Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",21"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gz\OpenWithProgIDs]
+"7-Zip.gz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gz]
+@="gz Archive File"
+"FriendlyTypeName"="gz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",14"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.gzip\OpenWithProgIDs]
+"7-Zip.gzip"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip]
+@="gzip Archive File"
+"FriendlyTypeName"="gzip Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",14"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.hfs\OpenWithProgIDs]
+"7-Zip.hfs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs]
+@="hfs Archive File"
+"FriendlyTypeName"="hfs Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",18"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.iso\OpenWithProgIDs]
+"7-Zip.iso"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.iso]
+@="iso Archive File"
+"FriendlyTypeName"="iso Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",8"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lha\OpenWithProgIDs]
+"7-Zip.lha"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lha]
+@="lha Archive File"
+"FriendlyTypeName"="lha Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",6"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lzh\OpenWithProgIDs]
+"7-Zip.lzh"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh]
+@="lzh Archive File"
+"FriendlyTypeName"="lzh Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",6"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lzma\OpenWithProgIDs]
+"7-Zip.lzma"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma]
+@="lzma Archive File"
+"FriendlyTypeName"="lzma Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",16"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ntfs\OpenWithProgIDs]
+"7-Zip.ntfs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs]
+@="ntfs Archive File"
+"FriendlyTypeName"="ntfs Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",22"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rar\OpenWithProgIDs]
+"7-Zip.rar"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rar]
+@="rar Archive File"
+"FriendlyTypeName"="rar Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",3"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rpm\OpenWithProgIDs]
+"7-Zip.rpm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm]
+@="rpm Archive File"
+"FriendlyTypeName"="rpm Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",10"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.squashfs\OpenWithProgIDs]
+"7-Zip.squashfs"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs]
+@="squashfs Archive File"
+"FriendlyTypeName"="squashfs Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",24"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.swm\OpenWithProgIDs]
+"7-Zip.swm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.swm]
+@="swm Archive File"
+"FriendlyTypeName"="swm Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",15"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tar\OpenWithProgIDs]
+"7-Zip.tar"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tar]
+@="tar Archive File"
+"FriendlyTypeName"="tar Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",13"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.taz\OpenWithProgIDs]
+"7-Zip.taz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.taz]
+@="taz Archive File"
+"FriendlyTypeName"="taz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",5"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tbz\OpenWithProgIDs]
+"7-Zip.tbz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz]
+@="tbz Archive File"
+"FriendlyTypeName"="tbz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",2"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tbz2\OpenWithProgIDs]
+"7-Zip.tbz2"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2]
+@="tbz2 Archive File"
+"FriendlyTypeName"="tbz2 Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",2"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tgz\OpenWithProgIDs]
+"7-Zip.tgz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz]
+@="tgz Archive File"
+"FriendlyTypeName"="tgz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",14"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tpz\OpenWithProgIDs]
+"7-Zip.tpz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz]
+@="tpz Archive File"
+"FriendlyTypeName"="tpz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",14"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.txz\OpenWithProgIDs]
+"7-Zip.txz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.txz]
+@="txz Archive File"
+"FriendlyTypeName"="txz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",23"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tzst\OpenWithProgIDs]
+"7-Zip.tzst"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst]
+@="tzst Archive File"
+"FriendlyTypeName"="tzst Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",26"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.vhd\OpenWithProgIDs]
+"7-Zip.vhd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd]
+@="vhd Archive File"
+"FriendlyTypeName"="vhd Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",20"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.vhdx\OpenWithProgIDs]
+"7-Zip.vhdx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx]
+@="vhdx Archive File"
+"FriendlyTypeName"="vhdx Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",20"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.wim\OpenWithProgIDs]
+"7-Zip.wim"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.wim]
+@="wim Archive File"
+"FriendlyTypeName"="wim Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",15"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xar\OpenWithProgIDs]
+"7-Zip.xar"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xar]
+@="xar Archive File"
+"FriendlyTypeName"="xar Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",19"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xz\OpenWithProgIDs]
+"7-Zip.xz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xz]
+@="xz Archive File"
+"FriendlyTypeName"="xz Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",23"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.z\OpenWithProgIDs]
+"7-Zip.z"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.z]
+@="z Archive File"
+"FriendlyTypeName"="z Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.z\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",5"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zip\OpenWithProgIDs]
+"7-Zip.zip"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zip]
+@="zip Archive File"
+"FriendlyTypeName"="zip Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",1"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.zst\OpenWithProgIDs]
+"7-Zip.zst"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zst]
+@="zst Archive File"
+"FriendlyTypeName"="zst Archive File"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\DefaultIcon]
+@="\"{{7zip_dir}}\\7z.dll\",26"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell\open]
+"Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell\open\command]
+@="\"{{7zip_dir}}\\7zFM.exe\" \"%1\""

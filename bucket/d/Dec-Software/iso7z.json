@@ -1,5 +1,5 @@
 {
-    "version": "1.5",
+    "version": "1.8.7",
     "description": "A plugin for 7-Zip that enables direct extraction of a wide range of disc image formats without mounting and provides specialized support for efficient compression of raw disc images.",
     "homepage": "https://www.tc4shell.com/en/7zip/iso7z/",
     "license": {

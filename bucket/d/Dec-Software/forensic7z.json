@@ -1,0 +1,47 @@
+{
+    "version": "1.6",
+    "description": "A plugin for 7-Zip that enables opening and browsing of forensic disk image formats (e.g., E01, Ex01, L01, AFF, AD1, WHX), excluding encrypted images.",
+    "homepage": "https://www.tc4shell.com/en/7zip/forensic7z/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.tc4shell.com/en/termsofuse/"
+    },
+    "url": "https://www.tc4shell.com/binary/Forensic7z.zip",
+    "hash": "c0210c789681981d7d5d00eac06569566ec767dc1c3ea78acae8ab4b7da8a295",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
+            "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
+            "if (-not (Test-Path -Path $formats_dir -PathType Container)) { ensure $formats_dir | Out-Null }",
+            "Copy-Item -Path \"$dir\\*\" -Destination $formats_dir -Exclude '*.json', 'ReadMe.txt' -Force -Recurse"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
+            "Get-ChildItem -Path $dir -Exclude '*.json', 'ReadMe.txt' | ForEach-Object -Process {",
+            "    Remove-Item -Path \"$formats_dir\\$($_.Name)\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "checkver": "Plugin version:\\s*([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.tc4shell.com/binary/Forensic7z.zip"
+    }
+}

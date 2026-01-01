@@ -1,0 +1,56 @@
+{
+    "version": "1.8.7",
+    "description": "A plugin for 7-Zip that enables direct extraction of a wide range of disc image formats without mounting and provides specialized support for efficient compression of raw disc images.",
+    "homepage": "https://www.tc4shell.com/en/7zip/iso7z/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.tc4shell.com/en/termsofuse/"
+    },
+    "notes": [
+        "When compressing disc images that include index files, package the image files together with their corresponding index files.",
+        "- This applies to formats such as CCD/IMG, CUE/BIN, GDI, and MDS/MDF.",
+        "- Including index files is necessary for RawSplitter to perform correct analysis.",
+        "",
+        "If a disc contains only tracks with 2048-byte sectors, compression gains from RawSplitter will be negligible.",
+        "- Such tracks do not contain additional housekeeping data.",
+        "- In these cases, it is advisable to use another compression method, such as LZMA2."
+    ],
+    "url": "https://www.tc4shell.com/binary/Iso7z.zip",
+    "hash": "4b41b567025cf884198d7f810994d37e4024b6d538871b1f93283bb1a67ccafd",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+            ]
+        }
+    },
+    "installer": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
+            "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
+            "if (-not (Test-Path -Path $formats_dir -PathType Container)) { ensure $formats_dir | Out-Null }",
+            "Copy-Item -Path \"$dir\\*\" -Destination $formats_dir -Exclude '*.json', 'ReadMe.txt' -Force -Recurse"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
+            "Get-ChildItem -Path $dir -Exclude '*.json', 'ReadMe.txt' | ForEach-Object -Process {",
+            "    Remove-Item -Path \"$formats_dir\\$($_.Name)\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    },
+    "checkver": "Plugin version:\\s*([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.tc4shell.com/binary/Iso7z.zip"
+    }
+}

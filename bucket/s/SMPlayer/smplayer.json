@@ -18,15 +18,15 @@
     },
     "extract_dir": "smplayer-portable",
     "pre_install": [
-        "$cfg_dir = \"$persist_dir\\config\\smplayer.ini'",
-        "if (-not (Test-Path -Path $cfg_dir -PathType Leaf)) {",
-        "    New-Item -Path $cfg_dir -ItemType File -Force | Out-Null",
+        "$cfg_path = \"$persist_dir\\config\\smplayer.ini'",
+        "if (-not (Test-Path -Path $cfg_path -PathType Leaf)) {",
+        "    New-Item -Path $cfg_path -ItemType File -Force | Out-Null",
         "    $cfg = @(",
         "        '[update_checker]', 'enabled=false',",
         "        '[%General]', 'screenshot_folder={{screenshots_dir}}'",
         "    )",
         "    $screenshots_dir = (Join-Path -Path $persist_dir -ChildPath 'screenshots') -replace '\\\\', '\\\\'",
-        "    $cfg | ForEach-Object { $_ -replace '{{.+}}', $screenshots_dir } | Set-Content -Path $cfg_dir -Encoding ascii",
+        "    $cfg | ForEach-Object { $_ -replace '{{.+}}', $screenshots_dir } | Set-Content -Path $cfg_path -Encoding ascii",
         "}"
     ],
     "shortcuts": [

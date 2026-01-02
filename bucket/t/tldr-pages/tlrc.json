@@ -27,15 +27,15 @@
     ],
     "installer": {
         "script": [
-            "$cfg_dir = \"$dir\\config.toml\"",
+            "$cfg_path = \"$dir\\config.toml\"",
             "if (Test-Path -Path \"$persist_dir\\config.toml\" -PathType Leaf) { return }",
-            "if (-not (Test-Path -Path $cfg_dir -PathType Leaf)) {",
-            "    $output_options = @{ NoNewWindow = $true; RedirectStandardOutput = $cfg_dir }",
+            "if (-not (Test-Path -Path $cfg_path -PathType Leaf)) {",
+            "    $output_options = @{ NoNewWindow = $true; RedirectStandardOutput = $cfg_path }",
             "    Start-Process -FilePath \"$dir\\tldr.exe\" -ArgumentList '--gen-config' @output_options -Wait",
             "}",
-            "$cfg = Get-Content -Path $cfg_dir -Encoding utf8",
+            "$cfg = Get-Content -Path $cfg_path -Encoding utf8",
             "$cfg = $cfg -replace '(?<=dir = '').+(?='')', \"$persist_dir\\.cache\"",
-            "$cfg -join \"`n\" | Set-Content -Path $cfg_dir -Encoding utf8"
+            "$cfg -join \"`n\" | Set-Content -Path $cfg_path -Encoding utf8"
         ]
     },
     "env_set": {

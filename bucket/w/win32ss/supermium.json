@@ -18,7 +18,7 @@
     },
     "installer": {
         "script": [
-            "$argument_list = '-xr!$* -xr!uninst*'",
+            "$argument_list = '-xr!$* -xr!unins*'",
             "ensure \"$persist_dir\\User Data\" | Out-Null",
             "$original_data_dir = \"$env:LocalAppData\\Supermium\\User Data\"",
             "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -ExtractDir 'Supermium' -Switches $argument_list -Removal",

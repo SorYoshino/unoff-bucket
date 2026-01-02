@@ -10,8 +10,8 @@
         "    New-Item -Path \"$dir\\settings.bin\" -ItemType File -Force | Out-Null",
         "}",
         "'install', 'uninstall' | ForEach-Object -Process {",
-        "    $content = Get-Content -Path \"$dir\\$_.bat\" -Encoding Ascii",
-        "    $content -replace '@pause >nul' | Set-Content -Path \"$dir\\$_.bat\" -Encoding Ascii",
+        "    $content = Get-Content -Path \"$dir\\$_.bat\" -Encoding ascii",
+        "    $content -replace '@pause >nul' | Set-Content -Path \"$dir\\$_.bat\" -Encoding ascii",
         "}"
     ],
     "installer": {

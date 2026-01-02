@@ -26,7 +26,7 @@
             "    Write-Host \"`nINFO  Migrating user data to '$persist_dir\\User Data'...\" -ForegroundColor DarkGray",
             "    Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$persist_dir\\User Data\" -Force -Recurse",
             "}",
-            "Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Force -Recurse -ErrorAction SilentlyContinue"
+            "Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Recurse -Force -ErrorAction SilentlyContinue"
         ]
     },
     "bin": [

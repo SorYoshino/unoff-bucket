@@ -1,0 +1,1476 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.azw\OpenWithProgIDs]
+"calibre.azw"=hex(0):
+"calibreViewer.azw"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw]
+@="AZW Document"
+"FriendlyTypeName"="AZW Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw]
+@="AZW Document"
+"FriendlyTypeName"="AZW Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.azw1\OpenWithProgIDs]
+"calibre.azw1"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw1]
+@="AZW1 Document"
+"FriendlyTypeName"="AZW1 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw1\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.azw3\OpenWithProgIDs]
+"calibre.azw3"=hex(0):
+"calibreEditor.azw3"=hex(0):
+"calibreViewer.azw3"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw3]
+@="AZW3 Document"
+"FriendlyTypeName"="AZW3 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw3\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3]
+@="AZW3 Document"
+"FriendlyTypeName"="AZW3 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3]
+@="AZW3 Document"
+"FriendlyTypeName"="AZW3 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.book\OpenWithProgIDs]
+"calibre.book"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.book]
+@="BOOK Document"
+"FriendlyTypeName"="BOOK Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.book\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.book\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.book\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.book\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cb7\OpenWithProgIDs]
+"calibre.cb7"=hex(0):
+"calibreViewer.cb7"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cb7]
+@="CB7 Document"
+"FriendlyTypeName"="CB7 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cb7\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7]
+@="CB7 Document"
+"FriendlyTypeName"="CB7 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cbc\OpenWithProgIDs]
+"calibre.cbc"=hex(0):
+"calibreViewer.cbc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbc]
+@="CBC Document"
+"FriendlyTypeName"="CBC Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbc\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc]
+@="CBC Document"
+"FriendlyTypeName"="CBC Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cbr\OpenWithProgIDs]
+"calibre.cbr"=hex(0):
+"calibreViewer.cbr"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbr]
+@="CBR Document"
+"FriendlyTypeName"="CBR Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbr\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr]
+@="CBR Document"
+"FriendlyTypeName"="CBR Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.cbz\OpenWithProgIDs]
+"calibre.cbz"=hex(0):
+"calibreViewer.cbz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbz]
+@="CBZ Document"
+"FriendlyTypeName"="CBZ Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbz\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz]
+@="CBZ Document"
+"FriendlyTypeName"="CBZ Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.chm\OpenWithProgIDs]
+"calibre.chm"=hex(0):
+"calibreViewer.chm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.chm]
+@="CHM Document"
+"FriendlyTypeName"="CHM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.chm\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm]
+@="CHM Document"
+"FriendlyTypeName"="CHM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.djv\OpenWithProgIDs]
+"calibre.djv"=hex(0):
+"calibreViewer.djv"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djv]
+@="DJV Document"
+"FriendlyTypeName"="DJV Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djv\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv]
+@="DJV Document"
+"FriendlyTypeName"="DJV Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.djvu\OpenWithProgIDs]
+"calibre.djvu"=hex(0):
+"calibreViewer.djvu"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djvu]
+@="DJVU Document"
+"FriendlyTypeName"="DJVU Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djvu\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu]
+@="DJVU Document"
+"FriendlyTypeName"="DJVU Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.doc\OpenWithProgIDs]
+"calibre.doc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.doc]
+@="DOC Document"
+"FriendlyTypeName"="DOC Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.doc\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.docm\OpenWithProgIDs]
+"calibre.docm"=hex(0):
+"calibreViewer.docm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docm]
+@="DOCM Document"
+"FriendlyTypeName"="DOCM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docm\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm]
+@="DOCM Document"
+"FriendlyTypeName"="DOCM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.docx\OpenWithProgIDs]
+"calibre.docx"=hex(0):
+"calibreEditor.docx"=hex(0):
+"calibreViewer.docx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docx]
+@="DOCX Document"
+"FriendlyTypeName"="DOCX Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docx\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx]
+@="DOCX Document"
+"FriendlyTypeName"="DOCX Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx]
+@="DOCX Document"
+"FriendlyTypeName"="DOCX Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.epub\OpenWithProgIDs]
+"calibre.epub"=hex(0):
+"calibreEditor.epub"=hex(0):
+"calibreViewer.epub"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.epub]
+@="EPUB Document"
+"FriendlyTypeName"="EPUB Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.epub\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub]
+@="EPUB Document"
+"FriendlyTypeName"="EPUB Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub]
+@="EPUB Document"
+"FriendlyTypeName"="EPUB Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.fb2\OpenWithProgIDs]
+"calibre.fb2"=hex(0):
+"calibreViewer.fb2"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.fb2]
+@="FB2 Document"
+"FriendlyTypeName"="FB2 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.fb2\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2]
+@="FB2 Document"
+"FriendlyTypeName"="FB2 Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgIDs]
+"calibre.htm"=hex(0):
+"calibreEditor.htm"=hex(0):
+"calibreViewer.htm"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.htm]
+@="HTM Document"
+"FriendlyTypeName"="HTM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.htm\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm]
+@="HTM Document"
+"FriendlyTypeName"="HTM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm]
+@="HTM Document"
+"FriendlyTypeName"="HTM Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgIDs]
+"calibre.html"=hex(0):
+"calibreEditor.html"=hex(0):
+"calibreViewer.html"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.html]
+@="HTML Document"
+"FriendlyTypeName"="HTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.html\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.html\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.html\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.html\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.html]
+@="HTML Document"
+"FriendlyTypeName"="HTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.html]
+@="HTML Document"
+"FriendlyTypeName"="HTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ibook\OpenWithProgIDs]
+"calibre.ibook"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibook]
+@="IBOOK Document"
+"FriendlyTypeName"="IBOOK Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibook\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ibooks\OpenWithProgIDs]
+"calibre.ibooks"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibooks]
+@="IBOOKS Document"
+"FriendlyTypeName"="IBOOKS Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.imp\OpenWithProgIDs]
+"calibre.imp"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.imp]
+@="IMP Document"
+"FriendlyTypeName"="IMP Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.imp\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.kfx\OpenWithProgIDs]
+"calibre.kfx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.kfx]
+@="KFX Document"
+"FriendlyTypeName"="KFX Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.kfx\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lrf\OpenWithProgIDs]
+"calibre.lrf"=hex(0):
+"calibreViewer.lrf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrf]
+@="LRF Document"
+"FriendlyTypeName"="LRF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrf\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf]
+@="LRF Document"
+"FriendlyTypeName"="LRF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.lrx\OpenWithProgIDs]
+"calibre.lrx"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrx]
+@="LRX Document"
+"FriendlyTypeName"="LRX Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrx\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.markdown\OpenWithProgIDs]
+"calibre.markdown"=hex(0):
+"calibreViewer.markdown"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.markdown]
+@="MARKDOWN Document"
+"FriendlyTypeName"="MARKDOWN Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.markdown\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown]
+@="MARKDOWN Document"
+"FriendlyTypeName"="MARKDOWN Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.md\OpenWithProgIDs]
+"calibre.md"=hex(0):
+"calibreViewer.md"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.md]
+@="MD Document"
+"FriendlyTypeName"="MD Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.md\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.md\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.md\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.md\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.md]
+@="MD Document"
+"FriendlyTypeName"="MD Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.mobi\OpenWithProgIDs]
+"calibre.mobi"=hex(0):
+"calibreViewer.mobi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.mobi]
+@="MOBI Document"
+"FriendlyTypeName"="MOBI Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.mobi\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi]
+@="MOBI Document"
+"FriendlyTypeName"="MOBI Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.odt\OpenWithProgIDs]
+"calibre.odt"=hex(0):
+"calibreViewer.odt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.odt]
+@="ODT Document"
+"FriendlyTypeName"="ODT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.odt\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt]
+@="ODT Document"
+"FriendlyTypeName"="ODT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.opf\OpenWithProgIDs]
+"calibreViewer.opf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf]
+@="OPF Document"
+"FriendlyTypeName"="OPF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pdb\OpenWithProgIDs]
+"calibre.pdb"=hex(0):
+"calibreViewer.pdb"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdb]
+@="PDB Document"
+"FriendlyTypeName"="PDB Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdb\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb]
+@="PDB Document"
+"FriendlyTypeName"="PDB Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pdf\OpenWithProgIDs]
+"calibre.pdf"=hex(0):
+"calibreViewer.pdf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdf]
+@="PDF Document"
+"FriendlyTypeName"="PDF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdf\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf]
+@="PDF Document"
+"FriendlyTypeName"="PDF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pml\OpenWithProgIDs]
+"calibre.pml"=hex(0):
+"calibreViewer.pml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pml]
+@="PML Document"
+"FriendlyTypeName"="PML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pml\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml]
+@="PML Document"
+"FriendlyTypeName"="PML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.pobi\OpenWithProgIDs]
+"calibre.pobi"=hex(0):
+"calibreViewer.pobi"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pobi]
+@="POBI Document"
+"FriendlyTypeName"="POBI Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pobi\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi]
+@="POBI Document"
+"FriendlyTypeName"="POBI Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.prc\OpenWithProgIDs]
+"calibre.prc"=hex(0):
+"calibreViewer.prc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.prc]
+@="PRC Document"
+"FriendlyTypeName"="PRC Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.prc\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc]
+@="PRC Document"
+"FriendlyTypeName"="PRC Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ps\OpenWithProgIDs]
+"calibre.ps"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ps]
+@="PS Document"
+"FriendlyTypeName"="PS Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ps\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.rtf\OpenWithProgIDs]
+"calibre.rtf"=hex(0):
+"calibreViewer.rtf"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.rtf]
+@="RTF Document"
+"FriendlyTypeName"="RTF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.rtf\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf]
+@="RTF Document"
+"FriendlyTypeName"="RTF Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgIDs]
+"calibreViewer.shtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml]
+@="SHTML Document"
+"FriendlyTypeName"="SHTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.text\OpenWithProgIDs]
+"calibre.text"=hex(0):
+"calibreViewer.text"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.text]
+@="TEXT Document"
+"FriendlyTypeName"="TEXT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.text\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.text\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.text\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.text\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.text]
+@="TEXT Document"
+"FriendlyTypeName"="TEXT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tpz\OpenWithProgIDs]
+"calibre.tpz"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.tpz]
+@="TPZ Document"
+"FriendlyTypeName"="TPZ Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.tpz\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.txt\OpenWithProgIDs]
+"calibre.txt"=hex(0):
+"calibreViewer.txt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.txt]
+@="TXT Document"
+"FriendlyTypeName"="TXT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.txt\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt]
+@="TXT Document"
+"FriendlyTypeName"="TXT Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgIDs]
+"calibre.xhtml"=hex(0):
+"calibreEditor.xhtml"=hex(0):
+"calibreViewer.xhtml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xhtml]
+@="XHTML Document"
+"FriendlyTypeName"="XHTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml]
+@="XHTML Document"
+"FriendlyTypeName"="XHTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-edit.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml]
+@="XHTML Document"
+"FriendlyTypeName"="XHTML Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\DefaultIcon]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell\open\command]
+@="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xps\OpenWithProgIDs]
+"calibre.xps"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xps]
+@="XPS Document"
+"FriendlyTypeName"="XPS Document"
+"PerceivedType"="Document"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xps\DefaultIcon]
+@="\"{{calibre_dir}}\\calibre.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell\open\command]
+@="\"{{calibre_dir}}\\calibre.exe\" \"%1\""

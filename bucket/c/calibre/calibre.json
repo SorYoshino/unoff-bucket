@@ -7,6 +7,8 @@
         "url": "https://github.com/kovidgoyal/calibre/blob/HEAD/LICENSE"
     },
     "notes": [
+        "To register file associations, please execute the following command:",
+        "- `reg import \"$dir\\register-file-associations.reg\"`",
         "To register the URL protocol handler, please execute the following command:",
         "- `reg import \"$dir\\register-url-handler.reg\"`"
     ],
@@ -43,8 +45,7 @@
         "$calibre_dir = \"$dir\\Calibre\" -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
-        "    if ($_.Name -ne 'unregister-file-associations.reg' `",
-        "            -and $global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
+        "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{calibre_dir}}', $calibre_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}",
         "'.tmp', '.cache' | ForEach-Object -Process { ensure \"$persist_dir\\$_\" | Out-Null }",
@@ -65,6 +66,7 @@
         "}"
     ],
     "env_set": {
+        "CALIBRE_NO_DEFAULT_PROGRAMS": "1",
         "CALIBRE_TEMP_DIR": "$persist_dir\\.tmp",
         "CALIBRE_CACHE_DIRECTORY": "$persist_dir\\.cache",
         "CALIBRE_CONFIG_DIRECTORY": "$persist_dir\\Calibre Settings"

@@ -12,13 +12,13 @@
         "64bit": {
             "pre_install": [
                 "Copy-Item -Path \"$dir\\64\\*\" -Destination $dir -Force -Recurse",
-                "'32', '64' | ForEach-Object -Process { Remove-Item -Path \"$dir\\$_\" -Force -Recurse -ErrorAction SilentlyContinue }"
+                "'32', '64' | ForEach-Object -Process { Remove-Item -Path \"$dir\\$_\" -Recurse -Force -ErrorAction SilentlyContinue }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Copy-Item -Path \"$dir\\32\\*\" -Destination $dir -Force -Recurse",
-                "'32', '64' | ForEach-Object -Process { Remove-Item -Path \"$dir\\$_\" -Force -Recurse -ErrorAction SilentlyContinue }"
+                "'32', '64' | ForEach-Object -Process { Remove-Item -Path \"$dir\\$_\" -Recurse -Force -ErrorAction SilentlyContinue }"
             ]
         }
     },
@@ -36,7 +36,7 @@
             "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
             "$codecs_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Codecs'",
             "Get-ChildItem -Path $dir -Exclude '*.json', 'ReadMe.txt' | ForEach-Object -Process {",
-            "    Remove-Item -Path \"$codecs_dir\\$($_.Name)\" -Force -Recurse -ErrorAction SilentlyContinue",
+            "    Remove-Item -Path \"$codecs_dir\\$($_.Name)\" -Recurse -Force -ErrorAction SilentlyContinue",
             "}"
         ]
     },

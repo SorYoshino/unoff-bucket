@@ -36,7 +36,7 @@
             "Invoke-WebRequest -Uri $download_url -OutFile $download_dir -UseBasicParsing",
             "Start-Process -FilePath '7z.exe' -ArgumentList $args_list @output_options -Wait",
             "$version_info = [System.Diagnostics.FileVersionInfo]::GetVersionInfo(\"$tmp_dir\\Types.exe\")",
-            "Move-Item -Path $download_dir -Destination (cache_path $app $version_info.ProductVersion $download_url)",
+            "Move-Item -Path $download_dir -Destination (cache_path $app $version_info.ProductVersion $download_url) -Force",
             "Remove-Item -Path $tmp_dir -Recurse -Force -ErrorAction SilentlyContinue",
             "Write-Output $version_info.ProductVersion"
         ],

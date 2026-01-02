@@ -21,7 +21,7 @@
         "    '_rels', 'package',",
         "    '*.nuspec', '*Content*.xml'",
         ") | ForEach-Object -Process { \"$dir\\$_\"}",
-        "$remove_list | Remove-Item -Force -Recurse -ErrorAction SilentlyContinue"
+        "$remove_list | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "psmodule": {
         "name": "CompletionPredictor"

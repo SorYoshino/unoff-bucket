@@ -19,9 +19,9 @@
     "installer": {
         "script": [
             "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Removal",
-            "Remove-Item -Path \"$dir\\*_list\" -Force -ErrorAction SilentlyContinue",
             "$version, 'autoupdate' | ForEach-Object -Process { ensure \"$dir\\$_\" | Out-Null }",
             "Move-Item -Path \"$dir\\opera_autoupdate*\" -Destination \"$dir\\autoupdate\" -Force",
+            "Remove-Item -Path \"$dir\\*\" -Include '*_list' -Force -ErrorAction SilentlyContinue",
             "$exclude_list = @('Assets', $version, 'autoupdate', 'Resources.pri', 'opera.visualelementsmanifest.xml')",
             "Get-ChildItem -Path $dir | Where-Object { $exclude_list -notcontains $_.Name } | ForEach-Object -Process {",
             "    Move-Item -Path $_.FullName -Destination \"$dir\\$version\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",

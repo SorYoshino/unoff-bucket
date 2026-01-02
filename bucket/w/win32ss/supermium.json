@@ -23,10 +23,10 @@
             "$original_data_dir = \"$env:LocalAppData\\Supermium\\User Data\"",
             "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -ExtractDir 'Supermium' -Switches $argument_list -Removal",
             "if (-not (Test-Path -Path \"$persist_dir\\User Data\\*\") -and (Test-Path -Path \"$original_data_dir\\*\")) {",
-            "    Write-Host \"`nINFO  Migrating user data to '$persist_dir\\User Data'...\" -ForegroundColor darkgray",
-            "    Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$persist_dir\\User Data\" -Recurse",
+            "    Write-Host \"`nINFO  Migrating user data to '$persist_dir\\User Data'...\" -ForegroundColor DarkGray",
+            "    Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$persist_dir\\User Data\" -Force -Recurse",
             "}",
-            "Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Recurse -Force -ErrorAction SilentlyContinue"
+            "Remove-Item -Path \"$env:LocalAppData\\Supermium\" -Force -Recurse -ErrorAction SilentlyContinue"
         ]
     },
     "bin": [

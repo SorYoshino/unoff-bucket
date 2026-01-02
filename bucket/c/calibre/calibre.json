@@ -21,7 +21,7 @@
         "if (Test-Path -Path \"$persist_dir\\Calibre Settings\\*\") { return }",
         "$original_cfg_dir = $env:CALIBRE_CONFIG_DIRECTORY, \"$env:APPDATA\\calibre\" | Select-Object -First 1",
         "if (Test-Path -Path \"$original_cfg_dir\\*\") {",
-        "    Write-Host \"`nINFO  Migrating Calibre Configurations to '$persist_dir\\Calibre Settings'...\" -ForegroundColor darkgray",
+        "    Write-Host \"`nINFO  Migrating Calibre Configurations to '$persist_dir\\Calibre Settings'...\" -ForegroundColor DarkGray",
         "    Copy-Item -Path \"$original_cfg_dir\\*\" -Destination \"$persist_dir\\Calibre Settings\" -Force -Recurse",
         "}"
     ],
@@ -35,7 +35,7 @@
             "$link_target_dir = @($config_link_target_dir) * $is_different",
             "$is_different = $env:CALIBRE_CONFIG_DIRECTORY -ne $configuration_dir",
             "$extra_config_dir = @($env:CALIBRE_CONFIG_DIRECTORY) * $is_different",
-            "@($default_dir) + $link_target_dir + $extra_config_dir | Remove-Item -Force -Recurse",
+            "@($default_dir) + $link_target_dir + $extra_config_dir | Remove-Item -Recurse -Force",
             "Expand-MsiArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\Calibre\" -ExtractDir 'PFiles64\\Calibre2' -Removal"
         ]
     },
@@ -56,10 +56,10 @@
         "    $cfg = Get-Content -Path \"$persist_dir\\Calibre Settings\\global.py.json\" -Encoding utf8 | ConvertFrom-Json",
         "    if ($cfg.library_path -eq \"$persist_dir\\Calibre Library\") { return }",
         "    if (-not (Test-Path -Path \"$persist_dir\\Calibre Library\\*\") -and (Test-Path -Path \"$($cfg.library_path)\\*\")) {",
-        "        Write-Host \"`nINFO  Migrating Calibre Library to '$persist_dir\\Calibre Library'...\" -ForegroundColor darkgray",
+        "        Write-Host \"`nINFO  Migrating Calibre Library to '$persist_dir\\Calibre Library'...\" -ForegroundColor DarkGray",
         "        Copy-Item -Path \"$($cfg.library_path)\\*\" -Destination \"$persist_dir\\Calibre Library\" -Force -Recurse",
         "    }",
-        "    Remove-Item -Path $cfg.library_path -Force -Recurse -ErrorAction SilentlyContinue",
+        "    Remove-Item -Path $cfg.library_path -Recurse -Force -ErrorAction SilentlyContinue",
         "    $cfg.library_path = \"$persist_dir\\Calibre Library\"",
         "    $cfg | ConvertTo-Json -Depth 5 | Set-Content -Path \"$persist_dir\\Calibre Settings\\global.py.json\" -Encoding utf8",
         "}"

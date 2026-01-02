@@ -17,13 +17,13 @@
         }
     },
     "pre_install": [
-        "$original_cfg_dir = $env:TLRC_CONFIG, \"$env:APPDATA\\tlrc\\config.toml\" | Select-Object -First 1",
-        "$is_different = $original_cfg_dir -ne \"$persist_dir\\config.toml\"",
-        "if ($is_different -and (Test-Path -Path $original_cfg_dir -PathType Leaf)) {",
-        "    Copy-Item -Path $original_cfg_dir -Destination \"$dir\\config.toml\"",
+        "$original_cfg_path = $env:TLRC_CONFIG, \"$env:APPDATA\\tlrc\\config.toml\" | Select-Object -First 1",
+        "$is_different = $original_cfg_path -ne \"$persist_dir\\config.toml\"",
+        "if ($is_different -and (Test-Path -Path $original_cfg_path -PathType Leaf)) {",
+        "    Copy-Item -Path $original_cfg_path -Destination \"$dir\\config.toml\" -Force",
         "}",
         "$remove_list = $env:APPDATA, $env:LOCALAPPDATA | ForEach-Object { \"$_\\$app\" }",
-        "$remove_list + @($original_cfg_dir) * $is_different | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+        "$remove_list + @($original_cfg_path) * $is_different | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "installer": {
         "script": [

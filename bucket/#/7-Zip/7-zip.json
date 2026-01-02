@@ -40,7 +40,7 @@
             "        \"`e[31m`nFailed to extract archive: '$dir\\$fname'`e[0m\",",
             "        \"`e[96m`nDetails:`e[0m\",",
             "        \"  `e[33m- Operation: extraction`e[0m\",",
-            "        \"  `e[33m- Status   :`e[0m `e[31mfailed`e[0m\",",
+            "        \"  `e[33m- Status   :`e[0m`e[31m failed`e[0m\",",
             "        \"  `e[33m- Log file : $(friendly_path $log_path)`e[0m\",",
             "        \"`e[37m`nPlease review the log file for specific error messages.`e[0m\"",
             "    ) | Write-Output; exit 1",

@@ -54,7 +54,7 @@
         "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader', 'Extension' | ForEach-Object -Process {",
         "    $original_data_dir = \"$dir\\$_.original\"",
         "    if (Test-Path -Path $original_data_dir -PathType Container) {",
-        "        Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$dir\\$_\" -Recurse -Force",
+        "        Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$dir\\$_\" -Force -Recurse",
         "        Remove-Item -Path $original_data_dir -Recurse -Force -ErrorAction SilentlyContinue",
         "    }",
         "}"

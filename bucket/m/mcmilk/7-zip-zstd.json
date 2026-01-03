@@ -6,6 +6,12 @@
         "identifier": "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
         "url": "https://github.com/mcmilk/7-Zip-zstd/blob/HEAD/COPYING"
     },
+    "notes": [
+        "To register file associations, please execute the following command:",
+        "- `reg import \"$dir\\register-file-associations.reg\"`",
+        "To register the context menu entry, please execute the following command:",
+        "- `reg import \"$dir\\register-context-menu.reg\"`"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v25.01-v1.5.7-R3/7z25.01-zstd-x64.exe",
@@ -50,6 +56,10 @@
     "persist": [
         "Codecs",
         "Formats"
+    ],
+    "pre_uninstall": [
+        "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+        "Start-Sleep -Milliseconds 1500"
     ],
     "uninstaller": {
         "script": [

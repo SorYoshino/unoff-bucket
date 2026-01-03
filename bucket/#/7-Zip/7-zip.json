@@ -75,6 +75,10 @@
         "Codecs",
         "Formats"
     ],
+    "pre_uninstall": [
+        "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+        "Start-Sleep -Milliseconds 1500"
+    ],
     "uninstaller": {
         "script": [
             "if ($cmd -eq 'uninstall') {",

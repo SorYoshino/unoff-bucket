@@ -1,0 +1,62 @@
+{
+    "version": "25.01-1.5.7-r3",
+    "description": "A plugin for 7-Zip installations that adds support for modern compression codecs, including Zstandard, Brotli, LZ4, LZ5, Lizard, and Fast-LZMA2.",
+    "homepage": "https://github.com/mcmilk/7-Zip-zstd",
+    "license": {
+        "identifier": "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
+        "url": "https://github.com/mcmilk/7-Zip-zstd/blob/HEAD/COPYING"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v25.01-v1.5.7-R3/Codecs-x64.7z",
+            "hash": "214b4fb44b265c49c6b1d361d41db2070a561403229e5a72d1a2c333f84ab1ed"
+        },
+        "32bit": {
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v25.01-v1.5.7-R3/Codecs-x32.7z",
+            "hash": "55036b8c6bdfdaa04f4123b03e8bc3525ad2eca2d352edace3a4974966ee0809"
+        },
+        "arm64": {
+            "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/v25.01-v1.5.7-R3/Codecs-arm64.7z",
+            "hash": "ca23958b21885670256fe79387018e67f0f540d36974bbb447923ca9072f425a"
+        }
+    },
+    "installer": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
+            "$codecs_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Codecs'",
+            "if (-not (Test-Path -Path $codecs_dir -PathType Container)) { ensure $codecs_dir | Out-Null }",
+            "Copy-Item -Path \"$dir\\*\" -Destination $codecs_dir -Exclude '*.md', '*.json', 'LICENSE' -Force -Recurse"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "if ($null -ne $7z_path) {",
+            "    $codecs_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Codecs'",
+            "    Get-ChildItem -Path $dir -Exclude '*.md', '*.json', 'LICENSE' | ForEach-Object -Process {",
+            "        Remove-Item -Path \"$codecs_dir\\$($_.Name)\" -Recurse -Force -ErrorAction SilentlyContinue",
+            "    }",
+            "}"
+        ]
+    },
+    "checkver": {
+        "url": "https://api.github.com/repositories/61958135/releases/latest",
+        "jsonpath": "$.assets[?(@.name =~ /Codecs(?!.+ndm)/i)].browser_download_url",
+        "regex": "(?i)download/(?<tag>v?(?<sevenzip>[^-]+)-v?(?<zstd>[^-]+)-R(?<release>\\d+))/Codecs-(?:arm|x)",
+        "replace": "${sevenzip}-${zstd}-r${release}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/$matchTag/Codecs-x64.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/$matchTag/Codecs-x32.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/mcmilk/7-Zip-zstd/releases/download/$matchTag/Codecs-arm64.7z"
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-﻿Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.001\OpenWithProgIDs]
 "7-Zip-Zstandard.001"=hex(0):

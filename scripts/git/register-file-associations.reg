@@ -7,10 +7,12 @@ Windows Registry Editor Version 5.00
 "Content Type"="text/plain"
 "PerceivedType"="text"
 
+
 [HKEY_CURRENT_USER\Software\Classes\.gitignore]
 @="txtfile"
 "Content Type"="text/plain"
 "PerceivedType"="text"
+
 
 [HKEY_CURRENT_USER\Software\Classes\.gitmodules]
 @="txtfile"

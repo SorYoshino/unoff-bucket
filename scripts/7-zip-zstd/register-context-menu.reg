@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; Defines per-user configuration parameters for 7-Zip Zstandard shell integration and UI behavior
+; Define per-user configuration parameters for 7-Zip Zstandard shell integration and UI behavior
 ; Effective only when configured under the HKEY_CURRENT_USER hive.
 
 [HKEY_CURRENT_USER\Software\7-Zip-Zstandard\Options]
@@ -11,38 +11,38 @@ Windows Registry Editor Version 5.00
 
 
 
-; Registers 7-Zip Zstandard as the context menu handler for all files
+; Register 7-Zip Zstandard as the context menu handler for all files
 
 [HKEY_CURRENT_USER\Software\Classes\*\shellex\ContextMenuHandlers\7-Zip-Zstandard]
 @="{23170F69-20BB-278A-1000-000100020000}"
 
 
-; Registers 7-Zip Zstandard as the context menu handler for directory
+; Register 7-Zip Zstandard as the context menu handler for directory
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\shellex\ContextMenuHandlers\7-Zip-Zstandard]
 @="{23170F69-20BB-278A-1000-000100020000}"
 
 
-; Registers 7-Zip Zstandard as the drag-and-drop handler for directories
+; Register 7-Zip Zstandard as the drag-and-drop handler for directories
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\shellex\DragDropHandlers\7-Zip-Zstandard]
 @="{23170F69-20BB-278A-1000-000100020000}"
 
 
-; Registers 7-Zip Zstandard as the drag-and-drop handler for drives
+; Register 7-Zip Zstandard as the drag-and-drop handler for drives
 
 [HKEY_CURRENT_USER\Software\Classes\Drive\shellex\DragDropHandlers\7-Zip-Zstandard]
 @="{23170F69-20BB-278A-1000-000100020000}"
 
 
-; Registers 7-Zip Zstandard as the context menu handler for folder shell objects
+; Register 7-Zip Zstandard as the context menu handler for folder shell objects
 
 [HKEY_CURRENT_USER\Software\Classes\Folder\shellex\ContextMenuHandlers\7-Zip-Zstandard]
 @="{23170F69-20BB-278A-1000-000100020000}"
 
 
 
-; Registers the CLSID and the in-process COM server DLL for the 7-Zip Zstandard shell extension
+; Register the CLSID and the in-process COM server DLL for the 7-Zip Zstandard shell extension
 
 [HKEY_CURRENT_USER\Software\Classes\CLSID\{23170F69-20BB-278A-1000-000100020000}]
 @="7-Zip Zstandard Shell Extension"

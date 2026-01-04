@@ -12,13 +12,13 @@
         "64bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}\\.(?=dll)', '' }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}\\.(?=dll)', '' }"
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}\\.(?=dll)', '' }"
             ]
         }
     },

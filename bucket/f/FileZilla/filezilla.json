@@ -17,13 +17,13 @@
         "64bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Exclude '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName 'setup.exe'"
+                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName { $_.Name -replace '.+(?=setup\\.exe)', '' }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Exclude '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName 'setup.exe'"
+                "Get-ChildItem -Path $dir -include '*.exe' -Recurse -File | Rename-Item -NewName { $_.Name -replace '.+(?=setup\\.exe)', '' }"
             ]
         }
     },

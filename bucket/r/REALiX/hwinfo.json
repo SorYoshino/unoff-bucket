@@ -12,18 +12,18 @@
         "64bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*32*', '*ARM*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}(?=\\.exe)', '' }"
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}(?=\\.exe)', '' }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '\\d{2}(?=\\.exe)', '' }"
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}(?=\\.exe)', '' }"
             ]
         },
         "arm64": {
             "pre_install": [
-                "Get-ChildItem -Path $dir -Include '*ARM*' -Recurse -File | Rename-Item -NewName { $_.FullName -replace '_.+(?=\\.exe)', '' }",
+                "Get-ChildItem -Path $dir -Include '*ARM*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '_.+(?=\\.exe)', '' }",
                 "Get-ChildItem -Path $dir -Include '*32*', '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue"
             ]
         }

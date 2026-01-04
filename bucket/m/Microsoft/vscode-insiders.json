@@ -97,7 +97,7 @@
     "checkver": {
         "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
         "jsonpath": "$.url",
-        "regex": "/(?<commit>(?<suffix>[a-f0-9]{7})[^/]+)/VSCode-win32-x64-(?<prefix>[\\d.]+)",
+        "regex": "insider/(?<commit>(?<suffix>[a-f0-9]{7})[^/]+)/VSCode-win32-x64-(?<prefix>[\\d.]+)",
         "replace": "${prefix}-${suffix}"
     },
     "autoupdate": {
@@ -105,14 +105,14 @@
             "64bit": {
                 "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/insider/latest",
+                    "url": "https://update.code.visualstudio.com/api/versions/$matchHead-insider/win32-x64-archive/insider",
                     "jsonpath": "$.sha256hash"
                 }
             },
             "arm64": {
                 "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/$matchCommit/VSCode-win32-arm64-$matchHead-insider.zip",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/insider/latest",
+                    "url": "https://update.code.visualstudio.com/api/versions/$matchHead-insider/win32-arm64-archive/insider",
                     "jsonpath": "$.sha256hash"
                 }
             }

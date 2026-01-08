@@ -24,7 +24,7 @@
     },
     "installer": {
         "script": [
-            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "$7z_path = Get-CommandPath -Command '7z.exe'",
             "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
             "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
             "if (-not (Test-Path -Path $formats_dir -PathType Container)) { ensure $formats_dir | Out-Null }",
@@ -33,7 +33,7 @@
     },
     "uninstaller": {
         "script": [
-            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
+            "$7z_path = Get-CommandPath -Command '7z.exe'",
             "if ($null -ne $7z_path) {",
             "    $formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
             "    Get-ChildItem -Path $dir -Exclude '*.json', 'ReadMe.txt' | ForEach-Object -Process {",

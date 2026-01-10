@@ -7,7 +7,7 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{git_dir}}\\cmd\\git-gui.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\git_gui\command]
-@="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%v.\""
+@="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%V.\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\shell\git_gui]
@@ -18,12 +18,20 @@ Windows Registry Editor Version 5.00
 @="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%1\""
 
 
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\git_gui]
+@="Open Git &GUI here"
+"Icon"="\"{{git_dir}}\\cmd\\git-gui.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\git_gui\command]
+@="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%V.\""
+
+
 [HKEY_CURRENT_USER\Software\Classes\LibraryFolder\background\shell\git_gui]
 @="Open Git &GUI here"
 "Icon"="\"{{git_dir}}\\cmd\\git-gui.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\LibraryFolder\background\shell\git_gui\command]
-@="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%v.\""
+@="\"{{git_dir}}\\cmd\\git-gui.exe\" \"--working-dir\" \"%V.\""
 
 
 
@@ -34,7 +42,7 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{git_dir}}\\git-bash.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\git_shell\command]
-@="\"{{git_dir}}\\git-bash.exe\" \"--cd=%v.\""
+@="\"{{git_dir}}\\git-bash.exe\" \"--cd=%V.\""
 
 
 [HKEY_CURRENT_USER\Software\Classes\Directory\shell\git_shell]
@@ -45,9 +53,17 @@ Windows Registry Editor Version 5.00
 @="\"{{git_dir}}\\git-bash.exe\" \"--cd=%1\""
 
 
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\git_shell]
+@="Open Git Ba&sh here"
+"Icon"="\"{{git_dir}}\\git-bash.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\git_shell\command]
+@="\"{{git_dir}}\\git-bash.exe\" \"--cd=%V.\""
+
+
 [HKEY_CURRENT_USER\Software\Classes\LibraryFolder\background\shell\git_shell]
 @="Open Git Ba&sh here"
 "Icon"="\"{{git_dir}}\\git-bash.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\LibraryFolder\background\shell\git_shell\command]
-@="\"{{git_dir}}\\git-bash.exe\" \"--cd=%v.\""
+@="\"{{git_dir}}\\git-bash.exe\" \"--cd=%V.\""

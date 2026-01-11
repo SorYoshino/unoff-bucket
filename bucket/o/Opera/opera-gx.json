@@ -40,11 +40,11 @@
     "persist": "profile",
     "checkver": {
         "script": [
-            "$version_regex = '^(?!\\.)[\\d.]+/$'",
+            "$path_regex = '^(?!\\.)[\\d.]+/$'",
             "$version_sort = { [version]$_.href.TrimEnd('/') }",
             "$releases_url = 'https://get.opera.com/pub/opera_gx/'",
             "$releases_page = Invoke-WebRequest -Uri $releases_url -UseBasicParsing -ErrorAction Stop",
-            "$path_segments = $releases_page.links | Where-Object { $_.href -match $version_regex } |",
+            "$path_segments = $releases_page.links | Where-Object { $_.href -match $path_regex } |",
             "        Sort-Object -Property $version_sort -Descending | ForEach-Object -MemberName href",
             "foreach ($path_segment in $path_segments.TrimEnd('/')) {",
             "    $release_url = 'https://get.opera.com/pub/opera_gx/{0}/win/' -f $path_segment",

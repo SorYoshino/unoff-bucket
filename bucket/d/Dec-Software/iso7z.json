@@ -36,7 +36,9 @@
             "$7z_path = Get-CommandPath -Command '7z.exe'",
             "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
             "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
-            "if (-not (Test-Path -Path $formats_dir -PathType Container)) { ensure $formats_dir | Out-Null }",
+            "if (-not (Test-Path -Path $formats_dir -PathType Container)) {",
+            "    New-Item -Path $formats_dir -ItemType Directory -Force | Out-Null",
+            "}",
             "Copy-Item -Path \"$dir\\*\" -Destination $formats_dir -Exclude '*.json', 'ReadMe.txt' -Force -Recurse"
         ]
     },

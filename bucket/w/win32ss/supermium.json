@@ -18,10 +18,10 @@
     },
     "installer": {
         "script": [
-            "$argument_list = '-xr!$* -xr!unins*'",
             "ensure \"$persist_dir\\User Data\" | Out-Null",
             "$original_data_dir = \"$env:LocalAppData\\Supermium\\User Data\"",
-            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -ExtractDir 'Supermium' -Switches $argument_list -Removal",
+            "$extract_params = @{ Path = \"$dir\\$fname\"; ExtractDir = 'Supermium' }",
+            "Expand-7zipArchive @extract_params -Switches '-xr!$* -xr!unins*' -Removal",
             "if (-not (Test-Path -Path \"$persist_dir\\User Data\\*\") -and (Test-Path -Path \"$original_data_dir\\*\")) {",
             "    Write-Host \"`nINFO  Migrating user data to '$persist_dir\\User Data'...\" -ForegroundColor DarkGray",
             "    Copy-Item -Path \"$original_data_dir\\*\" -Destination \"$persist_dir\\User Data\" -Force -Recurse",

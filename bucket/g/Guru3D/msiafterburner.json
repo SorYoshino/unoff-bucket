@@ -18,7 +18,7 @@
         "script": [
             "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\tmp\" -Removal",
             "$installer_file = Get-ChildItem -Path \"$dir\\tmp\" -Filter '*.exe' -File | ForEach-Object -MemberName FullName",
-            "Expand-7zipArchive -Path $installer_file -DestinationPath $dir -Switches '-xr!$* -xr!unins* -x!Redist' -Removal",
+            "Expand-7zipArchive -Path $installer_file -Switches '-xr!$* -xr!unins* -x!Redist' -Removal",
             "Remove-Item -Path \"$dir\\tmp\" -Recurse -Force -ErrorAction SilentlyContinue"
         ]
     },

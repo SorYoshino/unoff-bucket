@@ -37,10 +37,7 @@
         }
     },
     "pre_install": [
-        "$cfg = @(",
-        "    '[Settings]', 'AutoUpdateStart=0',",
-        "    'CheckAutoUpdate=0', 'FastAutoUpdate=0'",
-        ")",
+        "$cfg = @('[Settings]', 'AutoUpdateStart=0', 'CheckAutoUpdate=0', 'FastAutoUpdate=0')",
         "'PotPlayer', 'PotPlayer64', 'PotPlayerMini', 'PotPlayerMini64' | ForEach-Object -Process {",
         "    if (-not (Test-Path -Path \"$persist_dir\\$_.ini\" -PathType Leaf)) {",
         "        Set-Content -Path \"$dir\\$_.ini\" -Value $cfg -Encoding ascii",
@@ -48,7 +45,7 @@
         "}"
     ],
     "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Switches '-xr!$* -xr!unins*' -Removal"
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!unins*' -Removal"
     },
     "post_install": [
         "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader', 'Extension' | ForEach-Object -Process {",

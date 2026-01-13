@@ -28,6 +28,8 @@
             "    $writer.WriteStartElement('Settings')",
             "    $writer.WriteElementString('UseRoamingConfig', 'False')",
             "    $writer.WriteElementString('CheckUpdates', 'False')",
+            "    $writer.WriteElementString('SaveLogs', 'True')",
+            "    $writer.WriteElementString('ShowOffer', 'False')",
             "    $writer.WriteEndElement()",
             "    $writer.WriteEndElement()",
             "    $writer.WriteEndDocument()",

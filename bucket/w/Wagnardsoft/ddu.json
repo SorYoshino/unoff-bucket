@@ -1,0 +1,73 @@
+{
+    "version": "18.1.4.0",
+    "description": "Display Driver Uninstaller (DDU) is a driver removal utility that can help you completely uninstall AMD/NVIDIA/INTEL graphics card drivers and packages from your system, trying to remove all leftovers (including registry keys, folders and files, driver store).",
+    "homepage": "https://www.wagnardsoft.com/display-driver-uninstaller-ddu",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/Wagnard/display-drivers-uninstaller/blob/HEAD/LICENSE"
+    },
+    "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.4.0.exe#/dl.exe",
+    "hash": "e03d19810750e5d6c07f3534ee06bec6ce7ef9b45be752b2803c6a20768a7917",
+    "pre_install": [
+        "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
+        "$dir, $persist_dir | ForEach-Object -Process { ensure \"$_\\settings\" | Out-Null }",
+        "if ($cmd -eq 'install' -and -not (Test-Path -Path \"$persist_dir\\settings\\*\")) { return }",
+        "[xml]$xml = Get-Content -Path \"$persist_dir\\settings\\Settings.xml\" -Encoding utf8",
+        "$xml.SelectSingleNode('//DisplayDriverUninstaller').SetAttribute('Version', $version)",
+        "$xml.Save(\"$dir\\settings\\Settings.xml\")"
+    ],
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -ExtractDir \"DDU v$version\" -Removal",
+            "if (-not (Test-Path -Path \"$dir\\settings\\Settings.xml\" -PathType Leaf)) {",
+            "    $settings = [System.Xml.XmlWriterSettings]::new()",
+            "    $writer = [System.Xml.XmlWriter]::Create(\"$dir\\settings\\Settings.xml\", $settings)",
+            "    $writer.WriteStartDocument()",
+            "    $writer.WriteStartElement('DisplayDriverUninstaller')",
+            "    $writer.WriteAttributeString('Version', $version)",
+            "    $writer.WriteStartElement('Settings')",
+            "    $writer.WriteElementString('UseRoamingConfig', 'False')",
+            "    $writer.WriteElementString('CheckUpdates', 'False')",
+            "    $writer.WriteEndElement()",
+            "    $writer.WriteEndElement()",
+            "    $writer.WriteEndDocument()",
+            "    $writer.Flush()",
+            "    $writer.Close()",
+            "}"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Display Driver Uninstaller.exe",
+            "DDU - Display Driver Uninstaller"
+        ]
+    ],
+    "persist": "DDU Logs",
+    "pre_uninstall": [
+        "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
+        "if ($cmd -eq 'uninstall' -and $purge) { return }",
+        "if (Test-Path -Path \"$dir\\settings\\Settings.xml\" -PathType Leaf) {",
+        "    Copy-Item -Path \"$dir\\settings\\Settings.xml\" -Destination \"$persist_dir\\settings\\Settings.xml\" -Force",
+        "}"
+    ],
+    "checkver": {
+        "script": [
+            "if ($page -match 'href=\"(?<string>[^\"]+)\">Download[^\\d]+(?<version>[\\d.]+)<') {",
+            "    $version = $Matches['version']",
+            "    $release_url = 'https://www.wagnardsoft.com/{0}' -f $Matches['string'].TrimStart('/')",
+            "    $release_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
+            "    if ($release_page.Content -match 'href=\"(?<url>[^\"]+)\".+?DOWNLOAD &amp; SUPPORT') {",
+            "        Write-Output \"$($Matches['url']), $version\"",
+            "    }",
+            "}"
+        ],
+        "regex": "(?<=\\?t=)(?<topic>\\w+), ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v$version.exe#/dl.exe",
+        "hash": {
+            "url": "https://www.wagnardsoft.com/forums/viewtopic.php?t=$matchTopic",
+            "regex": "(?s)SHA-256.+?$sha256.+?Portable"
+        }
+    }
+}

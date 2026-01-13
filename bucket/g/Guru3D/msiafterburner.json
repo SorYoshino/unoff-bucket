@@ -33,22 +33,22 @@
     "checkver": {
         "url": "https://www.guru3d.com/download/msi-afterburner-beta-download",
         "script": [
-            "$page -match 'aform.*?value=\"(?<aform>[0-9a-f]+)\".*?Download (?<version>[\\d.]+)'",
-            "$version = $Matches.version",
-            "$body = @{ aform = $Matches.aform }",
-            "$response = Invoke-WebRequest -Uri $url -Method Post -Body $body",
-            "$response.Content -match 'location=\"(?<redirect_url>https://www.guru3d.com/getdownload/[0-9a-f]+)\"'",
-            "$response = if ($PSVersionTable.PSVersion.Major -lt 7.0) {",
-            "    Invoke-WebRequest -Uri $Matches.redirect_url -MaximumRedirection 0 -ErrorAction SilentlyContinue",
-            "} else {",
-            "    Invoke-WebRequest -Uri $Matches.redirect_url -MaximumRedirection 0 -ErrorAction SilentlyContinue -SkipHttpErrorCheck",
-            "}",
-            "[string]($response.Headers.Location) -match 'https://ftp\\.nluug\\.nl/pub/games/PC/guru3d/(?<file_path>[^/]+?)/(?<file_name>.+)'",
-            "Write-Output \"$version $($Matches.file_path)/$([System.Net.WebUtility]::UrlEncode($Matches.file_name))\""
+            "if ($page -match 'aform.*?value=\"(?<token>[0-9a-f]+)\".*?Download (?<version>[\\d.]+)') {",
+            "    $version = $Matches['version']",
+            "    $body = @{ aform = $Matches['token'] }",
+            "    $post_response = Invoke-WebRequest -Uri $url -Method Post -Body $body -ErrorAction Stop",
+            "    if ($post_response.Content -match 'location=\"(?<redirect_url>https://www.guru3d.com/getdownload/[0-9a-f]+)\"') {",
+            "        $request_params = @{ Uri = $Matches.redirect_url; MaximumRedirection = 0 }",
+            "        if ($PSVersionTable.PSVersion -ge [version]::new(7, 0)) { $request_params['SkipHttpErrorCheck'] = $true }",
+            "        $response = Invoke-WebRequest @request_params -ErrorAction SilentlyContinue",
+            "        $path_segments = $response.Headers.Location -replace '.+?guru3d/', ''",
+            "        Write-Output \"$version, $([System.Net.WebUtility]::UrlEncode($path_segments))\"",
+            "    }",
+            "}"
         ],
-        "regex": "(?<version>[\\d.]+) (?<file>.+)"
+        "regex": "([\\d.]+), (?<path>[^%]+)%2F(?<name>.+)"
     },
     "autoupdate": {
-        "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/$matchFile#/dl.7z_"
+        "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/$matchPath/$matchName#/dl.7z_"
     }
 }

@@ -30,7 +30,7 @@
             }
         }
     },
-    "pre_install": "if (-not (is_admin)) { abort \"`n$app requires admin rights to $cmd\" }",
+    "pre_install": "if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
     "post_install": [
         "$service_name = 'pritunl'",
         "Start-Service -Name $service_name -ErrorAction SilentlyContinue",
@@ -66,7 +66,7 @@
         ]
     ],
     "pre_uninstall": [
-        "if (-not (is_admin)) { abort \"`n$app requires admin rights to $cmd\" }",
+        "if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
         "Stop-Service -Name 'pritunl' -Force -ErrorAction SilentlyContinue",
         "Stop-Process -Name 'pritunl' -Force -ErrorAction SilentlyContinue",
         "Stop-Process -Name 'pritunl-service' -Force -ErrorAction SilentlyContinue",
@@ -75,7 +75,7 @@
     "uninstaller": {
         "script": [
             "if ($cmd -ne 'uninstall') { return }",
-            "if ($PSVersionTable.PSVersion.Major -lt 6.0) {",
+            "if ($PSVersionTable.PSVersion -lt [version]::new(6, 0)) {",
             "    Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', 'pritunl') -NoNewWindow -Wait",
             "} else {",
             "    Remove-Service -Name 'pritunl' -ErrorAction SilentlyContinue",

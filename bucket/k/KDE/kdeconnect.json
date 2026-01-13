@@ -24,7 +24,7 @@
             "$app_type = 'network'",
             "$path_filter = 'release-*/'",
             "$releases_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/' -f \"$app-kde\", $app_type",
-            "$version_sort = { if ($_.href -match '([\\d.]+)/$') { [Version]$Matches[1] } }",
+            "$version_sort = { if ($_.href -match '([\\d.]+)/$') { [version]$Matches[1] } }",
             "$releases_page = Invoke-WebRequest -Uri $releases_url -UseBasicParsing -ErrorAction Stop",
             "$path_segments = $releases_page.links | Where-Object { $_.href -like $path_filter } |",
             "        Sort-Object -Property $version_sort -Descending | ForEach-Object -MemberName href",

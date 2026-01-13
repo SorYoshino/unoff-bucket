@@ -1,13 +1,13 @@
 {
-    "version": "8.34-5870",
+    "version": "8.40-5900",
     "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS.",
     "homepage": "https://www.hwinfo.com",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.hwinfo.com/licenses/"
     },
-    "url": "https://downloads.sourceforge.net/project/hwinfo/Windows_Portable/hwi_834.zip",
-    "hash": "sha1:56336618ff7766e38e9afa79fe2b31ef41522eea",
+    "url": "https://www.sac.sk/download/utildiag/hwi_840.zip",
+    "hash": "c06212d303dfe49f454620321e0ae54eea2557b78a2515aa940a51d67365863c",
     "architecture": {
         "64bit": {
             "pre_install": [
@@ -56,6 +56,6 @@
         "regex": "([\\d.-]+)"
     },
     "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/hwinfo/Windows_Portable/hwi_$majorVersion$minorVersion.zip"
+        "url": "https://www.sac.sk/download/utildiag/hwi_$majorVersion$minorVersion.zip"
     }
 }

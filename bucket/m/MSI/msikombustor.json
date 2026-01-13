@@ -25,17 +25,18 @@
     "checkver": {
         "url": "https://geeks3d.com/furmark/kombustor/downloads/",
         "script": [
-            "$page -match 'href=\"/dl/show/([\\d]+)\"(?!.+zip)'",
-            "$release_url = 'https://geeks3d.com/dl/get/{0}' -f $Matches[1]",
-            "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
-            "$http_handler.AllowAutoRedirect = $true",
-            "$client = [System.Net.Http.HttpClient]::new($http_handler)",
-            "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $release_url",
-            "$response = $client.SendAsync($request).Result",
-            "$response.RequestMessage.RequestUri.AbsoluteUri -match 'v([\\d.]+)'",
-            "Write-Output \"$release_url, $($Matches[1])\""
+            "if ($page -match 'href=\"/dl/show/([\\d]+)\"(?!.+zip)') {",
+            "    $release_url = 'https://geeks3d.com/dl/get/{0}' -f $Matches[1]",
+            "    $http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
+            "    $http_handler.AllowAutoRedirect = $true",
+            "    $client = [System.Net.Http.HttpClient]::new($http_handler)",
+            "    $request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $release_url",
+            "    $response = $client.SendAsync($request).Result",
+            "    $package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",
+            "    Write-Output \"$release_url, $package_name\"",
+            "}"
         ],
-        "regex": "get/(?<tag>\\d+), ([\\d.]+)"
+        "regex": "get/(?<tag>\\d+), MSI_Kombustor4_Setup_v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

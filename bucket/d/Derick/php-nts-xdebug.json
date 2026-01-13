@@ -41,7 +41,7 @@
         "script": [
             "$xdebug_regex = 'php_xdebug(?=[^'']+nts)-(?<prefix>[\\d.]+)-(?<suffix>[\\d.]+)(?<=\\d)[^'']+dll'",
             "$latest_xdebug = [regex]::Matches($page, $xdebug_regex) | ForEach-Object -Process {",
-            "    [pscustomobject]@{",
+            "    [PSCustomObject]@{",
             "        FileName = $_.Value",
             "        XdebugVersion = [version]$_.Groups['prefix'].Value",
             "        PHPVersion = [version]$_.Groups['suffix'].Value",

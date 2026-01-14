@@ -59,7 +59,7 @@
         "}",
         "if (-not (Test-Path -Path \"$dir\\data\\user-data\\*\") -and (Test-Path -Path \"$env:AppData\\Code - Insiders\\*\")) {",
         "    Write-Host \"`nINFO  Migrating user data to '$dir\\data'...\" -ForegroundColor DarkGray",
-        "    Copy-Item -Path \"$env:AppData\\Code - Insiders\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
+        "    Copy-Item -Path \"$env:AppData\\Code - Insiders\\*\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
         "}",
         "'argv.json', 'extensions' | ForEach-Object {",
         "    if (-not (Test-Path -Path \"$dir\\data\\$_\") -and (Test-Path -Path \"$env:USERPROFILE\\.vscode-insiders\\$_\")) {",

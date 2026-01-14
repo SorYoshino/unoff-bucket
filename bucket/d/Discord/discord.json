@@ -18,7 +18,7 @@
             "$nupkg_file = Get-ChildItem -Path $dir -Filter '*.nupkg' -File | ForEach-Object -MemberName FullName",
             "Expand-7zipArchive -Path $nupkg_file -DestinationPath \"$dir\\app-$version\" -ExtractDir 'lib\\net45' -Removal",
             "Move-Item -Path \"$dir\\app-$version\\installer.db\" -Destination $dir -Force",
-            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination $dir",
+            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination \"$dir\\app.ico\"",
             "New-Item -Path \"$dir\\packages\" -ItemType Directory -Force | Out-Null",
             "Move-Item -Path \"$dir\\RELEASES\" -Destination \"$dir\\packages\" -Force"
         ]

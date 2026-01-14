@@ -36,7 +36,7 @@
             "    Set-Content -Path \"$dir\\$setting_name\" -Value $cfg -Encoding ascii",
             "}",
             "persist_data @{ persist = $setting_name } $original_dir $persist_dir",
-            "Get-ChildItem -Path $persist_dir -Include '*64_KEY.txt' -Recurse -File | Copy-Item -Destination $dir"
+            "Get-ChildItem -Path $persist_dir -Include '*64_KEY.txt' -Recurse -File | Copy-Item -Destination $dir -Force"
         ]
     },
     "bin": "HWiNFO.exe",

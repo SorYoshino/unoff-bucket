@@ -25,7 +25,7 @@
             "Get-ChildItem -Path $dir | Where-Object { $exclude_list -notcontains $_.Name } | ForEach-Object -Process {",
             "    Move-Item -Path $_.FullName -Destination \"$dir\\$version\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Copy-Item -Path \"$dir\\$version\\opera.exe\" -Destination $dir",
+            "Copy-Item -Path \"$dir\\$version\\opera.exe\" -Destination \"$dir\\opera.exe\"",
             "$cfg = @{ 'autoupdate'= $false; 'enable_stats' = $false; 'single_profile' = $true } | ConvertTo-Json -Depth 5",
             "Set-Content -Path \"$dir\\installer_prefs.json\" -Value $cfg -Encoding ascii"
         ]

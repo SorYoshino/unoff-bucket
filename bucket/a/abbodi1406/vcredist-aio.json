@@ -1,10 +1,10 @@
 {
     "version": "0.103.0",
     "description": "All-in-one repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.",
-    "homepage": "https://gitlab.com/stdout12/vcredist",
+    "homepage": "https://github.com/abbodi1406/vcredist",
     "license": {
         "identifier": "Unlicense",
-        "url": "https://gitlab.com/stdout12/vcredist/-/blob/HEAD/LICENSE"
+        "url": "https://github.com/abbodi1406/vcredist/blob/HEAD/LICENSE"
     },
     "notes": [
         "Scoop is responsible only for downloading the app and does not install any runtimes.",
@@ -13,19 +13,15 @@
         "For instance, to perform a silent installation of all packages without displaying progress, run:",
         "- `Start-Process -FilePath vcredist-aio -ArgumentList @('/ai', '/gm2') -Verb RunAs -Wait`"
     ],
-    "url": "https://gitlab.com/-/project/76069787/uploads/4431f3448fa76633cfd4983142f81952/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
-    "hash": "3c188e4651bcc07df2bdb06d69585158797b1bafb91557b09217621628cd5b23",
+    "url": "https://github.com/abbodi1406/vcredist/releases/download/v0.103.0/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
+    "hash": "8521af56d4cc825024bdfb6c126998fab07c5231281ddec8ffc2237b92e6adbd",
     "bin": "vcredist-aio.exe",
-    "checkver": {
-        "url": "https://gitlab.com/api/v4/projects/76069787/releases/permalink/latest",
-        "jsonpath": "$..['name', 'description']",
-        "regex": "\"v([\\d.]+)\",\"[^\"]+\\[.+?_x86_x64\\.exe\\]\\(/uploads/(?<hash>\\w+)/"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://gitlab.com/-/project/76069787/uploads/$matchHash/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
+        "url": "https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
         "hash": {
-            "url": "https://gitlab.com/api/v4/projects/76069787/releases/permalink/latest",
-            "regex": "$basename.+?SHA-256:\\s*$sha256"
+            "url": "https://github.com/abbodi1406/vcredist/releases/tag/v$version",
+            "regex": "(?s)$basename.+?$sha256"
         }
     }
 }

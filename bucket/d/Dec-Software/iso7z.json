@@ -21,20 +21,20 @@
         "64bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}\\.(?=dll)', '' }"
+                "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\.\\d{2}(?=\\.dll)', '' }"
             ]
         },
         "32bit": {
             "pre_install": [
                 "Get-ChildItem -Path $dir -Include '*64*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\d{2}\\.(?=dll)', '' }"
+                "Get-ChildItem -Path $dir -Include '*32*' -Recurse -File | Rename-Item -NewName { $_.Name -replace '\\.\\d{2}(?=\\.dll)', '' }"
             ]
         }
     },
     "installer": {
         "script": [
             "$7z_path = Get-CommandPath -Command '7z.exe'",
-            "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
+            "if ($null -eq $7z_path) { abort \"`n[ERROR]  Could not locate '7z.exe' in system PATH. Installation terminated.\" }",
             "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
             "if (-not (Test-Path -Path $formats_dir -PathType Container)) {",
             "    New-Item -Path $formats_dir -ItemType Directory -Force | Out-Null",

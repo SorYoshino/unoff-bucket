@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/260114/PotPlayerSetup64.exe",
-            "hash": "65b298578daabe10746552647ea224908b4aa32e23c1d7f1f5e2454b8420ddb7",
+            "hash": "54baeefaeb87a7fc16781be2450eb8551abf11221b90672fe83d17efa21c2392",
             "shortcuts": [
                 [
                     "PotPlayer64.exe",
@@ -23,7 +23,7 @@
         },
         "32bit": {
             "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/260114/PotPlayerSetup.exe",
-            "hash": "2096146bf45adf11e7403b823fb9fa381e2bfc410b6db456ace2bb3b16cf3397",
+            "hash": "47d7da8e1a42d18cfe045f42ea39449fed3c6375b8dcd6c02e66e203c57eb77b",
             "shortcuts": [
                 [
                     "PotPlayer.exe",
@@ -37,15 +37,18 @@
         }
     },
     "pre_install": [
-        "$cfg = @('[Settings]', 'AutoUpdateStart=0', 'CheckAutoUpdate=0', 'FastAutoUpdate=0')",
-        "'PotPlayer', 'PotPlayer64', 'PotPlayerMini', 'PotPlayerMini64' | ForEach-Object -Process {",
-        "    if (-not (Test-Path -Path \"$persist_dir\\$_.ini\" -PathType Leaf)) {",
-        "        Set-Content -Path \"$dir\\$_.ini\" -Value $cfg -Encoding ascii",
+        "$arch_flag = if ($architecture -eq '64bit') { '64' } else { '' }",
+        "$cfg = @('[Settings]', 'AutoUpdateStart=0', 'CheckAutoUpdate=0', 'AutoDownloadFile=0')",
+        "'PotPlayer', 'PotPlayerMini' | ForEach-Object -Process {",
+        "    $setting_name = \"$_{0}.ini\" -f $arch_flag",
+        "    if (-not (Test-Path -Path \"$persist_dir\\$setting_name\" -PathType Leaf)) {",
+        "        Set-Content -Path \"$dir\\$setting_name\" -Value $cfg -Encoding unicode",
         "    }",
+        "    persist_data @{ persist = $setting_name } $original_dir $persist_dir",
         "}"
     ],
     "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!unins*' -Removal"
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!*XP* -xr!unins*' -Removal"
     },
     "post_install": [
         "'Logos', 'Skins', 'Module', 'UrlList', 'IconPack', 'PxShader', 'Extension' | ForEach-Object -Process {",
@@ -68,11 +71,14 @@
         "IconPack",
         "PxShader",
         "Extension",
-        "Extention",
-        "PotPlayer.ini",
-        "PotPlayer64.ini",
-        "PotPlayerMini.ini",
-        "PotPlayerMini64.ini"
+        "Extention"
+    ],
+    "pre_uninstall": [
+        "$arch_flag = if ($architecture -eq '64bit') { '64' } else { '' }",
+        "'PotPlayer', 'PotPlayerMini' | ForEach-Object -Process {",
+        "    $setting_name = \"$_{0}.ini\" -f $arch_flag",
+        "    unlink_persist_data @{ persist = $setting_name } $dir",
+        "}"
     ],
     "checkver": {
         "url": "https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html",

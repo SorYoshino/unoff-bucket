@@ -13,10 +13,7 @@
     "url": "https://cdn.powershellgallery.com/packages/z.1.1.14.nupkg",
     "hash": "c3f808b1f63fe2ed8252126a82d882c6250f97ae9d07f7126c90c013f21f51ce",
     "pre_install": [
-        "$remove_list = @(",
-        "    '_rels', 'package',",
-        "    '*.nuspec', '*Content*.xml'",
-        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list = @('_rels', 'package', '*.nuspec', '*Content*.xml') | ForEach-Object -Process { \"$dir\\$_\" }",
         "$remove_list | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "psmodule": {

@@ -19,10 +19,7 @@
     "url": "https://cdn.powershellgallery.com/packages/git-aliases.0.3.8.nupkg",
     "hash": "9463cfe2d4c4c1cf8e3e73a687fed5bd34da6a9f736fd8a8cf071430f30c3f07",
     "pre_install": [
-        "$remove_list = @(",
-        "    '_rels', 'package',",
-        "    '*.nuspec', '*Content*.xml'",
-        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list = @('_rels', 'package', '*.nuspec', '*Content*.xml') | ForEach-Object -Process { \"$dir\\$_\" }",
         "$remove_list | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "psmodule": {

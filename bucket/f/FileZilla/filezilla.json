@@ -30,7 +30,7 @@
     "installer": {
         "script": [
             "Expand-7zipArchive -Path \"$dir\\setup.exe\" -Switches '-xr!$* -xr!unins*' -Removal",
-            "[xml]$xml = Get-Content -Path \"$dir\\docs\\fzdefaults.xml.example\" -Encoding ascii",
+            "[xml]$xml = Get-Content -Path \"$dir\\docs\\fzdefaults.xml.example\" -Encoding utf8",
             "$comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
             "$comments | ForEach-Object -Process { $_.ParentNode.RemoveChild($_) | Out-Null }",
             "$xml.SelectSingleNode('//Setting[@name=''Disable update check'']').InnerText = '1'",
@@ -49,7 +49,7 @@
     "persist": "data",
     "checkver": {
         "url": "https://community.chocolatey.org/packages/filezilla",
-        "regex": "FileZilla <span>([\\d.]+)<"
+        "regex": "FileZilla\\s*<span>([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://packages.chocolatey.org/filezilla.$version.nupkg",

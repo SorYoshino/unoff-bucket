@@ -52,24 +52,20 @@
     ],
     "checkver": {
         "url": "https://www.aimp.ru/?do=download&os=windows",
-        "regex": "<h1>AIMP v([\\d.]+)<"
+        "regex": "(?i)<h1>AIMP\\s*v([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.aimp.ru/?do=download.file&id=31#/dl.7z",
-                "hash": {
-                    "url": "https://www.aimp.ru/?do=download&os=windows",
-                    "regex": "64-bit \\(No Installer\\).*?SHA256:\\s*$sha256"
-                }
+                "url": "https://www.aimp.ru/?do=download.file&id=31#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.aimp.ru/?do=download.file&id=8#/dl.7z",
-                "hash": {
-                    "url": "https://www.aimp.ru/?do=download&os=windows",
-                    "regex": "32-bit \\(No Installer\\).*?SHA256:\\s*$sha256"
-                }
+                "url": "https://www.aimp.ru/?do=download.file&id=8#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "https://www.aimp.ru/?do=download&os=windows",
+            "regex": "(?si)$url.+?SHA256:\\s*$sha256"
         }
     }
 }

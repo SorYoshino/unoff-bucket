@@ -14,12 +14,12 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath $dir -Removal",
-            "$nupkg_file = Get-ChildItem -Path $dir -Filter '*.nupkg' -File | ForEach-Object -MemberName FullName",
-            "Expand-7zipArchive -Path $nupkg_file -DestinationPath \"$dir\\app-$version\" -ExtractDir 'lib\\net45' -Removal",
+            "ensure \"$dir\\packages\" | Out-Null",
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -Removal",
+            "$archive_file = Get-ChildItem -Path $dir -Filter '*.nupkg' -File | ForEach-Object -MemberName FullName",
+            "Expand-7zipArchive -Path $archive_file -DestinationPath \"$dir\\app-$version\" -ExtractDir 'lib\\net45' -Removal",
             "Move-Item -Path \"$dir\\app-$version\\installer.db\" -Destination $dir -Force",
-            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination \"$dir\\app.ico\"",
-            "New-Item -Path \"$dir\\packages\" -ItemType Directory -Force | Out-Null",
+            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination $dir",
             "Move-Item -Path \"$dir\\RELEASES\" -Destination \"$dir\\packages\" -Force"
         ]
     },

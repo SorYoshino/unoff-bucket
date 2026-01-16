@@ -67,7 +67,7 @@
     "checkver": {
         "url": "https://api.github.com/repositories/74809720/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /Dism/i)].browser_download_url",
-        "regex": "(?i)download/(?<tag>v?[\\d.]+)/(?<name>Dism%2B%2B([\\d.]+\\w?)(?<!_)(?:.+)?\\.[^\"]+)"
+        "regex": "(?i)download/(?<tag>[^/]+)/(?<name>Dism%2B%2B([\\d.]+\\w?)(?<!_)(?:.+)?\\.[^\"]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Chuyu-Team/Dism-Multi-language/releases/download/$matchTag/$matchName"

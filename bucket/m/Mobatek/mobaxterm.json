@@ -39,9 +39,6 @@
         "slash"
     ],
     "pre_uninstall": [
-        "# Ensure background X server process is terminated to prevent resource lock.",
-        "Stop-Process -Name 'XWin_MobaX' -Force -ErrorAction SilentlyContinue",
-        "Start-Sleep -Milliseconds 1500",
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "if ($cmd -eq 'uninstall' -and $purge) { return }",
         "'*.mxt3', '*.mxtpro', 'MobaXterm.ini', 'MobaXterm backup.zip' | ForEach-Object -Process {",
@@ -50,6 +47,12 @@
         "    }",
         "}"
     ],
+    "uninstaller": {
+        "script": [
+            "Stop-Process -Name 'XWin_MobaX' -Force -ErrorAction SilentlyContinue",
+            "Start-Sleep -Milliseconds 1500"
+        ]
+    },
     "checkver": {
         "url": "https://mobaxterm.mobatek.net/download-home-edition.html",
         "regex": "mobatek.net/(?<build>[^/]+)/MobaXterm_Portable_v([\\d.]+)\\.zip"

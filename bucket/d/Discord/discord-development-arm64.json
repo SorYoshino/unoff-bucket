@@ -33,9 +33,10 @@
     ],
     "checkver": {
         "script": [
-            "$params = @{ channel = 'development'; platform = 'win'; arch = 'arm64' }",
+            "Add-Type -AssemblyName System.Net.Http",
+            "$params = [ordered]@{ channel = 'development'; platform = 'win'; arch = 'arm64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
-            "$query_string = ($params.GetEnumerator() | ForEach-Object -Process { \"$($_.Key)=$($_.Value)\" }) -join '&'",
+            "$query_string = ($params.Keys | ForEach-Object -Process { \"$_=$($params[$_])\" }) -join '&'",
             "$download_url = $base_url + '?' + $query_string",
             "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",

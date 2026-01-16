@@ -16,10 +16,7 @@
     "url": "https://cdn.powershellgallery.com/packages/psfzf.2.7.9.nupkg",
     "hash": "5b20d267048512b5acc6d51e74d7f660cfd8aacb607260a063a6ac835931fb57",
     "pre_install": [
-        "$remove_list = @(",
-        "    '_rels', 'package',",
-        "    '*.nuspec', '*Content*.xml'",
-        ") | ForEach-Object -Process { \"$dir\\$_\"}",
+        "$remove_list = @('_rels', 'package', '*.nuspec', '*Content*.xml') | ForEach-Object -Process { \"$dir\\$_\" }",
         "$remove_list | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "psmodule": {

@@ -1,28 +1,26 @@
 {
     "version": "0.92.17",
-    "description": "High quality DirectShow video renderer",
+    "description": "A high-performance, GPU-accelerated video renderer designed for uncompromising image quality, featuring advanced scaling algorithms, 16-bit internal processing, and precision display calibration.",
     "homepage": "https://madshi.net",
     "license": "Freeware",
     "url": "https://www.videohelp.com/download/madVR09217.zip",
     "hash": "87e088f7b5de20d0a9065c73015d7fb7c225870380dd3169c70171b77e74bb97",
     "pre_install": [
+        "if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
         "if (-not (Test-Path -Path \"$persist_dir\\settings.bin\" -PathType Leaf)) {",
         "    New-Item -Path \"$dir\\settings.bin\" -ItemType File -Force | Out-Null",
         "}",
         "'install', 'uninstall' | ForEach-Object -Process {",
-        "    $content = Get-Content -Path \"$dir\\$_.bat\" -Encoding ascii",
-        "    $content -replace '@pause >nul' | Set-Content -Path \"$dir\\$_.bat\" -Encoding ascii",
+        "    $content = Get-Content -Path \"$dir\\$_.bat\" -Encoding utf8",
+        "    $content -replace '@pause >nul', '' | Set-Content -Path \"$dir\\$_.bat\" -Encoding utf8",
         "}"
     ],
     "installer": {
-        "script": [
-            "if (-not (is_admin)) { abort \"$app requires admin rights to $cmd\" }",
-            "Start-Process -FilePath \"$dir\\install.bat\" -NoNewWindow -Wait"
-        ]
+        "script": "Start-Process -FilePath \"$dir\\install.bat\" -NoNewWindow -Wait"
     },
     "uninstaller": {
         "script": [
-            "if (-not (is_admin)) { abort \"$app requires admin rights to $cmd\" }",
+            "if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
             "Start-Process -FilePath \"$dir\\uninstall.bat\" -NoNewWindow -Wait"
         ]
     },
@@ -43,7 +41,7 @@
     "persist": "settings.bin",
     "checkver": {
         "url": "https://forum.doom9.org/showthread.php?t=146228",
-        "regex": ">madVR v([\\d.]+)"
+        "regex": "(?i)>madVR\\s*v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://www.videohelp.com/download/madVR$cleanVersion.zip"

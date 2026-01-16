@@ -53,6 +53,7 @@
     },
     "checkver": {
         "script": [
+            "Add-Type -AssemblyName System.Net.Http",
             "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",

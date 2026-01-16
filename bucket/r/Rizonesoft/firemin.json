@@ -27,7 +27,7 @@
         ]
     ],
     "persist": "Firemin.ini",
-    "checkver": "(?msi)Version:.+>([\\d.]+)<.+href=\"https://rizonesoft.com/(?<string>[^\"]+)\".+title=\"Firemin\"",
+    "checkver": "(?si)Version:.+>([\\d.]+)<.+href=\"https://rizonesoft.com/(?<string>[^\"]+)\".+title=\"Firemin\"",
     "autoupdate": {
         "url": "https://rizonesoft.com/$matchString#/firemin.exe"
     }

@@ -22,7 +22,7 @@
     },
     "innosetup": true,
     "pre_install": [
-        "Get-ChildItem -Path $dir -Include '*,1*' -Recurse | Rename-Item -NewName { $_.Name -replace ',1\\.', '.' }",
+        "Get-ChildItem -Path $dir -Include '*,1*' -Recurse | Rename-Item -NewName { $_.Name -replace ',1(?=\\.)', '' }",
         "Get-ChildItem -Path $dir -Include '*,2*' -Recurse | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "shortcuts": [
@@ -35,17 +35,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/srwi/EverythingToolbar/releases/download/$version/EverythingToolbar-$version-x64.exe",
-                "hash": {
-                    "url": "$baseurl/EverythingToolbar-$version-x64.sha256"
-                }
+                "url": "https://github.com/srwi/EverythingToolbar/releases/download/$version/EverythingToolbar-$version-x64.exe"
             },
             "arm64": {
-                "url": "https://github.com/srwi/EverythingToolbar/releases/download/$version/EverythingToolbar-$version-arm64.exe",
-                "hash": {
-                    "url": "$baseurl/EverythingToolbar-$version-arm64.sha256"
-                }
+                "url": "https://github.com/srwi/EverythingToolbar/releases/download/$version/EverythingToolbar-$version-arm64.exe"
             }
+        },
+        "hash": {
+            "url": "$urlNoExt.sha256"
         }
     }
 }

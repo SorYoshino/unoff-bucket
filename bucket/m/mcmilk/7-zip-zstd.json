@@ -57,10 +57,6 @@
         "Codecs",
         "Formats"
     ],
-    "pre_uninstall": [
-        "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
-        "Start-Sleep -Milliseconds 1500"
-    ],
     "uninstaller": {
         "script": [
             "if ($cmd -eq 'uninstall') {",
@@ -69,6 +65,10 @@
             "}"
         ]
     },
+    "post_uninstall": [
+        "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+        "Start-Sleep -Milliseconds 1500"
+    ],
     "checkver": {
         "url": "https://api.github.com/repositories/61958135/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /7z(?!.+ndm)/i)].browser_download_url",

@@ -1,5 +1,5 @@
 {
-    "version": "1.0.138",
+    "version": "1.0.139",
     "description": "A voice, video, and text communication platform for ARM64, serving as the bleeding-edge testing environment for the latest features and architectural updates.",
     "homepage": "https://discord.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/arm64/1.0.138/DiscordCanarySetup.exe",
-            "hash": "7e3c8d81aa4e2e7e1ee171d3f21087b5cfc5d4f3b5733064ead30b5e34fa8f4f"
+            "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/arm64/1.0.139/DiscordCanarySetup.exe",
+            "hash": "1eed5e9e0e5f1f43ff55b151266f4869060d35c527d834f5878c99065cc86910"
         }
     },
     "installer": {
@@ -33,9 +33,10 @@
     ],
     "checkver": {
         "script": [
-            "$params = @{ channel = 'canary'; platform = 'win'; arch = 'arm64' }",
+            "Add-Type -AssemblyName System.Net.Http",
+            "$params = [ordered]@{ channel = 'canary'; platform = 'win'; arch = 'arm64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
-            "$query_string = ($params.GetEnumerator() | ForEach-Object -Process { \"$($_.Key)=$($_.Value)\" }) -join '&'",
+            "$query_string = ($params.Keys | ForEach-Object -Process { \"$_=$($params[$_])\" }) -join '&'",
             "$download_url = $base_url + '?' + $query_string",
             "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",

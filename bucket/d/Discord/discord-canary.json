@@ -1,6 +1,6 @@
 {
-    "version": "1.0.9220",
-    "description": "A voice, video and text communication platform.",
+    "version": "1.0.807",
+    "description": "A voice, video, and text communication platform, serving as the bleeding-edge testing environment for the latest features and architectural updates.",
     "homepage": "https://discord.com",
     "license": {
         "identifier": "Freeware",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9220/DiscordSetup.exe",
-            "hash": "f01dc0eedb190e6e38e02051859098b2dfdd1937542b17605b96f2dd5a222bc7"
+            "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.807/DiscordCanarySetup.exe",
+            "hash": "3fde155e1992abdc3f7de04e50b68dad5fc43d493122f1116d3fcd42ae4fc605"
         }
     },
     "installer": {
@@ -26,14 +26,14 @@
     "shortcuts": [
         [
             "Update.exe",
-            "Discord",
-            "--processStart Discord.exe",
+            "Discord Canary",
+            "--processStart DiscordCanary.exe",
             "app.ico"
         ]
     ],
     "checkver": {
         "script": [
-            "$params = @{ channel = 'stable'; platform = 'win'; arch = 'x64' }",
+            "$params = @{ channel = 'canary'; platform = 'win'; arch = 'x64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
             "$query_string = ($params.GetEnumerator() | ForEach-Object -Process { \"$($_.Key)=$($_.Value)\" }) -join '&'",
             "$download_url = $base_url + '?' + $query_string",
@@ -49,7 +49,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/$version/DiscordSetup.exe"
+                "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/x64/$version/DiscordCanarySetup.exe"
             }
         }
     }

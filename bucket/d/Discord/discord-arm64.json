@@ -1,6 +1,6 @@
 {
-    "version": "1.0.9220",
-    "description": "A voice, video and text communication platform.",
+    "version": "1.0.12",
+    "description": "A voice, video, and text communication platform for ARM64.",
     "homepage": "https://discord.com",
     "license": {
         "identifier": "Freeware",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9220/DiscordSetup.exe",
-            "hash": "f01dc0eedb190e6e38e02051859098b2dfdd1937542b17605b96f2dd5a222bc7"
+            "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/arm64/1.0.12/DiscordSetup.exe",
+            "hash": "0d82c70da76321ea05c25706d6fe3ded5f144fdbdddfe40b4190f7827e38ea65"
         }
     },
     "installer": {
@@ -33,7 +33,7 @@
     ],
     "checkver": {
         "script": [
-            "$params = @{ channel = 'stable'; platform = 'win'; arch = 'x64' }",
+            "$params = @{ channel = 'stable'; platform = 'win'; arch = 'arm64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
             "$query_string = ($params.GetEnumerator() | ForEach-Object -Process { \"$($_.Key)=$($_.Value)\" }) -join '&'",
             "$download_url = $base_url + '?' + $query_string",
@@ -44,12 +44,12 @@
             "$response = $client.SendAsync($request).Result",
             "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri"
         ],
-        "regex": "x64/([\\d.]+)"
+        "regex": "arm64/([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/$version/DiscordSetup.exe"
+                "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/arm64/$version/DiscordSetup.exe"
             }
         }
     }

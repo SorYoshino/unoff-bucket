@@ -72,7 +72,7 @@
             "Stop-Process -Name 'pritunl', 'pritunl-service' -Force -ErrorAction SilentlyContinue",
             "Start-Sleep -Milliseconds 1500",
             "if ($cmd -ne 'uninstall') { return }",
-            "if ($PSVersionTable.PSVersion -lt [Version]::new(6, 0)) {",
+            "if ($PSVersionTable.PSVersion -lt [version]::new(6, 0)) {",
             "    Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', 'pritunl') -NoNewWindow -Wait",
             "} else {",
             "    Remove-Service -Name 'pritunl' -ErrorAction SilentlyContinue",

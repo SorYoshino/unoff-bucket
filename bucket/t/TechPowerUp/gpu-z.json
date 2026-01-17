@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "url": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
-        "regex": "TechPowerUp GPU-Z v([\\d.]+)"
+        "regex": "(?i)GPU-Z\\s*v([\\d.]+)"
     },
     "autoupdate": {
         "url": "http://us2-dl.techpowerup.com/files/GPU-Z.$version.exe#/GPU-Z.exe",

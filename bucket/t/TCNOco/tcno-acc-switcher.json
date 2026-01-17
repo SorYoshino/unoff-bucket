@@ -28,8 +28,8 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repositories/219172950/releases/latest",
-        "jsonpath": "$.assets[?(@.name =~ /.+\\.7z/i)].browser_download_url",
-        "regex": "(?i)download/([\\d._-]+)/(?<name>(?![^\"]+CEF)[^\"]+\\.7z)"
+        "jsonpath": "$.assets[?(@.name =~ /(?<!CEF[^\"]*)\\.7z/i)].browser_download_url",
+        "regex": "(?i)download/([\\d._-]+)/(?<name>[^\"]+)"
     },
     "autoupdate": {
         "architecture": {

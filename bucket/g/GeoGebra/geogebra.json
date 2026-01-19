@@ -61,6 +61,7 @@
             "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $package_entry_url",
             "$response = $client.SendAsync($request).Result",
             "$package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",
+            "$response, $request, $client, $http_handler | Where-Object { $null -ne $_ } | ForEach-Object -Process { $_.Dispose() }",
             "$latest_version = $package_name -replace '[^\\d]+([\\d-]+).+', '$1' -replace '-', '.'",
             "Write-Output $latest_version"
         ],

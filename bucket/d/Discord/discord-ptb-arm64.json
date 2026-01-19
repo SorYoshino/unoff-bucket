@@ -43,7 +43,8 @@
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",
             "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $download_url",
             "$response = $client.SendAsync($request).Result",
-            "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri"
+            "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri",
+            "$response, $request, $client, $http_handler | Where-Object { $null -ne $_ } | ForEach-Object -Process { $_.Dispose() }"
         ],
         "regex": "arm64/([\\d.]+)"
     },

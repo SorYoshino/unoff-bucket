@@ -34,6 +34,7 @@
             "    $request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $release_url",
             "    $response = $client.SendAsync($request).Result",
             "    $package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",
+            "    $response, $request, $client, $http_handler | Where-Object { $null -ne $_ } | ForEach-Object -Process { $_.Dispose() }",
             "    Write-Output \"$release_url, $package_name\"",
             "}"
         ],

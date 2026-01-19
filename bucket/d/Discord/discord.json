@@ -33,7 +33,7 @@
     ],
     "checkver": {
         "script": [
-            "Add-Type -AssemblyName System.Net.Http",
+            "if ($PSVersionTable.PSVersion -lt [version]::new(7, 0)) { Add-Type -AssemblyName System.Net.Http }",
             "$params = [ordered]@{ channel = 'stable'; platform = 'win'; arch = 'x64' }",
             "$base_url = 'https://discord.com/api/downloads/distributions/app/installers/latest'",
             "$query_string = ($params.Keys | ForEach-Object -Process { \"$_=$($params[$_])\" }) -join '&'",

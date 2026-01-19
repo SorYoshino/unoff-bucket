@@ -26,8 +26,8 @@
         "url": "https://geeks3d.com/furmark/kombustor/downloads/",
         "script": [
             "if ($page -match 'href=\"/dl/show/([\\d]+)\"(?!.+zip)') {",
-            "    Add-Type -AssemblyName System.Net.Http",
             "    $release_url = 'https://geeks3d.com/dl/get/{0}' -f $Matches[1]",
+            "    if ($PSVersionTable.PSVersion -lt [version]::new(7, 0)) { Add-Type -AssemblyName System.Net.Http }",
             "    $http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "    $http_handler.AllowAutoRedirect = $true",
             "    $client = [System.Net.Http.HttpClient]::new($http_handler)",

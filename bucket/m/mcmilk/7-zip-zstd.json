@@ -62,13 +62,11 @@
             "if ($cmd -eq 'uninstall') {",
             "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
             "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
-            "}"
+            "}",
+            "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+            "Start-Sleep -Milliseconds 1500"
         ]
     },
-    "post_uninstall": [
-        "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
-        "Start-Sleep -Milliseconds 1500"
-    ],
     "checkver": {
         "url": "https://api.github.com/repositories/61958135/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /7z(?!.+ndm)/i)].browser_download_url",

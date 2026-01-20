@@ -57,7 +57,7 @@
             "$http_handler = New-Object -TypeName System.Net.Http.HttpClientHandler",
             "$http_handler.AllowAutoRedirect = $true",
             "$client = [System.Net.Http.HttpClient]::new($http_handler)",
-            "$package_entry_url = 'https://download.geogebra.org/package/win-suite'",
+            "$package_entry_url = 'https://download.geogebra.org/package/win-port6'",
             "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $package_entry_url",
             "$response = $client.SendAsync($request).Result",
             "$package_name = $response.RequestMessage.RequestUri.AbsoluteUri -replace '.+(?<=/)([^/]+)$', '$1'",

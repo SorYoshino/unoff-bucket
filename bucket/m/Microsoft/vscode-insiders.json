@@ -62,7 +62,7 @@
         "    Write-Host \"`nINFO  Migrating user data to '$dir\\data'...\" -ForegroundColor DarkGray",
         "    Copy-Item -Path \"$env:AppData\\Code - Insiders\\*\" -Destination \"$dir\\data\\user-data\" -Force -Recurse",
         "}",
-        "'argv.json', 'extensions' | ForEach-Object {",
+        "'argv.json', 'extensions' | ForEach-Object -Process {",
         "    if (-not (Test-Path -Path \"$dir\\data\\$_\") -and (Test-Path -Path \"$env:USERPROFILE\\.vscode-insiders\\$_\")) {",
         "        Write-Host \"INFO  Migrating $_ to '$dir\\data'...\" -ForegroundColor DarkGray",
         "        Copy-Item -Path \"$env:USERPROFILE\\.vscode-insiders\\$_\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
@@ -88,10 +88,10 @@
     "persist": "data",
     "uninstaller": {
         "script": [
-            "if ($cmd -eq 'uninstall') {",
-            "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
-            "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
-            "    reg import \"$dir\\unregister-installed-program.reg\" *> $null",
+            "if ($cmd -ne 'uninstall') { return }",
+            "Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
+            "    $registry_file = \"`\"{0}`\"\" -f $_.FullName",
+            "    Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "}"
         ]
     },

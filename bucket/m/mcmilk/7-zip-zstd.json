@@ -59,9 +59,10 @@
     ],
     "uninstaller": {
         "script": [
-            "if ($cmd -eq 'uninstall') {",
-            "    reg import \"$dir\\unregister-context-menu.reg\" *> $null",
-            "    reg import \"$dir\\unregister-file-associations.reg\" *> $null",
+            "if ($cmd -ne 'uninstall') { return }",
+            "Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
+            "    $registry_file = \"`\"{0}`\"\" -f $_.FullName",
+            "    Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "}",
             "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
             "Start-Sleep -Milliseconds 1500"

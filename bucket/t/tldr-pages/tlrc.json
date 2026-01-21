@@ -22,7 +22,7 @@
         "if ($is_different -and (Test-Path -Path $original_cfg_path -PathType Leaf)) {",
         "    Copy-Item -Path $original_cfg_path -Destination \"$dir\\config.toml\" -Force",
         "}",
-        "$remove_list = $env:APPDATA, $env:LOCALAPPDATA | ForEach-Object { \"$_\\$app\" }",
+        "$remove_list = $env:APPDATA, $env:LOCALAPPDATA | ForEach-Object -Process { \"$_\\$app\" }",
         "$remove_list + @($original_cfg_path) * $is_different | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
     ],
     "installer": {

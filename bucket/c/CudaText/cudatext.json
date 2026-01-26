@@ -1,0 +1,66 @@
+{
+    "version": "1.231.8.0",
+    "description": "A cross-platform, open-source text editor written in Object Pascal, available free of charge for both personal and commercial use, featuring fast startup and extensibility through Python-based add-ons.",
+    "homepage": "https://cudatext.github.io",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/Alexey-T/CudaText/blob/HEAD/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.231.8.0/cudatext-windows-amd64-1.231.8.0.zip",
+            "hash": "sha1:522064abee91a2584334c8fc949f4b7a2d875e6a"
+        },
+        "32bit": {
+            "url": "https://sourceforge.net/projects/cudatext/files/release/1.231.8.0/cudatext-windows-i386-1.231.8.0.zip",
+            "hash": "sha1:da4eb72edfebe6df9029ae815ef76300063d770c"
+        }
+    },
+    "extract_dir": "cudatext",
+    "post_install": [
+        "'py', 'data' | ForEach-Object -Process {",
+        "    if (Test-Path -Path \"$dir\\$_.original\" -PathType Container) {",
+        "        Copy-Item -Path \"$dir\\$_.original\\*\" -Destination \"$dir\\$_\" -Force -Recurse",
+        "        Remove-Item -Path \"$dir\\$_.original\" -Recurse -Force -ErrorAction SilentlyContinue",
+        "    }",
+        "}"
+    ],
+    "bin": "cudatext.exe",
+    "shortcuts": [
+        [
+            "cudatext.exe",
+            "CudaText"
+        ]
+    ],
+    "persist": [
+        "py",
+        "data",
+        "settings"
+    ],
+    "uninstaller": {
+        "script": [
+            "$registry_path = 'HKLM:\\SOFTWARE\\Classes\\*\\shellex\\ContextMenuHandlers\\CudaTextContextMenuHandler'",
+            "if (-not (Test-Path -LiteralPath $registry_path)) { return }",
+            "if ($cmd -eq 'uninstall') {",
+            "    if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
+            "    $batch_file = Get-ChildItem -Path $dir -Filter 'un*.cmd' -File | Select-Object -First 1",
+            "    Start-Process -FilePath $batch_file.FullName -NoNewWindow -Wait",
+            "}",
+            "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+            "Start-Sleep -Milliseconds 1500"
+        ]
+    },
+    "checkver": {
+        "sourceforge": "cudatext/release"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://sourceforge.net/projects/cudatext/files/release/$version/cudatext-windows-amd64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/cudatext/files/release/$version/cudatext-windows-i386-$version.zip"
+            }
+        }
+    }
+}

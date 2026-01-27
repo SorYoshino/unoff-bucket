@@ -1,5 +1,5 @@
 {
-    "version": "25.12-11956",
+    "version": "25.12-11965",
     "description": "A professional video editor supporting multiple formats, advanced editing, effects, audio post-production, and flexible rendering options.",
     "homepage": "https://kdenlive.org",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-25.12/windows/kdenlive-release_25.12-11956-windows-gcc-x86_64.7z",
-            "hash": "91153ee9df4691da118ccf97cdc3119b2148ad7f19e22dd1ecfa6283601b90ce"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-25.12/windows/kdenlive-release_25.12-11965-windows-gcc-x86_64.7z",
+            "hash": "f6e4f7b0ac76bdb72a80b008ddcbf532f9b2594b93a531b244fb9f31c9386fe9"
         }
     },
     "bin": "bin\\kdenlive.exe",

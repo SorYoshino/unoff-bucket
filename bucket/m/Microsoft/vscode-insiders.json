@@ -68,7 +68,7 @@
         "        Copy-Item -Path \"$env:USERPROFILE\\.vscode-insiders\\$_\" -Destination \"$dir\\data\\$_\" -Force -Recurse",
         "    }",
         "}",
-        "$remove_list = 'argv.json', 'extensions' | ForEach-Object -Process { \"$env:USERPROFILE\\.vscode-insiders\\$_\" }",
+        "$remove_list = @('argv.json', 'extensions') | ForEach-Object -Process { \"$env:USERPROFILE\\.vscode-insiders\\$_\" }",
         "$remove_list + @(\"$env:AppData\\Code - Insiders\") | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
         "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
         "if (Test-Path -Path $extensions_file -PathType Leaf) {",

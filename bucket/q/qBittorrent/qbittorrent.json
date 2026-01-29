@@ -1,0 +1,86 @@
+{
+    "version": "5.1.4",
+    "description": "A free and open-source BitTorrent client developed in C++ and Qt, based on the libtorrent-rasterbar library, aiming to be a high-quality alternative among BitTorrent clients, with fast and stable performance, rich features, and a consistent cross-platform experience.",
+    "homepage": "https://www.qbittorrent.org",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://github.com/qbittorrent/qBittorrent/blob/HEAD/COPYING"
+    },
+    "notes": [
+        "To register file associations, please execute the following command:",
+        "- `reg import \"$dir\\register-file-associations.reg\"`"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.1.4/qbittorrent_5.1.4_qt6_lt20_x64_setup.exe",
+            "hash": "sha1:75660719e5d2c812f09a71881f2b30f035438d6b"
+        }
+    },
+    "pre_install": [
+        "$data_dir = \"$persist_dir\\profile\\qBittorrent\\data\"",
+        "$configuration_dir = \"$persist_dir\\profile\\qBittorrent\\config\"",
+        "if (Test-Path -Path \"$persist_dir\\profile\\qBittorrent\\*\") { return }",
+        "$data_dir, $configuration_dir | ForEach-Object -Process { ensure $_ | Out-Null }",
+        "if (-not (Test-Path -Path \"$data_dir\\*\") -and (Test-Path -Path \"$env:LOCALAPPDATA\\qBittorrent\\*\")) {",
+        "    Write-Host \"`nINFO  Migrating qBittorrent data to '$data_dir'...\" -ForegroundColor DarkGray",
+        "    Copy-Item -Path \"$env:LOCALAPPDATA\\qBittorrent\\*\" -Destination $data_dir -Force -Exclude 'cache' -Recurse",
+        "}",
+        "if (-not (Test-Path -Path \"$configuration_dir\\*\") -and (Test-Path -Path \"$env:APPDATA\\qBittorrent\\*\")) {",
+        "    Write-Host \"INFO  Migrating qBittorrent configurations to '$configuration_dir'...\" -ForegroundColor DarkGray",
+        "    Copy-Item -Path \"$env:APPDATA\\qBittorrent\\*\" -Destination $configuration_dir -Force -Recurse",
+        "}"
+    ],
+    "installer": {
+        "script": [
+            "$cfg_path = \"$persist_dir\\profile\\qBittorrent\\config\\qBittorrent.ini\"",
+            "$log_dir = \"$persist_dir\\profile\\qBittorrent\\data\\logs\" -replace '\\\\', '/'",
+            "if (-not (Test-Path -Path $cfg_path -PathType Leaf)) {",
+            "    New-Item -Path $cfg_path -ItemType File -Force | Out-Null",
+            "    $cfg = @('[Application]', 'FileLogger\\Path={{log_dir}}', '[Preferences]', 'Advanced\\updateCheck=false')",
+            "    $cfg -replace '{{log_dir}}', $log_dir | Set-Content -Path $cfg_path -Encoding utf8",
+            "}",
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!unins*' -Removal",
+            "$remove_list = @($env:APPDATA, $env:LOCALAPPDATA) | ForEach-Object -Process { \"$_\\qBittorrent\" }",
+            "Remove-Item -Path $remove_list -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "post_install": [
+        "<# $qbittorrent_dir = $dir -replace '\\\\', '\\\\'",
+        "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
+        "    $content = Get-Content -Path $_.FullName -Encoding utf8",
+        "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
+        "    $content -replace '{{qbittorrent_dir}}', $qbittorrent_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "} #>"
+    ],
+    "bin": "qbittorrent.exe",
+    "shortcuts": [
+        [
+            "qbittorrent.exe",
+            "qBittorrent"
+        ]
+    ],
+    "persist": [
+        "profile",
+        "qt.conf"
+    ],
+    "uninstaller": {
+        "script": [
+            "if ($cmd -ne 'uninstall') { return }",
+            "Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
+            "    $registry_file = \"`\"{0}`\"\" -f $_.FullName",
+            "    # Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
+            "}"
+        ]
+    },
+    "checkver": {
+        "sourceforge": "qbittorrent/qbittorrent-win32",
+        "regex": "qbittorrent_([\\d.]+)_qt6"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-$version/qbittorrent_$version_qt6_lt20_x64_setup.exe"
+            }
+        }
+    }
+}

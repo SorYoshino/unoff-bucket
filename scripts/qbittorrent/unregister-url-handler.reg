@@ -3,7 +3,6 @@ Windows Registry Editor Version 5.00
 ; Remove application metadata and capabilities from the Default Programs framework
 
 [-HKEY_CURRENT_USER\Software\qBittorrent]
-"InstallLocation"="{{qbittorrent_dir}}"
 
 ; Unregister qBittorrent from the RegisteredApplications list to disable system-level integration
 

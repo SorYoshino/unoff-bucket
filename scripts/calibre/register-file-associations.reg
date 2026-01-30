@@ -7,6 +7,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw]
 @="AZW Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="AZW Document"
 "PerceivedType"="Document"
 
@@ -16,6 +17,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -23,6 +25,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw]
 @="AZW Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="AZW Document"
 "PerceivedType"="Document"
 
@@ -32,6 +35,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -44,6 +48,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw1]
 @="AZW1 Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="AZW1 Document"
 "PerceivedType"="Document"
 
@@ -53,6 +58,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw1\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -67,6 +73,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw3]
 @="AZW3 Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="AZW3 Document"
 "PerceivedType"="Document"
 
@@ -76,6 +83,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.azw3\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -83,6 +91,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3]
 @="AZW3 Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="AZW3 Document"
 "PerceivedType"="Document"
 
@@ -92,6 +101,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -99,6 +109,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3]
 @="AZW3 Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="AZW3 Document"
 "PerceivedType"="Document"
 
@@ -108,6 +119,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -120,6 +132,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.book]
 @="BOOK Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="BOOK Document"
 "PerceivedType"="Document"
 
@@ -129,6 +142,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.book\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.book\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.book\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -142,6 +156,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cb7]
 @="CB7 Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="CB7 Document"
 "PerceivedType"="Document"
 
@@ -151,6 +166,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cb7\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -158,6 +174,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7]
 @="CB7 Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="CB7 Document"
 "PerceivedType"="Document"
 
@@ -167,6 +184,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -180,6 +198,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbc]
 @="CBC Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="CBC Document"
 "PerceivedType"="Document"
 
@@ -189,6 +208,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbc\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -196,6 +216,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc]
 @="CBC Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="CBC Document"
 "PerceivedType"="Document"
 
@@ -205,6 +226,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -218,6 +240,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbr]
 @="CBR Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="CBR Document"
 "PerceivedType"="Document"
 
@@ -227,6 +250,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbr\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -234,6 +258,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr]
 @="CBR Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="CBR Document"
 "PerceivedType"="Document"
 
@@ -243,6 +268,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -256,6 +282,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbz]
 @="CBZ Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="CBZ Document"
 "PerceivedType"="Document"
 
@@ -265,6 +292,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.cbz\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -272,6 +300,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz]
 @="CBZ Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="CBZ Document"
 "PerceivedType"="Document"
 
@@ -281,6 +310,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -294,6 +324,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.chm]
 @="CHM Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="CHM Document"
 "PerceivedType"="Document"
 
@@ -303,6 +334,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.chm\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -310,6 +342,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm]
 @="CHM Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="CHM Document"
 "PerceivedType"="Document"
 
@@ -319,6 +352,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -332,6 +366,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djv]
 @="DJV Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="DJV Document"
 "PerceivedType"="Document"
 
@@ -341,6 +376,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djv\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -348,6 +384,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv]
 @="DJV Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="DJV Document"
 "PerceivedType"="Document"
 
@@ -357,6 +394,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -370,6 +408,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djvu]
 @="DJVU Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="DJVU Document"
 "PerceivedType"="Document"
 
@@ -379,6 +418,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.djvu\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -386,6 +426,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu]
 @="DJVU Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="DJVU Document"
 "PerceivedType"="Document"
 
@@ -395,6 +436,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -407,6 +449,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.doc]
 @="DOC Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="DOC Document"
 "PerceivedType"="Document"
 
@@ -416,6 +459,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.doc\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -429,6 +473,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docm]
 @="DOCM Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="DOCM Document"
 "PerceivedType"="Document"
 
@@ -438,6 +483,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docm\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -445,6 +491,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm]
 @="DOCM Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="DOCM Document"
 "PerceivedType"="Document"
 
@@ -454,6 +501,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -468,6 +516,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docx]
 @="DOCX Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="DOCX Document"
 "PerceivedType"="Document"
 
@@ -477,6 +526,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.docx\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -484,6 +534,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx]
 @="DOCX Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="DOCX Document"
 "PerceivedType"="Document"
 
@@ -493,6 +544,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -500,6 +552,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx]
 @="DOCX Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="DOCX Document"
 "PerceivedType"="Document"
 
@@ -509,6 +562,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -523,6 +577,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.epub]
 @="EPUB Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="EPUB Document"
 "PerceivedType"="Document"
 
@@ -532,6 +587,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.epub\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -539,6 +595,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub]
 @="EPUB Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="EPUB Document"
 "PerceivedType"="Document"
 
@@ -548,6 +605,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -555,6 +613,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub]
 @="EPUB Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="EPUB Document"
 "PerceivedType"="Document"
 
@@ -564,6 +623,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -577,6 +637,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.fb2]
 @="FB2 Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="FB2 Document"
 "PerceivedType"="Document"
 
@@ -586,6 +647,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.fb2\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -593,6 +655,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2]
 @="FB2 Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="FB2 Document"
 "PerceivedType"="Document"
 
@@ -602,6 +665,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -616,6 +680,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.htm]
 @="HTM Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="HTM Document"
 "PerceivedType"="Document"
 
@@ -625,6 +690,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.htm\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -632,6 +698,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm]
 @="HTM Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="HTM Document"
 "PerceivedType"="Document"
 
@@ -641,6 +708,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -648,6 +716,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm]
 @="HTM Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="HTM Document"
 "PerceivedType"="Document"
 
@@ -657,6 +726,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -671,6 +741,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.html]
 @="HTML Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="HTML Document"
 "PerceivedType"="Document"
 
@@ -680,6 +751,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.html\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.html\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.html\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -687,6 +759,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.html]
 @="HTML Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="HTML Document"
 "PerceivedType"="Document"
 
@@ -696,6 +769,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.html\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -703,6 +777,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.html]
 @="HTML Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="HTML Document"
 "PerceivedType"="Document"
 
@@ -712,6 +787,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.html\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -724,6 +800,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibook]
 @="IBOOK Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="IBOOK Document"
 "PerceivedType"="Document"
 
@@ -733,6 +810,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibook\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -745,6 +823,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibooks]
 @="IBOOKS Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="IBOOKS Document"
 "PerceivedType"="Document"
 
@@ -754,6 +833,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ibooks\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -766,6 +846,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.imp]
 @="IMP Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="IMP Document"
 "PerceivedType"="Document"
 
@@ -775,6 +856,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.imp\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -787,6 +869,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.kfx]
 @="KFX Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="KFX Document"
 "PerceivedType"="Document"
 
@@ -796,6 +879,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.kfx\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -809,6 +893,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrf]
 @="LRF Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="LRF Document"
 "PerceivedType"="Document"
 
@@ -818,6 +903,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrf\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -825,6 +911,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf]
 @="LRF Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="LRF Document"
 "PerceivedType"="Document"
 
@@ -834,6 +921,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -846,6 +934,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrx]
 @="LRX Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="LRX Document"
 "PerceivedType"="Document"
 
@@ -855,6 +944,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.lrx\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -868,6 +958,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.markdown]
 @="MARKDOWN Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="MARKDOWN Document"
 "PerceivedType"="Document"
 
@@ -877,6 +968,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.markdown\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -884,6 +976,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown]
 @="MARKDOWN Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="MARKDOWN Document"
 "PerceivedType"="Document"
 
@@ -893,6 +986,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -906,6 +1000,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.md]
 @="MD Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="MD Document"
 "PerceivedType"="Document"
 
@@ -915,6 +1010,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.md\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.md\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.md\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -922,6 +1018,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.md]
 @="MD Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="MD Document"
 "PerceivedType"="Document"
 
@@ -931,6 +1028,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.md\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -944,6 +1042,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.mobi]
 @="MOBI Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="MOBI Document"
 "PerceivedType"="Document"
 
@@ -953,6 +1052,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.mobi\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -960,6 +1060,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi]
 @="MOBI Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="MOBI Document"
 "PerceivedType"="Document"
 
@@ -969,6 +1070,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -982,6 +1084,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.odt]
 @="ODT Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="ODT Document"
 "PerceivedType"="Document"
 
@@ -991,6 +1094,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.odt\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -998,6 +1102,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt]
 @="ODT Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="ODT Document"
 "PerceivedType"="Document"
 
@@ -1007,6 +1112,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1019,6 +1125,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf]
 @="OPF Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="OPF Document"
 "PerceivedType"="Document"
 
@@ -1028,6 +1135,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1041,6 +1149,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdb]
 @="PDB Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="PDB Document"
 "PerceivedType"="Document"
 
@@ -1050,6 +1159,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdb\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1057,6 +1167,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb]
 @="PDB Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="PDB Document"
 "PerceivedType"="Document"
 
@@ -1066,6 +1177,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1079,6 +1191,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdf]
 @="PDF Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="PDF Document"
 "PerceivedType"="Document"
 
@@ -1088,6 +1201,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pdf\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1095,6 +1209,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf]
 @="PDF Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="PDF Document"
 "PerceivedType"="Document"
 
@@ -1104,6 +1219,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1117,6 +1233,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pml]
 @="PML Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="PML Document"
 "PerceivedType"="Document"
 
@@ -1126,6 +1243,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pml\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1133,6 +1251,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml]
 @="PML Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="PML Document"
 "PerceivedType"="Document"
 
@@ -1142,6 +1261,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1155,6 +1275,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pobi]
 @="POBI Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="POBI Document"
 "PerceivedType"="Document"
 
@@ -1164,6 +1285,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.pobi\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1171,6 +1293,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi]
 @="POBI Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="POBI Document"
 "PerceivedType"="Document"
 
@@ -1180,6 +1303,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1193,6 +1317,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.prc]
 @="PRC Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="PRC Document"
 "PerceivedType"="Document"
 
@@ -1202,6 +1327,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.prc\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1209,6 +1335,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc]
 @="PRC Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="PRC Document"
 "PerceivedType"="Document"
 
@@ -1218,6 +1345,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1230,6 +1358,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ps]
 @="PS Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="PS Document"
 "PerceivedType"="Document"
 
@@ -1239,6 +1368,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.ps\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1252,6 +1382,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.rtf]
 @="RTF Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="RTF Document"
 "PerceivedType"="Document"
 
@@ -1261,6 +1392,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.rtf\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1268,6 +1400,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf]
 @="RTF Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="RTF Document"
 "PerceivedType"="Document"
 
@@ -1277,6 +1410,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1289,6 +1423,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml]
 @="SHTML Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="SHTML Document"
 "PerceivedType"="Document"
 
@@ -1298,6 +1433,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1311,6 +1447,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.text]
 @="TEXT Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="TEXT Document"
 "PerceivedType"="Document"
 
@@ -1320,6 +1457,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.text\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.text\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.text\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1327,6 +1465,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.text]
 @="TEXT Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="TEXT Document"
 "PerceivedType"="Document"
 
@@ -1336,6 +1475,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.text\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1348,6 +1488,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.tpz]
 @="TPZ Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="TPZ Document"
 "PerceivedType"="Document"
 
@@ -1357,6 +1498,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.tpz\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1370,6 +1512,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.txt]
 @="TXT Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="TXT Document"
 "PerceivedType"="Document"
 
@@ -1379,6 +1522,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.txt\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1386,6 +1530,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt]
 @="TXT Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="TXT Document"
 "PerceivedType"="Document"
 
@@ -1395,6 +1540,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1409,6 +1555,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xhtml]
 @="XHTML Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="XHTML Document"
 "PerceivedType"="Document"
 
@@ -1418,6 +1565,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xhtml\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""
@@ -1425,6 +1573,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml]
 @="XHTML Document"
+"AppUserModelID"="com.calibre-ebook.edit-book"
 "FriendlyTypeName"="XHTML Document"
 "PerceivedType"="Document"
 
@@ -1434,6 +1583,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-edit.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-edit.exe\" \"%1\""
@@ -1441,6 +1591,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml]
 @="XHTML Document"
+"AppUserModelID"="com.calibre-ebook.viewer"
 "FriendlyTypeName"="XHTML Document"
 "PerceivedType"="Document"
 
@@ -1450,6 +1601,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell\open]
+"Icon"="\"{{calibre_dir}}\\ebook-viewer.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml\shell\open\command]
 @="\"{{calibre_dir}}\\ebook-viewer.exe\" \"%1\""
@@ -1462,6 +1614,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xps]
 @="XPS Document"
+"AppUserModelID"="com.calibre-ebook.main-gui"
 "FriendlyTypeName"="XPS Document"
 "PerceivedType"="Document"
 
@@ -1471,6 +1624,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell\open]
+"Icon"="\"{{calibre_dir}}\\calibre.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\calibre.xps\shell\open\command]
 @="\"{{calibre_dir}}\\calibre.exe\" \"%1\""

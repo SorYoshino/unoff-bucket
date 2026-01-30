@@ -29,6 +29,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\sh_auto_file]
 @="Shell Script"
+"AppUserModelID"="Git.Git"
+"FriendlyTypeName"="Shell Script"
 
 [HKEY_CURRENT_USER\Software\Classes\sh_auto_file\DefaultIcon]
 @="%SystemRoot%\\System32\\shell32.dll,-153"

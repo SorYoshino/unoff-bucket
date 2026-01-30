@@ -6,6 +6,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.001]
 @="001 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="001 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.001\DefaultIcon]
@@ -27,6 +28,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.7z]
 @="7z Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="7z Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.7z\DefaultIcon]
@@ -48,6 +50,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.apfs]
 @="apfs Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="apfs Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.apfs\DefaultIcon]
@@ -69,6 +72,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.arj]
 @="arj Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="arj Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.arj\DefaultIcon]
@@ -90,6 +94,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.br]
 @="br Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="br Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.br\DefaultIcon]
@@ -111,6 +116,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.bz2]
 @="bz2 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="bz2 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.bz2\DefaultIcon]
@@ -132,6 +138,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.bzip2]
 @="bzip2 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="bzip2 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.bzip2\DefaultIcon]
@@ -153,6 +160,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.cab]
 @="cab Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="cab Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.cab\DefaultIcon]
@@ -174,6 +182,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.cpio]
 @="cpio Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="cpio Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.cpio\DefaultIcon]
@@ -195,6 +204,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.deb]
 @="deb Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="deb Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.deb\DefaultIcon]
@@ -216,6 +226,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.dmg]
 @="dmg Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="dmg Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.dmg\DefaultIcon]
@@ -237,6 +248,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.esd]
 @="esd Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="esd Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.esd\DefaultIcon]
@@ -258,6 +270,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.fat]
 @="fat Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="fat Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.fat\DefaultIcon]
@@ -279,6 +292,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.gz]
 @="gz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="gz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.gz\DefaultIcon]
@@ -300,6 +314,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.gzip]
 @="gzip Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="gzip Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.gzip\DefaultIcon]
@@ -321,6 +336,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.hfs]
 @="hfs Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="hfs Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.hfs\DefaultIcon]
@@ -342,6 +358,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.iso]
 @="iso Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="iso Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.iso\DefaultIcon]
@@ -363,6 +380,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lha]
 @="lha Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lha Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lha\DefaultIcon]
@@ -384,6 +402,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.liz]
 @="liz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="liz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.liz\DefaultIcon]
@@ -405,6 +424,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz]
 @="lz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz\DefaultIcon]
@@ -426,6 +446,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz4]
 @="lz4 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lz4 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz4\DefaultIcon]
@@ -447,6 +468,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz5]
 @="lz5 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lz5 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lz5\DefaultIcon]
@@ -468,6 +490,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzh]
 @="lzh Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lzh Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzh\DefaultIcon]
@@ -489,6 +512,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzma]
 @="lzma Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lzma Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzma\DefaultIcon]
@@ -510,6 +534,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzma2]
 @="lzma2 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="lzma2 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.lzma2\DefaultIcon]
@@ -531,6 +556,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.ntfs]
 @="ntfs Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="ntfs Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.ntfs\DefaultIcon]
@@ -552,6 +578,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.rar]
 @="rar Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="rar Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.rar\DefaultIcon]
@@ -573,6 +600,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.rpm]
 @="rpm Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="rpm Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.rpm\DefaultIcon]
@@ -594,6 +622,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.sfs]
 @="sfs Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="sfs Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.sfs\DefaultIcon]
@@ -615,6 +644,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.squashfs]
 @="squashfs Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="squashfs Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.squashfs\DefaultIcon]
@@ -636,6 +666,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.swm]
 @="swm Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="swm Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.swm\DefaultIcon]
@@ -657,6 +688,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tar]
 @="tar Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tar Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tar\DefaultIcon]
@@ -678,6 +710,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.taz]
 @="taz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="taz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.taz\DefaultIcon]
@@ -699,6 +732,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tbz]
 @="tbz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tbz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tbz\DefaultIcon]
@@ -720,6 +754,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tbz2]
 @="tbz2 Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tbz2 Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tbz2\DefaultIcon]
@@ -741,6 +776,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tgz]
 @="tgz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tgz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tgz\DefaultIcon]
@@ -762,6 +798,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tlz]
 @="tlz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tlz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tlz\DefaultIcon]
@@ -783,6 +820,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tpz]
 @="tpz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tpz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tpz\DefaultIcon]
@@ -804,6 +842,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.txz]
 @="txz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="txz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.txz\DefaultIcon]
@@ -825,6 +864,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tzst]
 @="tzst Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tzst Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tzst\DefaultIcon]
@@ -846,6 +886,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tzstd]
 @="tzstd Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="tzstd Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.tzstd\DefaultIcon]
@@ -867,6 +908,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.vhd]
 @="vhd Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="vhd Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.vhd\DefaultIcon]
@@ -888,6 +930,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.vhdx]
 @="vhdx Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="vhdx Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.vhdx\DefaultIcon]
@@ -909,6 +952,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.wim]
 @="wim Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="wim Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.wim\DefaultIcon]
@@ -930,6 +974,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.xar]
 @="xar Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="xar Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.xar\DefaultIcon]
@@ -951,6 +996,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.xz]
 @="xz Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="xz Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.xz\DefaultIcon]
@@ -972,6 +1018,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.z]
 @="z Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="z Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.z\DefaultIcon]
@@ -993,6 +1040,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zip]
 @="zip Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="zip Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zip\DefaultIcon]
@@ -1014,6 +1062,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zst]
 @="zst Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="zst Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zst\DefaultIcon]
@@ -1035,6 +1084,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zstd]
 @="zstd Archive"
+"AppUserModelID"="mcmilk.7zip-zstd"
 "FriendlyTypeName"="zstd Archive"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip-Zstandard.zstd\DefaultIcon]

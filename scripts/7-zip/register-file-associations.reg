@@ -6,6 +6,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.001]
 @="001 Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="001 Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.001\DefaultIcon]
@@ -27,6 +28,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.7z]
 @="7z Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="7z Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\DefaultIcon]
@@ -48,6 +50,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs]
 @="apfs Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="apfs Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\DefaultIcon]
@@ -69,6 +72,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.arj]
 @="arj Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="arj Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\DefaultIcon]
@@ -90,6 +94,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2]
 @="bz2 Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="bz2 Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\DefaultIcon]
@@ -111,6 +116,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2]
 @="bzip2 Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="bzip2 Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\DefaultIcon]
@@ -132,6 +138,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cab]
 @="cab Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="cab Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\DefaultIcon]
@@ -153,6 +160,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio]
 @="cpio Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="cpio Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\DefaultIcon]
@@ -174,6 +182,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.deb]
 @="deb Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="deb Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\DefaultIcon]
@@ -195,6 +204,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg]
 @="dmg Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="dmg Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\DefaultIcon]
@@ -216,6 +226,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.esd]
 @="esd Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="esd Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\DefaultIcon]
@@ -237,6 +248,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.fat]
 @="fat Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="fat Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\DefaultIcon]
@@ -258,6 +270,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gz]
 @="gz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="gz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\DefaultIcon]
@@ -279,6 +292,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip]
 @="gzip Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="gzip Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\DefaultIcon]
@@ -300,6 +314,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs]
 @="hfs Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="hfs Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\DefaultIcon]
@@ -321,6 +336,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.iso]
 @="iso Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="iso Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\DefaultIcon]
@@ -342,6 +358,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lha]
 @="lha Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="lha Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\DefaultIcon]
@@ -363,6 +380,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh]
 @="lzh Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="lzh Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\DefaultIcon]
@@ -384,6 +402,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma]
 @="lzma Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="lzma Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\DefaultIcon]
@@ -405,6 +424,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs]
 @="ntfs Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="ntfs Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\DefaultIcon]
@@ -426,6 +446,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rar]
 @="rar Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="rar Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\DefaultIcon]
@@ -447,6 +468,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm]
 @="rpm Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="rpm Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\DefaultIcon]
@@ -468,6 +490,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs]
 @="squashfs Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="squashfs Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\DefaultIcon]
@@ -489,6 +512,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.swm]
 @="swm Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="swm Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\DefaultIcon]
@@ -510,6 +534,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tar]
 @="tar Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tar Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\DefaultIcon]
@@ -531,6 +556,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.taz]
 @="taz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="taz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\DefaultIcon]
@@ -552,6 +578,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz]
 @="tbz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tbz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\DefaultIcon]
@@ -573,6 +600,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2]
 @="tbz2 Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tbz2 Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\DefaultIcon]
@@ -594,6 +622,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz]
 @="tgz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tgz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\DefaultIcon]
@@ -615,6 +644,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz]
 @="tpz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tpz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\DefaultIcon]
@@ -636,6 +666,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.txz]
 @="txz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="txz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\DefaultIcon]
@@ -657,6 +688,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst]
 @="tzst Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="tzst Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\DefaultIcon]
@@ -678,6 +710,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd]
 @="vhd Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="vhd Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\DefaultIcon]
@@ -699,6 +732,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx]
 @="vhdx Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="vhdx Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\DefaultIcon]
@@ -720,6 +754,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.wim]
 @="wim Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="wim Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\DefaultIcon]
@@ -741,6 +776,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xar]
 @="xar Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="xar Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\DefaultIcon]
@@ -762,6 +798,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xz]
 @="xz Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="xz Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\DefaultIcon]
@@ -783,6 +820,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.z]
 @="z Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="z Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.z\DefaultIcon]
@@ -804,6 +842,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zip]
 @="zip Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="zip Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\DefaultIcon]
@@ -825,6 +864,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zst]
 @="zst Archive File"
+"AppUserModelID"="7zip.7zip"
 "FriendlyTypeName"="zst Archive File"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\DefaultIcon]

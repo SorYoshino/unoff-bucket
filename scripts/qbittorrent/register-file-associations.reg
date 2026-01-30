@@ -9,6 +9,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent]
 @="Torrent File"
+"AppUserModelID"="qBittorrent.qBittorrent"
 "FriendlyTypeName"="Torrent File"
 
 [HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent\DefaultIcon]

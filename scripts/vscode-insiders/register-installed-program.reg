@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 "DisplayIcon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 "DisplayName"="Microsoft Visual Studio Code Insiders"
 "HelpLink"="https://code.visualstudio.com/"
-"InstallLocation"="\"{{vscode_insiders_dir}}\""
+"InstallLocation"="{{vscode_insiders_dir}}"
 "Publisher"="Microsoft Corporation"
 "URLInfoAbout"="https://code.visualstudio.com/"
 "URLUpdateInfo"="https://code.visualstudio.com/"

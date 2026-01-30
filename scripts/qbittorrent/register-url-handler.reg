@@ -1,0 +1,40 @@
+Windows Registry Editor Version 5.00
+
+; Define application metadata and capabilities for the Default Programs framework
+; This ensures qBittorrent is recognized in Windows Settings and "Default Apps".
+
+[HKEY_CURRENT_USER\Software\qBittorrent]
+"InstallLocation"="{{qbittorrent_dir}}"
+
+[HKEY_CURRENT_USER\Software\qBittorrent\Capabilities]
+"ApplicationDescription"="A BitTorrent client in Qt"
+"ApplicationName"="qBittorrent"
+
+[HKEY_CURRENT_USER\Software\qBittorrent\Capabilities\UrlAssociations]
+"magnet"="qBittorrent.Url.Magnet"
+
+
+; Register qBittorrent in the RegisteredApplications list to enable system-level integration
+
+[HKEY_CURRENT_USER\Software\RegisteredApplications]
+"qBittorrent"="Software\\qBittorrent\\Capabilities"
+
+
+[HKEY_CURRENT_USER\Software\Classes\magnet]
+@="URL:Magnet URI"
+"Content Type"="application/x-magnet"
+"URL Protocol"=""
+
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.Url.Magnet]
+@="Magnet URI"
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.Url.Magnet\DefaultIcon]
+@="\"{{qbittorrent_dir}}\\qbittorrent.exe\",1"
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.Url.Magnet\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.Url.Magnet\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.Url.Magnet\shell\open\command]
+@="\"{{qbittorrent_dir}}\\qbittorrent.exe\" \"%1\""

@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.torrent]
+"Content Type"="application/x-bittorrent"
+
+[HKEY_CURRENT_USER\Software\Classes\.torrent\OpenWithProgIDs]
+"qBittorrent.File.Torrent"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent]
+@="Torrent File"
+"FriendlyTypeName"="Torrent File"
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent\DefaultIcon]
+@="\"{{qbittorrent_dir}}\\qbittorrent.exe\",1"
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent\shell\open]
+"Icon"="\"{{qbittorrent_dir}}\\qbittorrent.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\qBittorrent.File.Torrent\shell\open\command]
+@="\"{{qbittorrent_dir}}\\qbittorrent.exe\" \"%1\""

@@ -77,10 +77,11 @@
     ],
     "uninstaller": {
         "script": [
-            "if ($cmd -ne 'uninstall') { return }",
-            "Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
-            "    $registry_file = \"`\"{0}`\"\" -f $_.FullName",
-            "    Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
+            "if ($cmd -eq 'uninstall') {",
+            "    Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
+            "        $registry_file = \"`\"{0}`\"\" -f $_.FullName",
+            "        Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
+            "    }",
             "}",
             "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
             "Start-Sleep -Milliseconds 1500"

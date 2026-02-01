@@ -8,13 +8,13 @@
     "architecture": {
         "64bit": {
             "pre_install": [
-                "Get-ChildItem -Path \"$dir\\*,1.*\" -Recurse | Rename-Item -NewName { $_.Name -replace ',1\\.', '.' }",
+                "Get-ChildItem -Path \"$dir\\*,1.*\" -Recurse | Rename-Item -NewName { $_.Name -replace ',1\\.', '.' } -Force",
                 "Get-ChildItem -Path $dir -Include '*,2.*', 'source' -Recurse | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
             ]
         },
         "32bit": {
             "pre_install": [
-                "Get-ChildItem -Path \"$dir\\*,2.*\" -Recurse | Rename-Item -NewName { $_.Name -replace ',2\\.', '.' }",
+                "Get-ChildItem -Path \"$dir\\*,2.*\" -Recurse | Rename-Item -NewName { $_.Name -replace ',2\\.', '.' } -Force",
                 "Get-ChildItem -Path $dir -Include '*,1.*', 'source' -Recurse | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
             ]
         }

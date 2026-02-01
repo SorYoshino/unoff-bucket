@@ -24,7 +24,7 @@
             "    $cfg = @('[Misc]', 'HomeDir=_MobaFolder_\\home', 'SlashDir=_MobaFolder_\\slash')",
             "    Set-Content -Path \"$dir\\MobaXterm.ini\" -Value $cfg -Encoding ascii",
             "}",
-            "Get-ChildItem -Path $dir -Filter 'MobaXterm*.exe' -File | Rename-Item -NewName { $_.Name -replace '_.+(?=\\.exe)', '' }"
+            "Get-ChildItem -Path $dir -Filter 'MobaXterm*.exe' -File | Rename-Item -NewName { $_.Name -replace '_.+(?=\\.exe)', '' } -Force"
         ]
     },
     "bin": "MobaXterm.exe",

@@ -20,7 +20,7 @@
             "Expand-7zipArchive -Path $archive_file -DestinationPath \"$dir\\app-$version\" -ExtractDir 'lib\\net45' -Removal",
             "Move-Item -Path \"$dir\\app-$version\\installer.db\" -Destination $dir -Force",
             "Move-Item -Path \"$dir\\RELEASES\" -Destination \"$dir\\packages\" -Force",
-            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination $dir"
+            "Copy-Item -Path \"$dir\\app-$version\\app.ico\" -Destination $dir -Force"
         ]
     },
     "shortcuts": [

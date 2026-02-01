@@ -17,7 +17,7 @@
             "installer": {
                 "script": [
                     "Get-ChildItem -Path $dir -Include '*,2*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                    "Get-ChildItem -Path $dir -Include '*,1*' -Recurse -File | Rename-Item -NewName { $_.Name -replace ',\\d', '' }"
+                    "Get-ChildItem -Path $dir -Include '*,1*' -Recurse -File | Rename-Item -NewName { $_.Name -replace ',\\d', '' } -Force"
                 ]
             }
         },
@@ -25,7 +25,7 @@
             "installer": {
                 "script": [
                     "Get-ChildItem -Path $dir -Include '*,1*' -Recurse -File | Remove-Item -Force -ErrorAction SilentlyContinue",
-                    "Get-ChildItem -Path $dir -Include '*,2*' -Recurse -File | Rename-Item -NewName { $_.Name -replace ',\\d', '' }"
+                    "Get-ChildItem -Path $dir -Include '*,2*' -Recurse -File | Rename-Item -NewName { $_.Name -replace ',\\d', '' } -Force"
                 ]
             }
         }

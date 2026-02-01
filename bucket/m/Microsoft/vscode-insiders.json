@@ -31,7 +31,7 @@
         "if ($null -ne $build_dir -and (Test-Path -Path \"$build_dir\\resources\\app\\resources\\win32\\*\")) {",
         "    $resources_dir = \"$dir\\resources\\app\\resources\\win32\"",
         "    $original_resources_dir = \"$build_dir\\resources\\app\\resources\\win32\"",
-        "    Copy-Item -Path \"$original_resources_dir\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\"",
+        "    Copy-Item -Path \"$original_resources_dir\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\" -Force",
         "}",
         "$data_dir = \"$dir\\data\" -replace '\\\\', '/'",
         "$extensions_file = \"$env:USERPROFILE\\.vscode-insiders\\extensions\\extensions.json\"",

@@ -17,6 +17,7 @@ Windows Registry Editor Version 5.00
 @="\"{{everything_dir}}\\Everything.exe\",1"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.FileList\shell]
+@="open"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.FileList\shell\edit]
 "Icon"="\"{{everything_dir}}\\Everything.exe\",0"

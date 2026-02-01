@@ -27,6 +27,12 @@
         }
     },
     "pre_install": [
+        "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
+        "    $new_name = [regex]::Replace($_.BaseName, '^([a-z])([^A-Z]*).*', {",
+        "            $args[0].Groups[1].Value.ToUpper() + $args[0].Groups[2].Value + '.exe'",
+        "        })",
+        "    if ($_.Name -cne $new_name) { $_ | Rename-Item -NewName $new_name -Force }",
+        "}",
         "if (-not (Test-Path -Path \"$persist_dir\\*\" -Include '*.ini' -PathType Leaf)) {",
         "    Start-Process -FilePath \"$dir\\Everything.exe\" -ArgumentList @('-install-config', 'null') -NoNewWindow -Wait",
         "}",

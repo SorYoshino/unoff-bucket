@@ -8,11 +8,11 @@ Windows Registry Editor Version 5.00
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\VSCodeInsiders]
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\VSCodeInsiders]
 @="Open w&ith Code Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\VSCodeInsiders\command]
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\VSCodeInsiders\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%V\""
 
 

@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CURRENT_USER\Software\Classes\*\shell\VSCode]
 
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\VSCode]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\VSCode]
 
 [-HKEY_CURRENT_USER\Software\Classes\Directory\shell\VSCode]
 

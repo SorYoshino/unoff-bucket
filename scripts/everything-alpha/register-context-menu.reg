@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\Search Everything 1.5a...]
+@="Search with &Everything Alpha"
+"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\Search Everything 1.5a...\command]
+@="\"{{everything_alpha_dir}}\\Everything.exe\" -path \"%V\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\Search Everything 1.5a...]
+@="Search with &Everything Alpha"
+"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\Search Everything 1.5a...\command]
+@="\"{{everything_alpha_dir}}\\Everything.exe\" -path \"%1\""

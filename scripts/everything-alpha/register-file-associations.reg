@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.efu]
+"Content Type"="text/plain"
+"PerceivedType"="text"
+
+[HKEY_CURRENT_USER\Software\Classes\.efu\OpenWithProgIDs]
+"Everything.efu"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu]
+@="Everything File List"
+"AppUserModelID"="voidtools.Everything.Alpha"
+"FriendlyTypeName"="Everything File List"
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\DefaultIcon]
+@="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell]
+@="open"
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit]
+"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit\command]
+@="\"{{everything_alpha_dir}}\\Everything.exe\" -edit \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open]
+"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open\command]
+@="\"{{everything_alpha_dir}}\\Everything.exe\" -filelist \"%1\""

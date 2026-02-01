@@ -2,6 +2,6 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CURRENT_USER\Software\Classes\*\shell\VSCodeInsiders]
 
-[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\VSCodeInsiders]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\VSCodeInsiders]
 
 [-HKEY_CURRENT_USER\Software\Classes\Directory\shell\VSCodeInsiders]

@@ -1,6 +1,6 @@
 {
-    "version": "1.4.1.1032",
-    "description": "A file and folder search engine for Windows that instantly locates files and folders by name.",
+    "version": "1.5.0.1404a",
+    "description": "An alpha-stage file and folder search engine for Windows that instantly locates files and folders by name.",
     "homepage": "https://www.voidtools.com",
     "license": {
         "identifier": "MIT",
@@ -18,12 +18,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64.zip",
-            "hash": "698df475ec44e638f66f1b6a32d28fea613cec78d3b6310e6abe53431eeb940c"
+            "url": "https://www.voidtools.com/Everything-1.5.0.1404a.x64.zip",
+            "hash": "41a372703ef26dead7fd5245fa708791e5bb72c3532c0a44995324c6b54ee198"
         },
         "32bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.1032.x86.zip",
-            "hash": "156db5beb747d69470518a7b9b55af11efc4d3285ddb7cc013c0cc13ced5f237"
+            "url": "https://www.voidtools.com/Everything-1.5.0.1404a.x86.zip",
+            "hash": "0965cc8befd74cd3139dc8575ba48082c9e18eb5581fffa81ef4f148112d1cce"
         }
     },
     "pre_install": [
@@ -38,18 +38,18 @@
         "}",
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "if ($cmd -eq 'install' -and -not (Test-Path -Path \"$persist_dir\\*\")) { return }",
-        "'*.db', '*.csv', '*.ico', '*.ini', '*.txt' | ForEach-Object -Process {",
+        "'*.db', '*.csv', '*.ico', '*.ini', '*.lng', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
         "    if (Test-Path -Path \"$persist_dir\\$_\" -PathType Leaf) {",
         "        Copy-Item -Path \"$persist_dir\\$_\" -Destination $dir -Force",
         "    }",
         "}"
     ],
     "post_install": [
-        "$everything_dir = $dir -replace '\\\\', '\\\\'",
+        "$everything_alpha_dir = $dir -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
-        "    $content -replace '{{everything_dir}}', $everything_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "    $content -replace '{{everything_alpha_dir}}', $everything_alpha_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}"
     ],
     "bin": "Everything.exe",
@@ -61,12 +61,13 @@
     ],
     "persist": [
         "Logs",
+        "plugins",
         "HTTP server"
     ],
     "pre_uninstall": [
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "if ($cmd -eq 'uninstall' -and $purge) { return }",
-        "'*.db', '*.csv', '*.ico', '*.ini', '*.txt' | ForEach-Object -Process {",
+        "'*.db', '*.csv', '*.ico', '*.ini', '*.lng', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
         "    if (Test-Path -Path \"$dir\\$_\" -PathType Leaf) {",
         "        Copy-Item -Path \"$dir\\$_\" -Destination $persist_dir -Force",
         "    }",
@@ -97,17 +98,19 @@
             "    Stop-Process -Name 'Everything' -Force -ErrorAction SilentlyContinue",
             "    Start-Sleep -Milliseconds 1500",
             "    if ($cmd -ne 'uninstall') { return }",
+            "    $instance_name = if (Test-Path -Path \"$dir\\NO_ALPHA_INSTANCE\" -PathType Leaf) { '' } else { ' (1.5a)' }",
+            "    $service_name = 'Everything{0}' -f $instance_name",
             "    if ($PSVersionTable.PSVersion -ge [version]::new(6, 0)) {",
-            "        Remove-Service -Name 'Everything' -ErrorAction SilentlyContinue",
+            "        Remove-Service -Name $service_name -ErrorAction SilentlyContinue",
             "    } else {",
-            "        Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', 'Everything') -NoNewWindow -Wait",
+            "        Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', $service_name) -NoNewWindow -Wait",
             "    }",
             "}"
         ]
     },
     "checkver": {
-        "url": "https://www.voidtools.com/Changes.txt",
-        "regex": "Version\\s*([\\d.]+)(?=\\s)"
+        "url": "https://www.voidtools.com/forum/viewtopic.php?f=12&t=9787",
+        "regex": "Everything-([\\d.]+a)"
     },
     "autoupdate": {
         "architecture": {
@@ -117,9 +120,6 @@
             "32bit": {
                 "url": "https://www.voidtools.com/Everything-$version.x86.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/Everything-$version.sha256"
         }
     }
 }

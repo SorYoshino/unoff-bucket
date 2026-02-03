@@ -22,8 +22,10 @@
     },
     "installer": {
         "script": [
-            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
-            "if ($null -eq $7z_path) { abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\" }",
+            "$7z_path = Get-CommandPath -Command '7z.exe'",
+            "if ([string]::IsNullOrWhiteSpace($7z_path)) {",
+            "    abort \"`nCould not locate '7z.exe' in system PATH. Abort installation.\"",
+            "}",
             "$codecs_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Codecs'",
             "if (-not (Test-Path -Path $codecs_dir -PathType Container)) { ensure $codecs_dir | Out-Null }",
             "Copy-Item -Path \"$dir\\*\" -Destination $codecs_dir -Exclude '*.md', '*.json', 'LICENSE' -Force -Recurse"
@@ -31,8 +33,8 @@
     },
     "uninstaller": {
         "script": [
-            "$7z_path = friendly_path -Path $(Get-CommandPath -Command '7z.exe')",
-            "if ($null -ne $7z_path) {",
+            "$7z_path = Get-CommandPath -Command '7z.exe'",
+            "if (-not [string]::IsNullOrWhiteSpace($7z_path)) {",
             "    $codecs_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Codecs'",
             "    Get-ChildItem -Path $dir -Exclude '*.md', '*.json', 'LICENSE' | ForEach-Object -Process {",
             "        Remove-Item -Path \"$codecs_dir\\$($_.Name)\" -Recurse -Force -ErrorAction SilentlyContinue",

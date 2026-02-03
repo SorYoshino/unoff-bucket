@@ -12,6 +12,19 @@
             "hash": "36c900a06060ee31621fcdecb9bf223b40dd23d45e91ba98101b5d3aa5c70d18"
         }
     },
+    "pre_install": [
+        "$current_depth = 0",
+        "$max_depth = 5",
+        "while ($current_depth -lt $max_depth) {",
+        "    $items = Get-ChildItem -Path $dir | Select-Object -First 3",
+        "    if ($items.Count -eq 1 -and $items.PSIsContainer) {",
+        "        $inner_dir = $items | ForEach-Object -MemberName FullName",
+        "        Copy-Item -Path \"$inner_dir\\*\" -Destination $dir -Force -Recurse",
+        "        Remove-Item -Path $inner_dir -Recurse -Force -ErrorAction SilentlyContinue",
+        "        $current_depth++",
+        "    } else { break }",
+        "}"
+    ],
     "bin": [
         "diffutils.exe",
         [

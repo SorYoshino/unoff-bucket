@@ -34,7 +34,9 @@
     "installer": {
         "script": [
             "$7z_path = Get-CommandPath -Command '7z.exe'",
-            "if ($null -eq $7z_path) { abort \"`n[ERROR]  Could not locate '7z.exe' in system PATH. Installation terminated.\" }",
+            "if ([string]::IsNullOrWhiteSpace($7z_path)) {",
+            "    abort \"`n[ERROR]  Could not locate '7z.exe' in system PATH. Installation terminated.\"",
+            "}",
             "$formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
             "if (-not (Test-Path -Path $formats_dir -PathType Container)) {",
             "    New-Item -Path $formats_dir -ItemType Directory -Force | Out-Null",
@@ -45,7 +47,7 @@
     "uninstaller": {
         "script": [
             "$7z_path = Get-CommandPath -Command '7z.exe'",
-            "if ($null -ne $7z_path) {",
+            "if (-not [string]::IsNullOrWhiteSpace($7z_path)) {",
             "    $formats_dir = Join-Path -Path $(Split-Path -Path $7z_path -Parent) -ChildPath 'Formats'",
             "    Get-ChildItem -Path $dir -Exclude '*.json', 'ReadMe.txt' | ForEach-Object -Process {",
             "        Remove-Item -Path \"$formats_dir\\$($_.Name)\" -Recurse -Force -ErrorAction SilentlyContinue",

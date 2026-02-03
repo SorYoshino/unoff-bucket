@@ -59,7 +59,7 @@
             "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
             "    $installer_name = $download_page.Links | Where-Object { $_.href -match '(?<=Setup\\w+)\\.exe$' } |",
             "            Select-Object -ExpandProperty href -First 1",
-            "    if ($null -ne $installer_name) { Write-Output $installer_name; break }",
+            "    if ($installer_name -match '^\\S') { Write-Output $installer_name; break }",
             "}"
         ],
         "regex": "Opera_GX_([\\d.]+)_Setup"

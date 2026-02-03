@@ -37,7 +37,7 @@
             "    $release_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/{2}/windows/' -f $app, $app_type, $path_segment",
             "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
             "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -ExpandProperty href -First 1",
-            "    if ($null -ne $archive_name) { Write-Output $archive_name; break }",
+            "    if ($archive_name -match '^\\S') { Write-Output $archive_name; break }",
             "}"
         ],
         "regex": "dolphin-release_([\\d.-]+)-windows-cl-(?<lib>\\w+)-x86_64\\.7z"

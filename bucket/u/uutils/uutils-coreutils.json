@@ -46,7 +46,7 @@
         "$process.WaitForExit()",
         "Write-Output \"`nCreating shim for 'coreutils'...\"",
         "shim \"$dir\\coreutils.exe\" $global 'coreutils' $null",
-        "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object {",
+        "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
         "    Write-Output \"Creating shim for '$($_.Trim())'...\"",
         "    shim \"$dir\\coreutils.exe\" $global $_.Trim() $_.Trim()",
         "}"
@@ -61,7 +61,7 @@
             "$stdout_content = $process.StandardOutput.ReadToEnd()",
             "$process.WaitForExit()",
             "rm_shim 'coreutils' $(shimdir $global) $app",
-            "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object {",
+            "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
             "    rm_shim $_.Trim() $(shimdir $global) $app",
             "}"
         ]

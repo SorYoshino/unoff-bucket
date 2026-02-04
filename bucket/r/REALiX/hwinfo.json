@@ -42,13 +42,15 @@
     "uninstaller": {
         "script": [
             "$base_name = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty BaseName -First 1",
-            "rm_shim 'HWiNFO' $(shimdir $global) $app",
-            "$shortcut_file = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\HWiNFO.lnk\"",
-            "Write-Output \"Removing shortcut '$(friendly_path $shortcut_file)'...\"",
-            "Remove-Item -LiteralPath $shortcut_file -Force -ErrorAction SilentlyContinue",
             "unlink_persist_data @{ persist = \"$base_name.INI\" } $dir"
         ]
     },
+    "post_uninstall": [
+        "rm_shim 'HWiNFO' $(shimdir $global) $app",
+        "$shortcut_file = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\HWiNFO.lnk\"",
+        "Write-Output \"Removing shortcut '$(friendly_path $shortcut_file)'...\"",
+        "Remove-Item -LiteralPath $shortcut_file -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://www.hwinfo.com/ver.txt",
         "regex": "([\\d.-]+)"

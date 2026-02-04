@@ -1,5 +1,5 @@
 {
-    "version": "25.12-11058",
+    "version": "25.12-11105",
     "description": "A fast, developer-oriented text editor supporting multiple documents and views, advanced syntax highlighting, LSP integration, split editing, and an extensible plugin system with built-in terminal and powerful search capabilities.",
     "homepage": "https://kate-editor.org",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-25.12/windows/kate-release_25.12-11058-windows-cl-msvc2022-x86_64.7z",
-            "hash": "d41738b0f47c645e398dde91908330215f52eb60025648e211feb8717538f603"
+            "url": "https://cdn.kde.org/ci-builds/utilities/kate/release-25.12/windows/kate-release_25.12-11105-windows-cl-msvc2022-x86_64.7z",
+            "hash": "eb08e822efa0bc971e9d29431d8897373c9563cab9d790070616aa5901869982"
         }
     },
     "bin": "bin\\kate.exe",

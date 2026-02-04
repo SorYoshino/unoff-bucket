@@ -44,15 +44,12 @@
         "$process = [System.Diagnostics.Process]::Start($process_info)",
         "$stdout_content = $process.StandardOutput.ReadToEnd()",
         "$process.WaitForExit()",
-        "$pkg_manifest = [PSCustomObject]@{",
-        "    bin = @(",
-        "        'coreutils.exe'",
-        "        $stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
-        "            , @('coreutils.exe', $_.Trim(), $_.Trim())",
-        "        }",
-        "    )",
-        "}",
-        "create_shims $pkg_manifest $dir $global $architecture"
+        "Write-Output \"`nCreating shim for 'coreutils'...\"",
+        "shim \"$dir\\coreutils.exe\" $global 'coreutils' $null",
+        "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object {",
+        "    Write-Output \"Creating shim for '$($_.Trim())'...\"",
+        "    shim \"$dir\\coreutils.exe\" $global $_.Trim() $_.Trim()",
+        "}"
     ],
     "uninstaller": {
         "script": [
@@ -63,15 +60,10 @@
             "$process = [System.Diagnostics.Process]::Start($process_info)",
             "$stdout_content = $process.StandardOutput.ReadToEnd()",
             "$process.WaitForExit()",
-            "$pkg_manifest = [PSCustomObject]@{",
-            "    bin = @(",
-            "        'coreutils.exe'",
-            "        $stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
-            "            , @('coreutils.exe', $_.Trim(), $_.Trim())",
-            "        }",
-            "    )",
-            "}",
-            "rm_shims $app $pkg_manifest $global $architecture"
+            "rm_shim 'coreutils' $(shimdir $global) $app",
+            "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object {",
+            "    rm_shim $_.Trim() $(shimdir $global) $app",
+            "}"
         ]
     },
     "checkver": {

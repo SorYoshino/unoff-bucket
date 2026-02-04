@@ -22,36 +22,35 @@
     "installer": {
         "script": [
             "ensure $persist_dir | Out-Null",
+            "Get-ChildItem -Path $persist_dir -Filter '*64_KEY.txt' -File | Copy-Item -Destination $dir -Force",
             "$base_name = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty BaseName -First 1",
             "if (-not (Test-Path -Path \"$persist_dir\\$base_name.INI\" -PathType Leaf)) {",
             "    $cfg = @('[Settings]', 'AutoUpdate=0', 'AutoUpdateBetaDisable=1')",
             "    Set-Content -Path \"$dir\\$base_name.INI\" -Value $cfg -Encoding ascii",
             "}",
-            "Get-ChildItem -Path $persist_dir -Filter '*64_KEY.txt' -File | Copy-Item -Destination $dir -Force"
+            "persist_data @{ persist = \"$base_name.INI\" } $original_dir $persist_dir",
+            "persist_permission @{ persist = \"$base_name.INI\" } $global"
         ]
     },
     "post_install": [
-        "$base_name = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty BaseName -First 1",
-        "$program_name, $setting_name = @('.exe', '.INI') | ForEach-Object -Process { $base_name + $_ }",
-        "$binary_info = @($program_name, 'HWiNFO')",
-        "$pkg_manifest = @{ bin = ,$binary_info; shortcuts = ,$binary_info; persist = $setting_name }",
-        "create_shims $pkg_manifest $dir $global $architecture",
-        "create_startmenu_shortcuts $pkg_manifest $dir $global $architecture",
-        "persist_data $pkg_manifest $original_dir $persist_dir",
-        "persist_permission $pkg_manifest $global"
+        "$program_file = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty FullName -First 1",
+        "Write-Output \"`nCreating shim for 'HWiNFO'...\"",
+        "shim $program_file $global 'HWiNFO' $null",
+        "startmenu_shortcut $program_file 'HWiNFO' $null $null $global"
     ],
     "pre_uninstall": "Get-ChildItem -Path $dir -Filter '*64_KEY.txt' -File | Copy-Item -Destination $persist_dir -Force",
     "uninstaller": {
         "script": [
             "$base_name = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty BaseName -First 1",
-            "$program_name, $setting_name = @('.exe', '.INI') | ForEach-Object -Process { $base_name + $_ }",
-            "$binary_info = @($program_name, 'HWiNFO')",
-            "$pkg_manifest = @{ bin = ,$binary_info; shortcuts = ,$binary_info; persist = $setting_name }",
-            "rm_shims $app $pkg_manifest $global $architecture",
-            "rm_startmenu_shortcuts $pkg_manifest $global $architecture",
-            "unlink_persist_data $pkg_manifest $dir"
+            "unlink_persist_data @{ persist = \"$base_name.INI\" } $dir"
         ]
     },
+    "post_uninstall": [
+        "rm_shim 'HWiNFO' $(shimdir $global) $app",
+        "$shortcut_file = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\HWiNFO.lnk\"",
+        "Write-Output \"Removing shortcut '$(friendly_path $shortcut_file)'...\"",
+        "Remove-Item -LiteralPath $shortcut_file -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://www.hwinfo.com/ver.txt",
         "regex": "([\\d.-]+)"

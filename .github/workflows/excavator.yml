@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
   schedule:
-    # run every 4 hours
-    - cron: '20 */4 * * *'
+    # Runs at 45 minutes past the hour, every 3 hours
+    - cron: '45 */3 * * *'
 name: Excavator
 jobs:
   excavate:
@@ -14,4 +14,5 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCOOP_BRANCH: develop
           SKIP_UPDATED: 1

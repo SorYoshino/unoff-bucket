@@ -59,7 +59,7 @@
     },
     "checkver": {
         "url": "https://frippery.org/files/busybox/?C=M;O=D",
-        "regex": "busybox-w64-FRP-([\\w-]+)"
+        "regex": "busybox-w64u-FRP-([\\w-]+)"
     },
     "autoupdate": {
         "architecture": {

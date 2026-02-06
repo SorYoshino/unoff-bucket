@@ -1,5 +1,18 @@
 Windows Registry Editor Version 5.00
 
+; Remove application metadata and capabilities from the Default Programs framework
+
+[-HKEY_CURRENT_USER\Software\calibre]
+
+
+; Unregister calibre from the RegisteredApplications list to disable system-level integration
+
+[HKEY_CURRENT_USER\Software\RegisteredApplications]
+"calibre 64-bit"=-
+"calibre Editor 64-bit"=-
+"calibre Viewer 64-bit"=-
+
+
 [HKEY_CURRENT_USER\Software\Classes\.azw\OpenWithProgIDs]
 "calibre.azw"=-
 "calibreViewer.azw"=-

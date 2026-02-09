@@ -1,0 +1,110 @@
+{
+    "AccessEnum": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\AccessEnum - View file system and Registry security permissions"
+    },
+    "ADExplorer": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Active Directory Explorer - Advanced Active Directory viewer, editor, and snapshot comparator"
+    },
+    "ADInsight": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Insight for Active Directory - Real-time LDAP monitoring and troubleshooting for AD applications"
+    },
+    "Autologon": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Autologon - Manage Windows automatic logon credentials and settings"
+    },
+    "Autoruns": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Autoruns - Analyze and manage comprehensive system auto-start entries"
+    },
+    "Bginfo": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\BGInfo - Display system configuration information on the desktop wallpaper"
+    },
+    "Cacheset": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\CacheSet - Manage and tune system file cache working-set parameters"
+    },
+    "CoreinfoEx": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Coreinfo - Analyze CPU topology and hardware cache hierarchies"
+    },
+    "CPUSTRES": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\CPU Stress - Simulate and monitor custom CPU load and thread activity"
+    },
+    "Dbgview": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\DebugView - Monitor local and remote kernel-mode and Win32 debug output"
+    },
+    "Desktops": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Desktops - Manage and organize applications across multiple virtual desktops"
+    },
+    "disk2vhd": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Disk2vhd - Convert physical disks into Virtual Hard Disk (VHD) images"
+    },
+    "Diskmon": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Diskmon - Monitor and display real-time hard disk read and write activity"
+    },
+    "DiskView": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\DiskView - Visualize disk cluster usage and file allocation maps"
+    },
+    "LoadOrd": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\LoadOrder - View the load order of device drivers for boot analysis"
+    },
+    "notmyfault": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Not My Fault - Simulate system crashes, hangs, and kernel leaks for diagnostic training"
+    },
+    "portmon": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Portmon - Monitor and analyze real-time serial and parallel port activity"
+    },
+    "procexp": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Process Explorer - Advanced process management with handle and DLL tracking"
+    },
+    "Procmon": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Process Monitor - Real-time monitoring of file system, Registry, and process activity"
+    },
+    "RAMMap": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\RamMap - Analyze and visualize detailed physical memory allocation and usage"
+    },
+    "RDCMan": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Remote Desktop Connection Manager - Centralize and manage multiple remote desktop connections and groups"
+    },
+    "ShareEnum": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\Share Enum - Enumerate network file shares and analyze their security permissions"
+    },
+    "ShellRunas": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\ShellRunas - Run programs as different users"
+    },
+    "tcpview": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\TCPView - Display detailed TCP and UDP endpoints and ownership information"
+    },
+    "vmmap": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\VMMap - Analyze process virtual and physical memory usage and types"
+    },
+    "Winobj": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\WinObj - Explore and analyze the Windows Object Manager namespace and objects"
+    },
+    "ZoomIt": {
+        "Target": null,
+        "ShortcutName": "SysInternals Suite\\ZoomIt - Screen zooming, drawing, and recording for technical presentations and demos"
+    }
+}

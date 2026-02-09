@@ -1,0 +1,79 @@
+{
+    "version": "2026.02.06",
+    "description": "A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment.",
+    "homepage": "https://learn.microsoft.com/en-us/sysinternals/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://learn.microsoft.com/sysinternals/license-terms"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "hash": "1efa388c6d244e2d20df99ea1f4f48b5c38990d8a978bc334de51f374bc16c4c"
+        },
+        "32bit": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "hash": "1efa388c6d244e2d20df99ea1f4f48b5c38990d8a978bc334de51f374bc16c4c"
+        },
+        "arm64": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip",
+            "hash": "df69341b7f8a11e2925b8e261a165766681aa7fa4b5f336dd3b224dd62b8062e"
+        }
+    },
+    "pre_install": [
+        "if ($architecture -eq 'arm64') { return }",
+        "Get-ChildItem -Path $dir -Filter '*.exe' -File | Group-Object -Property {",
+        "    $_.BaseName -replace '(?:[^a-z]x)?\\d{2}$', ''",
+        "} | Where-Object { $_.Count -gt 1 } | ForEach-Object -Process {",
+        "    $_.Group | Sort-Object -Descending -Property @(",
+        "        { if ($architecture -eq '64bit') { $_.BaseName -match '64$' } else { $_.BaseName -notmatch '64$' } },",
+        "        { if ($architecture -eq '64bit') { $_.BaseName -notmatch 'x86$' } else { $_.BaseName -match 'x86$' } }",
+        "    ) | Select-Object -Skip 1 | Remove-Item -Force -ErrorAction SilentlyContinue",
+        "}"
+    ],
+    "post_install": [
+        "$metadata_file = Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.json' -File | Select-Object -First 1",
+        "$shortcut_map = Get-Content -Path $metadata_file.FullName -Encoding utf8 | ConvertFrom-Json -AsHashtable",
+        "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
+        "    $file_item = $_",
+        "    $clean_name = $file_item.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
+        "    Write-Output \"Creating shim for '$clean_name'...\"",
+        "    shim $file_item.FullName $global $clean_name $null",
+        "    $shortcut_map.Keys | Where-Object { $file_item.BaseName -match [regex]::Escape($_) } | ForEach-Object -Process {",
+        "        $shortcut_map[$_].Target = $file_item.FullName",
+        "    }",
+        "}",
+        "$shortcut_map.Keys | Where-Object { -not [string]::IsNullOrWhiteSpace($shortcut_map[$_].Target) } | ForEach-Object -Process {",
+        "    startmenu_shortcut $shortcut_map[$_].Target $shortcut_map[$_].ShortcutName '/accepteula' $null $global",
+        "}"
+    ],
+    "uninstaller": {
+        "script": [
+            "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
+            "    $clean_name = $_.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
+            "    rm_shim $clean_name $(shimdir $global) $app",
+            "}",
+            "$shortcut_root = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\SysInternals Suite\"",
+            "Write-Output \"Removing SysInternals Suite start menu folder '$(friendly_path $shortcut_root)'...\"",
+            "Remove-Item -LiteralPath $shortcut_root -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/live/sysinternals/downloads/sysinternals-suite.md",
+        "regex": "ms.date:\\s*(?<month>\\d+)/(?<day>\\d+)/(?<year>\\d+)",
+        "replace": "${year}.${month}.${day}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip"
+            },
+            "32bit": {
+                "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip"
+            },
+            "arm64": {
+                "url": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip"
+            }
+        }
+    }
+}

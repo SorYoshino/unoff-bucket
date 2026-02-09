@@ -32,7 +32,7 @@
         "}"
     ],
     "post_install": [
-        "$metadata_file = Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.json' -File | Select-Object -First 1",
+        "$metadata_file = Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.jsonc' -File | Select-Object -First 1",
         "$shortcut_map = Get-Content -Path $metadata_file.FullName -Encoding utf8 | ConvertFrom-Json -AsHashtable",
         "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
         "    $file_item = $_",

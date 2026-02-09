@@ -23,7 +23,7 @@
     "pre_install": [
         "if ($architecture -eq 'arm64') { return }",
         "Get-ChildItem -Path $dir -Filter '*.exe' -File | Group-Object -Property {",
-        "    $_.BaseName -replace '(?:64|[-.]x86)$', ''",
+        "    $_.BaseName -replace '(?:[^a-z]x)?\\d{2}$', ''",
         "} | Where-Object { $_.Count -gt 1 } | ForEach-Object -Process {",
         "    $_.Group | Sort-Object -Descending -Property @(",
         "        { if ($architecture -eq '64bit') { $_.BaseName -match '64$' } else { $_.BaseName -notmatch '64$' } },",
@@ -36,7 +36,7 @@
         "$shortcut_map = Get-Content -Path $metadata_file.FullName -Encoding utf8 | ConvertFrom-Json -AsHashtable",
         "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
         "    $file_item = $_",
-        "    $clean_name = $file_item.BaseName -replace '(?:[-.]x)?\\d{2}a?$', ''",
+        "    $clean_name = $file_item.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
         "    Write-Output \"Creating shim for '$clean_name'...\"",
         "    shim $file_item.FullName $global $clean_name $null",
         "    $shortcut_map.Keys | Where-Object { $file_item.BaseName -match [regex]::Escape($_) } | ForEach-Object -Process {",
@@ -50,7 +50,7 @@
     "uninstaller": {
         "script": [
             "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
-            "    $clean_name = $_.BaseName -replace '(?:[-.]x)?\\d{2}a?$', ''",
+            "    $clean_name = $_.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
             "    rm_shim $clean_name $(shimdir $global) $app",
             "}",
             "$shortcut_root = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\SysInternals Suite\"",

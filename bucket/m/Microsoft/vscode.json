@@ -25,6 +25,14 @@
         }
     },
     "pre_install": [
+        "ensure \"$dir\\resources\\app\\resources\\win32\" | Out-Null",
+        "$build_dir = Get-ChildItem -Path $dir -Directory |",
+        "        Where-Object { $_.Name -match '^[a-f0-9]{7,}$' } | Select-Object -ExpandProperty FullName -First 1",
+        "if (-not [string]::IsNullOrWhiteSpace($build_dir) -and (Test-Path -Path \"$build_dir\\resources\\app\\resources\\win32\\*\")) {",
+        "    $resources_dir = \"$dir\\resources\\app\\resources\\win32\"",
+        "    $original_resources_dir = \"$build_dir\\resources\\app\\resources\\win32\"",
+        "    Copy-Item -Path \"$original_resources_dir\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\" -Force",
+        "}",
         "$data_dir = \"$dir\\data\" -replace '\\\\', '/'",
         "$extensions_file = \"$env:USERPROFILE\\.vscode\\extensions\\extensions.json\"",
         "if (-not (Test-Path -Path $extensions_file -PathType Leaf)) { return }",

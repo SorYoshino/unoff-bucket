@@ -1,13 +1,13 @@
 {
-    "version": "25.01",
+    "version": "26.00",
     "description": "A streamlined, standalone command-line edition of 7-Zip that delivers core archiving functionality with reduced footprint.",
     "homepage": "https://www.7-zip.org",
     "license": {
         "identifier": "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
         "url": "https://www.7-zip.org/license.txt"
     },
-    "url": "https://github.com/ip7z/7zip/releases/download/25.01/7zr.exe",
-    "hash": "27cbe3d5804ad09e90bbcaa916da0d5c3b0be9462d0e0fb6cb54be5ed9030875",
+    "url": "https://github.com/ip7z/7zip/releases/download/26.00/7zr.exe",
+    "hash": "4bec0bc59836a890a11568b58bd12a3e7b23a683557340562da211b6088058ba",
     "bin": "7zr.exe",
     "checkver": {
         "github": "https://github.com/ip7z/7zip",

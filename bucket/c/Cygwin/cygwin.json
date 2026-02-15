@@ -31,6 +31,11 @@
     },
     "bin": [
         [
+            "cygwin-setup.exe",
+            "cygwin-setup",
+            "--no-admin --no-shortcuts --no-version-check --local-package-dir \"$persist_dir\\packages\" --root \"$persist_dir\\root\""
+        ],
+        [
             "root\\bin\\bash.exe",
             "cygwin",
             "--login -i"
@@ -65,11 +70,12 @@
             "$version_sort = { if ($_.href.Replace('.x86_64.exe', '') -match `",
             "        '(?<=setup-)[\\d.]+$') { [version]$matches[0] } else { [version]::new(0, 0, 0) } }",
             "$release_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
-            "$latest_package_name = $release_page.links | Where-Object { $_.href -like $package_filter } |",
-            "        Sort-Object -Property $version_sort -Descending | Select-Object -ExpandProperty href -First 1",
-            "Write-Output $latest_package_name"
+            "$package_names = $release_page.links | Where-Object { $_.href -like $package_filter } |",
+            "        Sort-Object -Property $version_sort -Descending | ForEach-Object -MemberName href",
+            "$latest_version = $package_names[0] -replace 'setup-([\\d.]+).+', '$1' -replace '\\.$', ''",
+            "Write-Output $latest_version"
         ],
-        "regex": "setup-([\\d.]+)\\.x86_64"
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

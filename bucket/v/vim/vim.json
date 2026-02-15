@@ -26,12 +26,12 @@
     },
     "extract_dir": "vim/vim92",
     "post_install": [
-        "$vim_dir = $dir -replace '\\\\', '\\\\'",
+        "<# $vim_dir = $dir -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{vim_dir}}', $vim_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
-        "}"
+        "} #>"
     ],
     "bin": [
         "vim.exe",

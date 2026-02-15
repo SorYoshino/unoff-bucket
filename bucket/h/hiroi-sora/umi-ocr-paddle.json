@@ -6,6 +6,14 @@
         "identifier": "MIT",
         "url": "https://github.com/hiroi-sora/Umi-OCR/blob/HEAD/LICENSE"
     },
+    "notes": [
+        "Due to the specific output behavior of `Umi-OCR.exe`, executing `Umi-OCR <option>` directly in a terminal may not display any output.",
+        "To display the corresponding output, use a pipe to forward the result to the console.",
+        "In Command Prompt (cmd), execute `Umi-OCR <option> | more` to display the output.",
+        "In PowerShell, execute `Umi-OCR <option> | Out-GridView` to display the output in a graphical view.",
+        "The Out-GridView cmdlet requires a graphical user interface and is unsupported on Windows Server Core and similar environments.",
+        "In such environments, `Write-Output` or `Out-Host` may be used as alternatives when output display is required."
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/hiroi-sora/Umi-OCR/releases/download/v2.1.5/Umi-OCR_Paddle_v2.1.5.7z.exe",

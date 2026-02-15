@@ -7,7 +7,7 @@
         "url": "https://github.com/Wagnard/display-drivers-uninstaller/blob/HEAD/LICENSE"
     },
     "url": "https://www.wagnardsoft.com/DDU/download/DDU%20v18.1.4.2.exe#/dl.exe",
-    "hash": "77508a26744c80a508a84ba9089624b881c7becf7ffcf58c3a51e0460ff2b88f",
+    "hash": "edd9a06a164d01bcdf578926047a785ed7aa7bee0f847e7235bacfe5bb25679c",
     "pre_install": [
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "$dir, $persist_dir | ForEach-Object -Process { ensure \"$_\\settings\" | Out-Null }",

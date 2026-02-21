@@ -6,12 +6,12 @@
         "- https://github.com/ScoopInstaller/Extras/issues/9179",
         "- https://forum.filezilla-project.org/viewtopic.php?f=1&t=55635&p=192010&hilit=winget#p192010"
     ],
-    "version": "3.69.6",
+    "version": "3.69.5",
     "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
     "homepage": "https://filezilla-project.org",
     "license": "GPL-2.0-or-later",
-    "url": "https://packages.chocolatey.org/filezilla.3.69.6.nupkg",
-    "hash": "07944408e7f8248796ee0e080104c25d435d65e4c9587f168effaf629e24d126",
+    "url": "https://packages.chocolatey.org/filezilla.3.69.5.nupkg",
+    "hash": "614bfc4155a16c5c06ef2dce560b3676a0f002700d3c4cdb8d581ba00b8eb2dd",
     "extract_dir": "tools",
     "architecture": {
         "64bit": {
@@ -29,6 +29,7 @@
     },
     "installer": {
         "script": [
+            "if (-not (Test-Path -Path \"$dir\\setup.exe\" -PathType Leaf)) { abort \"`n[ERROR]  'setup.exe' not found in '$dir'.\" }",
             "Expand-7zipArchive -Path \"$dir\\setup.exe\" -Switches '-xr!$* -xr!unins*' -Removal",
             "[xml]$xml = Get-Content -Path \"$dir\\docs\\fzdefaults.xml.example\" -Encoding utf8",
             "$comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
@@ -49,7 +50,18 @@
     "persist": "data",
     "checkver": {
         "url": "https://community.chocolatey.org/packages/filezilla",
-        "regex": "FileZilla\\s*<span>([\\d.]+)<"
+        "script": [
+            "$version_sort = { [version]$_.Groups['version'].Value }",
+            "$version_regex = 'FileZilla\\s*<span>(?<version>[\\d.]+)<'",
+            "$versions = [regex]::Matches($page, $version_regex) | Sort-Object -Property $version_sort -Descending |",
+            "        ForEach-Object -Process { $_.Groups['version'].Value }",
+            "foreach ($version in $versions) {",
+            "    $version_detail_url = 'https://community.chocolatey.org/packages/filezilla/{0}' -f $version",
+            "    $response = Invoke-WebRequest -Uri $version_detail_url -UseBasicParsing -ErrorAction Stop",
+            "    if ($response.Content -match '>tools\\\\FileZilla') { Write-Output $version; break }",
+            "}"
+        ],
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://packages.chocolatey.org/filezilla.$version.nupkg",

@@ -57,8 +57,8 @@
             "        ForEach-Object -Process { $_.Groups['version'].Value }",
             "foreach ($version in $versions) {",
             "    $version_detail_url = 'https://community.chocolatey.org/packages/filezilla/{0}' -f $version",
-            "    $response = Invoke-WebRequest -Uri $version_detail_url -UseBasicParsing -ErrorAction Stop",
-            "    if ($response.Content -match '>tools\\\\FileZilla') { Write-Output $version; break }",
+            "    $version_detail_page = Invoke-WebRequest -Uri $version_detail_url -UseBasicParsing -ErrorAction Stop",
+            "    if ($version_detail_page.Content -match '>tools\\\\FileZilla') { Write-Output $version; break }",
             "}"
         ],
         "regex": "([\\d.]+)"

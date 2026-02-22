@@ -31,24 +31,28 @@
     ],
     "persist": "Profiles",
     "checkver": {
-        "url": "https://www.guru3d.com/download/msi-afterburner-beta-download",
         "script": [
-            "if ($page -match 'aform.*?value=\"(?<token>[0-9a-f]+)\".*?Download (?<version>[\\d.]+)') {",
-            "    $version = $Matches['version']",
-            "    $body = @{ aform = $Matches['token'] }",
-            "    $post_response = Invoke-WebRequest -Uri $url -Method Post -Body $body -ErrorAction Stop",
-            "    if ($post_response.Content -match 'location=\"(?<redirect_url>https://www.guru3d.com/getdownload/[0-9a-f]+)\"') {",
-            "        $request_params = @{ Uri = $Matches.redirect_url; MaximumRedirection = 0 }",
-            "        if ($PSVersionTable.PSVersion -ge [version]::new(7, 0)) { $request_params['SkipHttpErrorCheck'] = $true }",
-            "        $response = Invoke-WebRequest @request_params -ErrorAction SilentlyContinue",
-            "        $path_segments = $response.Headers.Location -replace '.+?guru3d/', ''",
-            "        Write-Output \"$version, $([System.Net.WebUtility]::UrlEncode($path_segments))\"",
+            "$package_url = 'https://api.github.com/repositories/197275551/contents/manifests/g/Guru3D/Afterburner'",
+            "$first_letter, $publisher, $package = $package_url.Split('/') | Select-Object -Last 3",
+            "$package_page = Invoke-RestMethod -Uri $package_url -Method Get -ErrorAction Stop",
+            "$path_segments = $package_page | Where-Object { $_.type -eq 'dir' -and $_.name -match '^[\\d.]+$' } |",
+            "        Sort-Object -Property { [version]$_.name } -Descending | ForEach-Object -MemberName name",
+            "foreach ($path_segment in $path_segments) {",
+            "    $manifest_url = \"$package_url/{2}/{0}.{1}.installer.yaml\" -f $publisher, $package, $path_segment",
+            "    $manifest_info = Invoke-RestMethod -Uri $manifest_url -Headers @{ 'Accept' = 'application/vnd.github.v3.raw' } -ErrorAction Stop",
+            "    if ($null -ne $manifest_info -and $manifest_info -match 'InstallerUrl:.+/(?<package>[^/]+\\.zip)') {",
+            "        Write-Output \"$path_segment, $([System.Net.WebUtility]::UrlEncode($Matches['package']))\"",
+            "        break",
             "    }",
             "}"
         ],
-        "regex": "([\\d.]+), (?<path>[^%]+)%2F(?<name>.+)"
+        "regex": "([\\d.]+), (?<name>[^\\s]+)"
     },
     "autoupdate": {
-        "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/$matchPath/$matchName#/dl.7z_"
+        "url": "https://ftp.nluug.nl/pub/games/PC/guru3d/afterburner/$matchName#/dl.7z_",
+        "hash": {
+            "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/HEAD/manifests/g/Guru3D/Afterburner/$version/Guru3D.Afterburner.installer.yaml",
+            "regex": "(?s)$basename.+?$sha256"
+        }
     }
 }

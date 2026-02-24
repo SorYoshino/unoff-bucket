@@ -14,8 +14,7 @@
     },
     "pre_install": [
         "$current_depth = 0",
-        "$max_depth = 5",
-        "while ($current_depth -lt $max_depth) {",
+        "while ($current_depth -lt 5) {",
         "    $items = Get-ChildItem -Path $dir | Select-Object -First 3",
         "    if ($items.Count -eq 1 -and $items.PSIsContainer) {",
         "        $inner_dir = $items | ForEach-Object -MemberName FullName",

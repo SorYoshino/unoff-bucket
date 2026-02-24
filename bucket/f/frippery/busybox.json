@@ -37,7 +37,7 @@
         "$process.WaitForExit()",
         "Write-Output \"`nCreating shim for 'busybox'....\"",
         "shim \"$dir\\busybox.exe\" $global 'busybox' $null",
-        "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
+        "$stdout_content -split \"`r?`n\" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
         "    Write-Output \"Creating shim for '$($_.Trim())'...\"",
         "    shim \"$dir\\busybox.exe\" $global $_.Trim() $_.Trim()",
         "}"

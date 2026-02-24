@@ -22,17 +22,16 @@
     "checkver": {
         "script": [
             "$app_type = 'multimedia'",
-            "$path_filter = 'release-*/'",
             "$releases_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/' -f $app, $app_type",
             "$version_sort = { if ($_.href -match '([\\d.]+)/$') { [version]$Matches[1] } }",
             "$releases_page = Invoke-WebRequest -Uri $releases_url -UseBasicParsing -ErrorAction Stop",
-            "$path_segments = $releases_page.links | Where-Object { $_.href -like $path_filter } |",
+            "$path_segments = $releases_page.links | Where-Object { $_.href -like 'release-*/' } |",
             "        Sort-Object -Property $version_sort -Descending | ForEach-Object -MemberName href",
             "foreach ($path_segment in $path_segments.TrimEnd('/')) {",
             "    $release_url = 'https://cdn.kde.org/ci-builds/{1}/{0}/{2}/windows/' -f $app, $app_type, $path_segment",
             "    $download_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
             "    $archive_name = $download_page.Links | Where-Object { $_.href -match '\\.7z$' } | Select-Object -ExpandProperty href -First 1",
-            "    if ($archive_name -match '^\\S') { Write-Output $archive_name; break }",
+            "    if (-not [string]::IsNullOrWhiteSpace($archive_name)) { Write-Output $archive_name; break }",
             "}"
         ],
         "regex": "kdenlive-release_([\\d.-]+)-windows-gcc-x86_64\\.7z"

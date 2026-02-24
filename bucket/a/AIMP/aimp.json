@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.aimp.ru/?do=download.file&id=31#/dl.7z",
+            "url": "https://aimp.ru/?do=download.file&id=31#/dl.7z",
             "hash": "6908adcbeea4000b0219f86b783e9527598af5ea05f28da6e88af2b79fdc8e99"
         },
         "32bit": {
-            "url": "https://www.aimp.ru/?do=download.file&id=8#/dl.7z",
+            "url": "https://aimp.ru/?do=download.file&id=8#/dl.7z",
             "hash": "50381afdc4c7b5bf7af0e2a82299e4444650ade91f06d2907b80a0246eaa8d05"
         }
     },
@@ -57,10 +57,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.aimp.ru/?do=download.file&id=31#/dl.7z"
+                "url": "https://aimp.ru/?do=download.file&id=31#/dl.7z"
             },
             "32bit": {
-                "url": "https://www.aimp.ru/?do=download.file&id=8#/dl.7z"
+                "url": "https://aimp.ru/?do=download.file&id=8#/dl.7z"
             }
         },
         "hash": {

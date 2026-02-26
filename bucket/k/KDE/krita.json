@@ -1,5 +1,5 @@
 {
-    "version": "5.2.15",
+    "version": "5.2.16",
     "description": "A professional free and open-source digital painting application.",
     "homepage": "https://krita.org/",
     "license": {
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/krita/5.2.15/krita-x64-5.2.15.zip",
-            "hash": "783cd9123427e05796807e16768ce33dbb367fd3e6b8ecd8e08b0d2d62c1f65c",
-            "extract_dir": "krita-x64-5.2.15"
+            "url": "https://download.kde.org/stable/krita/5.2.16/krita-x64-5.2.16.zip",
+            "hash": "5b135f70ed47aa01c4b4fadf40a66b2ab1cacc58836c0bf5c8bd34eeae1a5442",
+            "extract_dir": "krita-x64-5.2.16"
         }
     },
     "bin": [

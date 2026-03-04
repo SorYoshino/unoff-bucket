@@ -24,8 +24,16 @@
             "hash": "dc59b7383104d57110e370638854cc1b1fd50de0fa6d293dc941f35094594298"
         }
     },
+    "pre_install" : [
+        "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
+        "$dir, $persist_dir | Foreach-Object -Process { ensure \"$_\\etc\" | Out-Null }",
+        "if ($cmd -eq 'install' -and -not (Test-Path -Path \"$persist_dir\\*\")) { return }",
+        "if (Test-Path -Path \"$persist_dir\\etc\\gitconfig\" -PathType Leaf) {",
+        "    Copy-Item -Path \"$persist_dir\\etc\\gitconfig\" -Destination \"$dir\\etc\\gitconfig\" -Force",
+        "}"
+    ],
     "installer": {
-        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!unins*' -Removal"
+        "script": "Expand-7zipArchive -Path \"$dir\\$fname\" -Switches '-xr!$* -xr!unins*' -Overwrite 'Skip' -Removal"
     },
     "post_install": [
         "$git_dir = $dir -replace '\\\\', '\\\\'",
@@ -33,7 +41,9 @@
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
         "    $content -replace '{{git_dir}}', $git_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
-        "}"
+        "}",
+        "$cfg = Get-Content -Path \"$dir\\etc\\gitconfig\" -Encoding utf8",
+        "$cfg -replace '(?<=git/)[\\d.]+(?=/)', $version | Set-Content -Path \"$dir\\etc\\gitconfig\" -Encoding utf8"
     ],
     "env_add_path": "cmd",
     "env_set": {
@@ -76,6 +86,13 @@
             "cmd\\git-gui.exe",
             "Git\\Git GUI"
         ]
+    ],
+    "pre_uninstall": [
+        "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
+        "if ($cmd -eq 'uninstall' -and $purge) { return }",
+        "if (Test-Path -Path \"$dir\\etc\\gitconfig\" -PathType Leaf) {",
+        "    Copy-Item -Path \"$dir\\etc\\gitconfig\" -Destination \"$persist_dir\\etc\" -Force",
+        "}"
     ],
     "uninstaller": {
         "script": [

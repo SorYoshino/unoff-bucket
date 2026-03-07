@@ -24,11 +24,11 @@
     ],
     "checkver": {
         "script": [
-            "$download_path = cache_path $app 'unknown' $url",
             "$download_url = 'https://s3proxy-alp.cdn-zlib.sk/swfs_second_public_files/soft/desktop/Z-Library-latest.exe'",
+            "$download_path = cache_path $app 'unknown' $download_url",
             "Invoke-WebRequest -Uri $download_url -OutFile $download_path -UseBasicParsing",
             "$version_info = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($download_path)",
-            "Move-Item -Path $download_path -Destination (cache_path $app $version_info.ProductVersion $url) -Force",
+            "Move-Item -Path $download_path -Destination (cache_path $app $version_info.ProductVersion $download_url) -Force",
             "Write-Output $version_info.ProductVersion"
         ],
         "regex": "([\\d.]+)"

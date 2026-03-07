@@ -1,5 +1,5 @@
 {
-    "version": "1.3.4558.55",
+    "version": "1.3.4559.86",
     "description": "A free and open source cross platform OpenVPN client.",
     "homepage": "https://client.pritunl.com",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
     },
-    "url": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4558.55/Pritunl.exe#/dl.exe",
-    "hash": "sha512:55325bb6d4b2f4d16379ce250a248fc233f50567aca2acfa505e0e64771ae72d6ef63e72c1baa82a1a3cf431e012cc8dd7dc5ec2d6ea59fb77a0f298481d575a",
+    "url": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.3.4559.86/Pritunl.exe#/dl.exe",
+    "hash": "sha512:d8d1b6b47ace6bb118802c26f89c60010337acbce03f5c046bcdefc0565ca40c374f34092aae9e33d2c248846fb56f6306aa8347086921c1a939df73b8859ec1",
     "innosetup": true,
     "architecture": {
         "64bit": {

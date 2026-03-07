@@ -24,7 +24,7 @@
             "hash": "dc59b7383104d57110e370638854cc1b1fd50de0fa6d293dc941f35094594298"
         }
     },
-    "pre_install" : [
+    "pre_install": [
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "$dir, $persist_dir | Foreach-Object -Process { ensure \"$_\\etc\" | Out-Null }",
         "if ($cmd -eq 'install' -and -not (Test-Path -Path \"$persist_dir\\*\")) { return }",

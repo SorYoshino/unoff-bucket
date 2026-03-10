@@ -52,7 +52,7 @@
             "$stdout_content = $process.StandardOutput.ReadToEnd()",
             "$process.WaitForExit()",
             "rm_shim 'busybox' $(shimdir $global) $app",
-            "$stdout_content -split \"`r?`n\" | Where-Object { $_ -match '^\\S' } | ForEach-Object -Process {",
+            "$stdout_content -split \"`r?`n\" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
             "    rm_shim $_.Trim() $(shimdir $global) $app",
             "}"
         ]

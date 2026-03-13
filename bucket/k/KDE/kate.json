@@ -3,7 +3,7 @@
     "description": "A fast, developer-oriented text editor supporting multiple documents and views, advanced syntax highlighting, LSP integration, split editing, and an extensible plugin system with built-in terminal and powerful search capabilities.",
     "homepage": "https://kate-editor.org",
     "license": {
-        "identifier": "LGPL-2.1-only",
+        "identifier": "LGPL-2.1-or-later",
         "url": "https://invent.kde.org/utilities/kate/-/blob/HEAD/LICENSES/LGPL-2.0-or-later.txt"
     },
     "architecture": {

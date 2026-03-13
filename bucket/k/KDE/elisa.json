@@ -3,7 +3,7 @@
     "description": "A music player developed by the KDE community, focused on simplicity, usability, and a pleasant listening experience.",
     "homepage": "https://apps.kde.org/elisa/",
     "license": {
-        "identifier": "LGPL-3.0-or-later",
+        "identifier": "LGPL-3.0-only",
         "url": "https://invent.kde.org/multimedia/elisa/-/blob/HEAD/COPYING"
     },
     "architecture": {

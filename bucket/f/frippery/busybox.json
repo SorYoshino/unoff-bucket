@@ -21,10 +21,10 @@
         }
     },
     "pre_install": [
-        "if (-not (Test-Path -Path \"$env:USERPROFILE\\.profile\" -PathType Leaf)) {",
+        "if (-not (Test-Path -Path \"$HOME\\.profile\" -PathType Leaf)) {",
         "    Write-Host \"`nINFO  Creating '~/.profile'...\" -ForegroundColor DarkGray",
         "    $cfg = @('if [ -f ~/.bashrc ]; then', '    source ~/.bashrc', 'fi')",
-        "    Set-Content -Path \"$env:USERPROFILE\\.profile\" -Value $cfg -Encoding oem",
+        "    Set-Content -Path \"$HOME\\.profile\" -Value $cfg -Encoding oem",
         "}"
     ],
     "post_install": [

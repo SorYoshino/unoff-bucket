@@ -7,7 +7,7 @@
         "url": "https://github.com/angryip/ipscan/blob/HEAD/LICENSE"
     },
     "notes": [
-        "To install a plugin, place the .jar file in \"$env:USERPROFILE\\.ipscan\" and restart the application.",
+        "To install a plugin, place the .jar file in \"$HOME\\.ipscan\" and restart the application.",
         "For more information, see: https://angryip.org/contribute/plugins.",
         "For common issues and troubleshooting, visit: https://angryip.org/faq."
     ],

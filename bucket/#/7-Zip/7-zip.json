@@ -28,13 +28,11 @@
     },
     "installer": {
         "script": [
-            "$log_path = \"$dir\\7zip.log\"",
             "ensure \"$dir\\tmp\" | Out-Null",
-            "$download_path = \"$dir\\tmp\\7zr.exe\"",
             "$download_url = 'https://www.7-zip.org/a/7zr.exe'",
-            "Invoke-WebRequest -Uri $download_url -OutFile $download_path -UseBasicParsing",
+            "Invoke-WebRequest -Uri $download_url -OutFile \"$dir\\tmp\\7zr.exe\" -UseBasicParsing",
             "$args_list = @('x', \"`\"$dir\\$fname`\"\", \"-o`\"$dir`\"\", '-xr!$*', '-xr!unins*', '-aoa', '-y')",
-            "$status = Invoke-ExternalCommand -FilePath $download_path -ArgumentList $args_list -LogPath $log_path",
+            "$status = Invoke-ExternalCommand -FilePath \"$dir\\tmp\\7zr.exe\" -ArgumentList $args_list -LogPath \"$dir\\tmp\\7zip.log\"",
             "if (-not $status) {",
             "    $red, $yellow, $cyan, $gray, $reset = \"`e[31m\", \"`e[33m\", \"`e[96m\", \"`e[37m\", \"`e[0m\"",
             "    Write-Output \"`n${red}Failed to extract archive: '$dir\\$fname'${reset}\"",
@@ -45,7 +43,7 @@
             "    Write-Output \"`n${gray}Please review the log file for specific error messages.${reset}\"",
             "    exit 1",
             "}",
-            "$log_path, \"$dir\\tmp\", \"$dir\\$fname\" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+            "'tmp', $fname | Foreach-Object -Process { Remove-Item -Path \"$dir\\$_\" -Recurse -Force -ErrorAction SilentlyContinue }"
         ]
     },
     "post_install": [

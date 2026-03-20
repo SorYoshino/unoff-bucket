@@ -18,7 +18,7 @@
     ],
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path \"$dir\\$fname\" -ExtractDir \"DDU v$version\" -Removal",
+            "Expand-7zipArchive -Path \"$dir\\$fname\" -ExtractDir \"DDU v$version\" -Overwrite 'Skip' -Removal",
             "if (-not (Test-Path -Path \"$dir\\settings\\Settings.xml\" -PathType Leaf)) {",
             "    $settings = [System.Xml.XmlWriterSettings]::new()",
             "    $writer = [System.Xml.XmlWriter]::Create(\"$dir\\settings\\Settings.xml\", $settings)",

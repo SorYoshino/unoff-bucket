@@ -10,7 +10,8 @@
         "To register file associations, please execute the following command:",
         "- `reg import \"$dir\\register-file-associations.reg\"`",
         "To register the context menu entry, please execute the following command:",
-        "- `reg import \"$dir\\register-context-menu.reg\"`"
+        "- `reg import \"$dir\\register-context-menu.reg\"`",
+        "Please note that if the context menu entry is registered, restarting Explorer will be required during future updates."
     ],
     "architecture": {
         "64bit": {
@@ -75,14 +76,19 @@
     ],
     "uninstaller": {
         "script": [
+            "$registry_hive = if ($global) { 'HKLM' } else { 'HKCU' }",
+            "$registry_path = \"${registry_hive}:\\Software\\Classes\\CLSID\\{23170F69-40C1-278A-1000-000100020000}\"",
+            "$is_registered = if (Test-Path -Path $registry_path) { $true } else { $false }",
             "if ($cmd -eq 'uninstall') {",
             "    Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
             "        $registry_file = \"`\"{0}`\"\" -f $_.FullName",
             "        Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "    }",
             "}",
-            "Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
-            "Start-Sleep -Milliseconds 1500"
+            "if ($is_registered) {",
+            "    Stop-Process -Name 'explorer' -Force -ErrorAction SilentlyContinue",
+            "    Start-Sleep -Milliseconds 1500",
+            "}"
         ]
     },
     "checkver": {

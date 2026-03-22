@@ -11,7 +11,7 @@
         "- `reg import \"$dir\\register-file-associations.reg\"`",
         "To register the context menu entry, please execute the following command:",
         "- `reg import \"$dir\\register-context-menu.reg\"`",
-        "If the context menu entry is registered, Windows Explorer will be automatically restarted during future updates."
+        "Please note that if the context menu entry is registered, Windows Explorer will be automatically restarted during future updates."
     ],
     "architecture": {
         "64bit": {

@@ -77,7 +77,7 @@
         "script": [
             "if ($cmd -eq 'uninstall') {",
             "    Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",
-            "        $registry_file = \"`\"{0}`\"\" -f $_.FullName",
+            "        $registry_file = '\"{0}\"' -f $_.FullName",
             "        Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "    }",
             "}",

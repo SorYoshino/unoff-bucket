@@ -17,27 +17,22 @@
         }
     },
     "pre_install": [
+        "ensure $persist_dir | Out-Null",
         "$original_cfg_path = $env:TLRC_CONFIG, \"$env:APPDATA\\tlrc\\config.toml\" | Select-Object -First 1",
-        "$is_different = $original_cfg_path -ne \"$persist_dir\\config.toml\"",
-        "if ($is_different -and (Test-Path -Path $original_cfg_path -PathType Leaf)) {",
-        "    Copy-Item -Path $original_cfg_path -Destination \"$dir\\config.toml\" -Force",
+        "if (-not (Test-Path -Path \"$persist_dir\\*.toml\") -and `",
+        "        $original_cfg_path -ne \"$persist_dir\\config.toml\" -and (Test-Path -Path $original_cfg_path -PathType Leaf)) {",
+        "    Copy-Item -Path $original_cfg_path -Destination \"$persist_dir\\config.toml\" -Force",
+        "    $remove_list = @($env:APPDATA, $env:LOCALAPPDATA) | ForEach-Object -Process { \"$_\\$app\" }",
+        "    $remove_list + @($original_cfg_path) | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
         "}",
-        "$remove_list = @($env:APPDATA, $env:LOCALAPPDATA) | ForEach-Object -Process { \"$_\\$app\" }",
-        "$remove_list + @($original_cfg_path) * $is_different | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+        "$cfg_path = \"$persist_dir\\config.toml\"",
+        "if (-not (Test-Path -Path $cfg_path -PathType Leaf)) {",
+        "    $process_output_params = @{ NoNewWindow = $true; RedirectStandardOutput = $cfg_path }",
+        "    Start-Process -FilePath \"$dir\\tldr.exe\" -ArgumentList @('--gen-config') @process_output_params -Wait",
+        "}",
+        "$cfg = Get-Content -Path $cfg_path -Encoding utf8",
+        "$cfg -replace '(?<=dir = '').+(?='')', \"$persist_dir\\.cache\" -join \"`n\" | Set-Content -Path $cfg_path -Encoding utf8"
     ],
-    "installer": {
-        "script": [
-            "$cfg_path = \"$dir\\config.toml\"",
-            "if (Test-Path -Path \"$persist_dir\\config.toml\" -PathType Leaf) { return }",
-            "if (-not (Test-Path -Path $cfg_path -PathType Leaf)) {",
-            "    $process_output_params = @{ NoNewWindow = $true; RedirectStandardOutput = $cfg_path }",
-            "    Start-Process -FilePath \"$dir\\tldr.exe\" -ArgumentList @('--gen-config') @process_output_params -Wait",
-            "}",
-            "$cfg = Get-Content -Path $cfg_path -Encoding utf8",
-            "$cfg = $cfg -replace '(?<=dir = '').+(?='')', \"$persist_dir\\.cache\"",
-            "$cfg -join \"`n\" | Set-Content -Path $cfg_path -Encoding utf8"
-        ]
-    },
     "env_set": {
         "TLRC_CONFIG": "$persist_dir\\config.toml"
     },

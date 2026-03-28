@@ -33,7 +33,7 @@
         "        })",
         "    if ($_.Name -cne $new_name) { $_ | Rename-Item -NewName $new_name -Force }",
         "}",
-        "if (-not (Test-Path -Path \"$persist_dir\\*\" -Include '*.ini' -PathType Leaf)) {",
+        "if (-not (Test-Path -Path \"$persist_dir\\*.ini' -PathType Leaf)) {",
         "    Start-Process -FilePath \"$dir\\Everything.exe\" -ArgumentList @('-install-config', 'null') -NoNewWindow -Wait",
         "}",
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",

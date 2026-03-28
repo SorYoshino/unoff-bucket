@@ -29,7 +29,7 @@
         "    $items = Get-ChildItem -Path $dir | Select-Object -First 3",
         "    if ($items.Count -eq 1 -and $items.PSIsContainer) {",
         "        $inner_dir = $items | ForEach-Object -MemberName FullName",
-        "        Copy-Item -Path \"$inner_dir\\*\" -Destination $dir -Force -Recurse",
+        "        Move-Item -Path \"$inner_dir\\*\" -Destination $dir -Force",
         "        Remove-Item -Path $inner_dir -Recurse -Force -ErrorAction SilentlyContinue",
         "        $current_depth++",
         "    } else { break }",

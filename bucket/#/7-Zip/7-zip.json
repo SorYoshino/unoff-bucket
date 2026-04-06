@@ -30,7 +30,7 @@
     "installer": {
         "script": [
             "ensure \"$dir\\tmp\" | Out-Null",
-            "$download_url = 'https://www.7-zip.org/a/7zr.exe'",
+            "$download_url = \"https://github.com/ip7z/7zip/releases/download/$version/7zr.exe\"",
             "Invoke-WebRequest -Uri $download_url -OutFile \"$dir\\tmp\\7zr.exe\" -UseBasicParsing",
             "$args_list = @('x', \"`\"$dir\\$fname`\"\", \"-o`\"$dir`\"\", '-xr!$*', '-xr!unins*', '-aoa', '-y')",
             "$status = Invoke-ExternalCommand -FilePath \"$dir\\tmp\\7zr.exe\" -ArgumentList $args_list -LogPath \"$dir\\tmp\\7zip.log\"",
@@ -77,7 +77,7 @@
     "uninstaller": {
         "script": [
             "$registry_hive = if ($global) { 'HKLM' } else { 'HKCU' }",
-            "$registry_path = '{0}:\\Software\\Classes\\CLSID\\{23170F69-40C1-278A-1000-000100020000}' -f $registry_hive",
+            "$registry_path = \"${registry_hive}:\\Software\\Classes\\CLSID\\{23170F69-40C1-278A-1000-000100020000}\"",
             "$is_registered = if (Test-Path -Path $registry_path) { $true } else { $false }",
             "if ($cmd -eq 'uninstall') {",
             "    Get-ChildItem -Path $dir -Filter 'un*.reg' -File | ForEach-Object -Process {",

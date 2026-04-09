@@ -1,5 +1,5 @@
 {
-    "version": "26.04-4392",
+    "version": "26.04-4393",
     "description": "A music player developed by the KDE community, focused on simplicity, usability, and a pleasant listening experience.",
     "homepage": "https://apps.kde.org/elisa/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-26.04/windows/elisa-release_26.04-4392-windows-cl-msvc2022-x86_64.7z",
-            "hash": "f2c8c288bea55faa3f68650bd253549af0b4767d049548fdf6f9831f6dea6a01"
+            "url": "https://cdn.kde.org/ci-builds/multimedia/elisa/release-26.04/windows/elisa-release_26.04-4393-windows-cl-msvc2022-x86_64.7z",
+            "hash": "2682ca3a76acec23b163b9386e5bf9ea98ef9b50075d364876c464db236fc13f"
         }
     },
     "bin": "bin\\elisa.exe",

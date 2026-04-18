@@ -29,17 +29,17 @@
     ],
     "post_install": [
         "$process_info = [System.Diagnostics.ProcessStartInfo]@{",
-        "    FileName = \"$dir\\busybox.exe\"; Arguments = '--list'",
+        "    FileName = \"$original_dir\\busybox.exe\"; Arguments = '--list'",
         "    CreateNoWindow = $true; UseShellExecute = $false; RedirectStandardOutput = $true",
         "}",
         "$process = [System.Diagnostics.Process]::Start($process_info)",
         "$stdout_content = $process.StandardOutput.ReadToEnd()",
         "$process.WaitForExit()",
         "Write-Output \"`nCreating shim for 'busybox'....\"",
-        "shim \"$dir\\busybox.exe\" $global 'busybox' $null",
+        "shim \"$original_dir\\busybox.exe\" $global 'busybox' $null",
         "$stdout_content -split \"`r?`n\" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
         "    Write-Output \"Creating shim for '$($_.Trim())'...\"",
-        "    shim \"$dir\\busybox.exe\" $global $_.Trim() $_.Trim()",
+        "    shim \"$original_dir\\busybox.exe\" $global $_.Trim() $_.Trim()",
         "}"
     ],
     "uninstaller": {

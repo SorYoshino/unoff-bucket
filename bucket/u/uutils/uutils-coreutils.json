@@ -36,8 +36,8 @@
         "}"
     ],
     "post_install": [
-        "$program_files = Get-ChildItem -Path $dir -Filter '*.exe' -File",
-        "if ($program_files.Count -eq 0) { abort \"`nNo executable files found in '$dir'. Aborting installation.\" }",
+        "$program_files = Get-ChildItem -Path $original_dir -Filter '*.exe' -File",
+        "if ($program_files.Count -eq 0) { abort \"`nNo executable files found in '$original_dir'. Aborting installation.\" }",
         "if ($program_files.Count -eq 1) {",
         "    $process_info = [System.Diagnostics.ProcessStartInfo]@{",
         "        FileName = $program_files.FullName; Arguments = '--list'",
@@ -47,10 +47,10 @@
         "    $stdout_content = $process.StandardOutput.ReadToEnd()",
         "    $process.WaitForExit()",
         "    Write-Output \"`nCreating shim for 'coreutils'...\"",
-        "    shim \"$dir\\coreutils.exe\" $global 'coreutils' $null",
+        "    shim \"$original_dir\\coreutils.exe\" $global 'coreutils' $null",
         "    $stdout_content -split \"`r?`n\" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
         "        Write-Output \"Creating shim for '$($_.Trim())'...\"",
-        "        shim \"$dir\\coreutils.exe\" $global $_.Trim() $_.Trim()",
+        "        shim \"$original_dir\\coreutils.exe\" $global $_.Trim() $_.Trim()",
         "    }",
         "} else {",
         "    $program_files | Foreach-Object -Process {",

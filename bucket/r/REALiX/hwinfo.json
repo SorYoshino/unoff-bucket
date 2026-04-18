@@ -33,7 +33,7 @@
         ]
     },
     "post_install": [
-        "$program_file = Get-ChildItem -Path $dir -Filter '*.exe' -File | Select-Object -ExpandProperty FullName -First 1",
+        "$program_file = Get-ChildItem -Path $original_dir -Filter '*.exe' -File | Select-Object -ExpandProperty FullName -First 1",
         "Write-Output \"`nCreating shim for 'HWiNFO'...\"",
         "shim $program_file $global 'HWiNFO' $null",
         "startmenu_shortcut $program_file 'HWiNFO' $null $null $global"

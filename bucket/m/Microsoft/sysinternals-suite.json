@@ -34,7 +34,7 @@
     "post_install": [
         "$metadata_file = Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.jsonc' -File | Select-Object -First 1",
         "$shortcut_map = Get-Content -Path $metadata_file.FullName -Encoding utf8 | ConvertFrom-Json -AsHashtable",
-        "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
+        "Get-ChildItem -Path $original_dir -Filter '*.exe' -File | ForEach-Object -Process {",
         "    $program_file = $_",
         "    $clean_name = $program_file.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
         "    Write-Output \"Creating shim for '$clean_name'...\"",
@@ -52,12 +52,14 @@
             "Get-ChildItem -Path $dir -Filter '*.exe' -File | ForEach-Object -Process {",
             "    $clean_name = $_.BaseName -replace '(?:[^a-z]x)?\\d{2}a?$', ''",
             "    rm_shim $clean_name $(shimdir $global) $app",
-            "}",
-            "$shortcut_root = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\SysInternals Suite\"",
-            "Write-Output \"Removing SysInternals Suite start menu folder '$(friendly_path $shortcut_root)'...\"",
-            "Remove-Item -LiteralPath $shortcut_root -Recurse -Force -ErrorAction SilentlyContinue"
+            "}"
         ]
     },
+    "post_uninstall": [
+        "$shortcut_root = Get-AbsolutePath -Path \"$(shortcut_folder $global)\\SysInternals Suite\"",
+        "Write-Output \"`nRemoving SysInternals Suite start menu folder '$(friendly_path $shortcut_root)'...\"",
+        "Remove-Item -LiteralPath $shortcut_root -Recurse -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/live/sysinternals/downloads/sysinternals-suite.md",
         "regex": "ms.date:\\s*(?<month>\\d+)/(?<day>\\d+)/(?<year>\\d+)",

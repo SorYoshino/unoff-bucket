@@ -15,6 +15,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\shell\open\command]
@@ -37,6 +38,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ascx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ascx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ascx\shell\open\command]
@@ -59,6 +61,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.asp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.asp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.asp\shell\open\command]
@@ -81,6 +84,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.aspx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.aspx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.aspx\shell\open\command]
@@ -103,6 +107,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash\shell\open\command]
@@ -125,6 +130,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bashrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bashrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bashrc\shell\open\command]
@@ -147,6 +153,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_login\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_login\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_login\shell\open\command]
@@ -169,6 +176,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_logout\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_logout\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_logout\shell\open\command]
@@ -191,6 +199,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_profile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_profile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bash_profile\shell\open\command]
@@ -213,6 +222,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bib\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bib\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bib\shell\open\command]
@@ -235,6 +245,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bowerrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bowerrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.bowerrc\shell\open\command]
@@ -257,6 +268,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c\shell\open\command]
@@ -279,6 +291,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c++\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c++\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.c++\shell\open\command]
@@ -301,6 +314,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cc\shell\open\command]
@@ -323,6 +337,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cfg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cfg\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cfg\shell\open\command]
@@ -345,6 +360,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cjs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cjs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cjs\shell\open\command]
@@ -367,6 +383,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clj\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clj\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clj\shell\open\command]
@@ -389,6 +406,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljs\shell\open\command]
@@ -411,6 +429,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cljx\shell\open\command]
@@ -433,6 +452,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clojure\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clojure\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.clojure\shell\open\command]
@@ -455,6 +475,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cls\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cls\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cls\shell\open\command]
@@ -477,6 +498,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cmake\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cmake\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cmake\shell\open\command]
@@ -499,6 +521,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.code-workspace\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.code-workspace\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.code-workspace\shell\open\command]
@@ -521,6 +544,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.coffee\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.coffee\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.coffee\shell\open\command]
@@ -543,6 +567,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.conf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.conf\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.conf\shell\open\command]
@@ -565,6 +590,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.config\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.config\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.config\shell\open\command]
@@ -587,6 +613,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.containerfile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.containerfile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.containerfile\shell\open\command]
@@ -609,6 +636,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cpp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cpp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cpp\shell\open\command]
@@ -631,6 +659,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cs\shell\open\command]
@@ -653,6 +682,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cshtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cshtml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cshtml\shell\open\command]
@@ -675,6 +705,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csproj\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csproj\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csproj\shell\open\command]
@@ -697,6 +728,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.css\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.css\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.css\shell\open\command]
@@ -719,6 +751,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csv\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csv\shell\open\command]
@@ -741,6 +774,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csx\shell\open\command]
@@ -763,6 +797,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ctp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ctp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ctp\shell\open\command]
@@ -785,6 +820,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cxx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cxx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.cxx\shell\open\command]
@@ -807,6 +843,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dart\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dart\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dart\shell\open\command]
@@ -829,6 +866,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.diff\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.diff\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.diff\shell\open\command]
@@ -851,6 +889,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerfile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerfile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerfile\shell\open\command]
@@ -874,6 +913,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerignore\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dockerignore\shell\open\command]
@@ -896,6 +936,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dot\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dot\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dot\shell\open\command]
@@ -918,6 +959,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dtd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dtd\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.dtd\shell\open\command]
@@ -940,6 +982,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.editorconfig\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.editorconfig\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.editorconfig\shell\open\command]
@@ -962,6 +1005,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.edn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.edn\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.edn\shell\open\command]
@@ -984,6 +1028,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.env\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.env\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.env\shell\open\command]
@@ -1006,6 +1051,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.erb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.erb\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.erb\shell\open\command]
@@ -1028,6 +1074,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyaml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyaml\shell\open\command]
@@ -1050,6 +1097,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.eyml\shell\open\command]
@@ -1072,6 +1120,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fish\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fish\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fish\shell\open\command]
@@ -1094,6 +1143,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fs\shell\open\command]
@@ -1116,6 +1166,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsi\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsi\shell\open\command]
@@ -1138,6 +1189,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsscript\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsscript\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsscript\shell\open\command]
@@ -1160,6 +1212,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.fsx\shell\open\command]
@@ -1182,6 +1235,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gemspec\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gemspec\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gemspec\shell\open\command]
@@ -1205,6 +1259,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitattributes\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitattributes\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitattributes\shell\open\command]
@@ -1228,6 +1283,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitconfig\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitconfig\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitconfig\shell\open\command]
@@ -1251,6 +1307,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitignore\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gitignore\shell\open\command]
@@ -1273,6 +1330,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.go\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.go\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.go\shell\open\command]
@@ -1295,6 +1353,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gradle\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gradle\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.gradle\shell\open\command]
@@ -1317,6 +1376,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.groovy\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.groovy\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.groovy\shell\open\command]
@@ -1339,6 +1399,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h\shell\open\command]
@@ -1361,6 +1422,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h++\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h++\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.h++\shell\open\command]
@@ -1383,6 +1445,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.handlebars\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.handlebars\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.handlebars\shell\open\command]
@@ -1405,6 +1468,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hbs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hbs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hbs\shell\open\command]
@@ -1427,6 +1491,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hh\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hh\shell\open\command]
@@ -1449,6 +1514,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hpp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hpp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hpp\shell\open\command]
@@ -1471,6 +1537,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.htm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.htm\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.htm\shell\open\command]
@@ -1493,6 +1560,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.html\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.html\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.html\shell\open\command]
@@ -1515,6 +1583,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hxx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hxx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.hxx\shell\open\command]
@@ -1537,6 +1606,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ini\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ini\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ini\shell\open\command]
@@ -1559,6 +1629,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.inputrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.inputrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.inputrc\shell\open\command]
@@ -1581,6 +1652,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ipynb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ipynb\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ipynb\shell\open\command]
@@ -1603,6 +1675,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jade\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jade\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jade\shell\open\command]
@@ -1625,6 +1698,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jav\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jav\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jav\shell\open\command]
@@ -1647,6 +1721,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.java\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.java\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.java\shell\open\command]
@@ -1669,6 +1744,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.js\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.js\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.js\shell\open\command]
@@ -1691,6 +1767,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jscsrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jscsrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jscsrc\shell\open\command]
@@ -1713,6 +1790,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshintrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshintrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshintrc\shell\open\command]
@@ -1735,6 +1813,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshtm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshtm\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jshtm\shell\open\command]
@@ -1757,6 +1836,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json\shell\open\command]
@@ -1779,6 +1859,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json5\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json5\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.json5\shell\open\command]
@@ -1801,6 +1882,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonc\shell\open\command]
@@ -1823,6 +1905,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\shell\open\command]
@@ -1845,6 +1928,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsp\shell\open\command]
@@ -1867,6 +1951,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsx\shell\open\command]
@@ -1889,6 +1974,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.less\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.less\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.less\shell\open\command]
@@ -1911,6 +1997,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.log\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.log\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.log\shell\open\command]
@@ -1933,6 +2020,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.lua\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.lua\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.lua\shell\open\command]
@@ -1955,6 +2043,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.m\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.m\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.m\shell\open\command]
@@ -1977,6 +2066,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.makefile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.makefile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.makefile\shell\open\command]
@@ -1999,6 +2089,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.markdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.markdown\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.markdown\shell\open\command]
@@ -2021,6 +2112,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.md\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.md\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.md\shell\open\command]
@@ -2043,6 +2135,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdoc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdoc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdoc\shell\open\command]
@@ -2065,6 +2158,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdown\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdown\shell\open\command]
@@ -2087,6 +2181,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtext\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtext\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtext\shell\open\command]
@@ -2109,6 +2204,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtxt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtxt\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdtxt\shell\open\command]
@@ -2131,6 +2227,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdwn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdwn\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mdwn\shell\open\command]
@@ -2153,6 +2250,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mjs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mjs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mjs\shell\open\command]
@@ -2175,6 +2273,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mk\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mk\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mk\shell\open\command]
@@ -2197,6 +2296,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkd\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkd\shell\open\command]
@@ -2219,6 +2319,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkdn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkdn\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mkdn\shell\open\command]
@@ -2241,6 +2342,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ml\shell\open\command]
@@ -2263,6 +2365,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mli\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mli\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mli\shell\open\command]
@@ -2286,6 +2389,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.npmignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.npmignore\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.npmignore\shell\open\command]
@@ -2308,6 +2412,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.nu\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.nu\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.nu\shell\open\command]
@@ -2330,6 +2435,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.php\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.php\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.php\shell\open\command]
@@ -2352,6 +2458,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.phtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.phtml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.phtml\shell\open\command]
@@ -2374,6 +2481,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl\shell\open\command]
@@ -2396,6 +2504,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl6\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl6\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pl6\shell\open\command]
@@ -2418,6 +2527,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.plist\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.plist\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.plist\shell\open\command]
@@ -2440,6 +2550,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm\shell\open\command]
@@ -2462,6 +2573,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm6\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm6\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pm6\shell\open\command]
@@ -2484,6 +2596,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pod\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pod\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pod\shell\open\command]
@@ -2506,6 +2619,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pp\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pp\shell\open\command]
@@ -2528,6 +2642,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.profile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.profile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.profile\shell\open\command]
@@ -2550,6 +2665,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.properties\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.properties\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.properties\shell\open\command]
@@ -2572,6 +2688,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1\shell\open\command]
@@ -2594,6 +2711,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1xml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1xml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ps1xml\shell\open\command]
@@ -2616,6 +2734,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psd1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psd1\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psd1\shell\open\command]
@@ -2638,6 +2757,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psgi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psgi\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psgi\shell\open\command]
@@ -2660,6 +2780,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psm1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psm1\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.psm1\shell\open\command]
@@ -2682,6 +2803,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.py\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.py\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.py\shell\open\command]
@@ -2704,6 +2826,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pyi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pyi\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.pyi\shell\open\command]
@@ -2726,6 +2849,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.r\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.r\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.r\shell\open\command]
@@ -2748,6 +2872,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rb\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rb\shell\open\command]
@@ -2770,6 +2895,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rdf\shell\open\command]
@@ -2792,6 +2918,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.reg\shell\open\command]
@@ -2814,6 +2941,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rhistory\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rhistory\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rhistory\shell\open\command]
@@ -2836,6 +2964,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rprofile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rprofile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rprofile\shell\open\command]
@@ -2858,6 +2987,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rs\shell\open\command]
@@ -2880,6 +3010,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rst\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rst\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rst\shell\open\command]
@@ -2902,6 +3033,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rt\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.rt\shell\open\command]
@@ -2924,6 +3056,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sass\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sass\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sass\shell\open\command]
@@ -2946,6 +3079,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.scss\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.scss\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.scss\shell\open\command]
@@ -2968,6 +3102,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sh\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sh\shell\open\command]
@@ -2990,6 +3125,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.shtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.shtml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.shtml\shell\open\command]
@@ -3012,6 +3148,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sql\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sql\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.sql\shell\open\command]
@@ -3034,6 +3171,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.svg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.svg\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.svg\shell\open\command]
@@ -3056,6 +3194,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.t\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.t\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.t\shell\open\command]
@@ -3078,6 +3217,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tex\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tex\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tex\shell\open\command]
@@ -3100,6 +3240,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.toml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.toml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.toml\shell\open\command]
@@ -3122,6 +3263,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ts\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ts\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ts\shell\open\command]
@@ -3144,6 +3286,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tsx\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.tsx\shell\open\command]
@@ -3166,6 +3309,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.txt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.txt\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.txt\shell\open\command]
@@ -3188,6 +3332,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vb\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vb\shell\open\command]
@@ -3210,6 +3355,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vbs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vbs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vbs\shell\open\command]
@@ -3232,6 +3378,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vue\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vue\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.vue\shell\open\command]
@@ -3254,6 +3401,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxi\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxi\shell\open\command]
@@ -3276,6 +3424,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxl\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxl\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxl\shell\open\command]
@@ -3298,6 +3447,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxs\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.wxs\shell\open\command]
@@ -3320,6 +3470,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xaml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xaml\shell\open\command]
@@ -3342,6 +3493,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xhtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xhtml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xhtml\shell\open\command]
@@ -3364,6 +3516,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xml\shell\open\command]
@@ -3386,6 +3539,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yaml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yaml\shell\open\command]
@@ -3408,6 +3562,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.yml\shell\open\command]
@@ -3430,6 +3585,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogin\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogin\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogin\shell\open\command]
@@ -3452,6 +3608,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogout\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogout\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zlogout\shell\open\command]
@@ -3474,6 +3631,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zprofile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zprofile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zprofile\shell\open\command]
@@ -3496,6 +3654,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zsh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zsh\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zsh\shell\open\command]
@@ -3518,6 +3677,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshenv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshenv\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshenv\shell\open\command]
@@ -3540,6 +3700,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshrc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.zshrc\shell\open\command]
@@ -3557,6 +3718,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeSourceFile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeSourceFile\shell\open]
+"FriendlyAppName"="Visual Studio Code"
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeSourceFile\shell\open\command]

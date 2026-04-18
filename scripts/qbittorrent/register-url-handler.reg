@@ -3,14 +3,14 @@ Windows Registry Editor Version 5.00
 ; Define application metadata and capabilities for the Default Programs framework
 ; This ensures qBittorrent is recognized in Windows Settings and "Default Apps".
 
-[HKEY_CURRENT_USER\Software\qBittorrent]
+[HKEY_CURRENT_USER\Software\WOW6432Node\qBittorrent]
 "InstallLocation"="{{qbittorrent_dir}}"
 
-[HKEY_CURRENT_USER\Software\qBittorrent\Capabilities]
+[HKEY_CURRENT_USER\Software\WOW6432Node\qBittorrent\Capabilities]
 "ApplicationDescription"="A BitTorrent client in Qt"
 "ApplicationName"="qBittorrent"
 
-[HKEY_CURRENT_USER\Software\qBittorrent\Capabilities\UrlAssociations]
+[HKEY_CURRENT_USER\Software\WOW6432Node\qBittorrent\Capabilities\UrlAssociations]
 "magnet"="qBittorrent.Url.Magnet"
 
 

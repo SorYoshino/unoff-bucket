@@ -36,6 +36,8 @@ Windows Registry Editor Version 5.00
 @="%SystemRoot%\\System32\\shell32.dll,-153"
 
 [HKEY_CURRENT_USER\Software\Classes\sh_auto_file\shell\open]
+"FriendlyAppName"="Git Bash"
+"Icon"="\"{{git_dir}}\\git-bash.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\sh_auto_file\shell\open\command]
 @="\"{{git_dir}}\\git-bash.exe\" --no-cd \"%L\" %*"

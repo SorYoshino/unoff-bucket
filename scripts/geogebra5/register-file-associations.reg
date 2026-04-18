@@ -15,6 +15,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open]
+"FriendlyAppName"="GeoGebra Classic 5"
 "Icon"="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open\command]
@@ -37,6 +38,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open]
+"FriendlyAppName"="GeoGebra Classic 5"
 "Icon"="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open\command]

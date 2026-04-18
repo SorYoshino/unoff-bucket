@@ -15,6 +15,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.001\shell\open\command]
@@ -37,6 +38,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.7z\shell\open\command]
@@ -59,6 +61,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.apfs\shell\open\command]
@@ -81,6 +84,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.arj\shell\open\command]
@@ -103,6 +107,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bz2\shell\open\command]
@@ -125,6 +130,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.bzip2\shell\open\command]
@@ -147,6 +153,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cab\shell\open\command]
@@ -169,6 +176,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.cpio\shell\open\command]
@@ -191,6 +199,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.deb\shell\open\command]
@@ -213,6 +222,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.dmg\shell\open\command]
@@ -235,6 +245,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.esd\shell\open\command]
@@ -257,6 +268,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.fat\shell\open\command]
@@ -279,6 +291,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gz\shell\open\command]
@@ -301,6 +314,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.gzip\shell\open\command]
@@ -323,6 +337,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.hfs\shell\open\command]
@@ -345,6 +360,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.iso\shell\open\command]
@@ -367,6 +383,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lha\shell\open\command]
@@ -389,6 +406,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzh\shell\open\command]
@@ -411,6 +429,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.lzma\shell\open\command]
@@ -433,6 +452,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.ntfs\shell\open\command]
@@ -455,6 +475,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rar\shell\open\command]
@@ -477,6 +498,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.rpm\shell\open\command]
@@ -499,6 +521,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.squashfs\shell\open\command]
@@ -521,6 +544,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.swm\shell\open\command]
@@ -543,6 +567,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tar\shell\open\command]
@@ -565,6 +590,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.taz\shell\open\command]
@@ -587,6 +613,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz\shell\open\command]
@@ -609,6 +636,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tbz2\shell\open\command]
@@ -631,6 +659,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tgz\shell\open\command]
@@ -653,6 +682,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tpz\shell\open\command]
@@ -675,6 +705,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.txz\shell\open\command]
@@ -697,6 +728,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.tzst\shell\open\command]
@@ -719,6 +751,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhd\shell\open\command]
@@ -741,6 +774,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.vhdx\shell\open\command]
@@ -763,6 +797,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.wim\shell\open\command]
@@ -785,6 +820,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xar\shell\open\command]
@@ -807,6 +843,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.xz\shell\open\command]
@@ -829,6 +866,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.z\shell\open\command]
@@ -851,6 +889,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zip\shell\open\command]
@@ -873,6 +912,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell\open]
+"FriendlyAppName"="7-Zip File Manager"
 "Icon"="\"{{7zip_dir}}\\7zFM.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\7-Zip.zst\shell\open\command]

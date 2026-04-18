@@ -20,12 +20,14 @@ Windows Registry Editor Version 5.00
 @="open"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit]
+"FriendlyAppName"="Everything Alpha"
 "Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit\command]
 @="\"{{everything_alpha_dir}}\\Everything.exe\" -edit \"%1\""
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open]
+"FriendlyAppName"="Everything Alpha"
 "Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open\command]

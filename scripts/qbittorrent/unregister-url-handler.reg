@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 ; Remove application metadata and capabilities from the Default Programs framework
 
-[-HKEY_CURRENT_USER\Software\qBittorrent]
+[-HKEY_CURRENT_USER\Software\WOW6432Node\qBittorrent]
 
 ; Unregister qBittorrent from the RegisteredApplications list to disable system-level integration
 

@@ -15,6 +15,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell\open\command]
@@ -37,6 +38,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ascx\shell\open\command]
@@ -59,6 +61,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asp\shell\open\command]
@@ -81,6 +84,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.aspx\shell\open\command]
@@ -103,6 +107,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash\shell\open\command]
@@ -125,6 +130,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bashrc\shell\open\command]
@@ -147,6 +153,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_login\shell\open\command]
@@ -169,6 +176,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_logout\shell\open\command]
@@ -191,6 +199,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bash_profile\shell\open\command]
@@ -213,6 +222,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bib\shell\open\command]
@@ -235,6 +245,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.bowerrc\shell\open\command]
@@ -257,6 +268,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c\shell\open\command]
@@ -279,6 +291,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.c++\shell\open\command]
@@ -301,6 +314,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cc\shell\open\command]
@@ -323,6 +337,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cfg\shell\open\command]
@@ -345,6 +360,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cjs\shell\open\command]
@@ -367,6 +383,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clj\shell\open\command]
@@ -389,6 +406,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljs\shell\open\command]
@@ -411,6 +429,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cljx\shell\open\command]
@@ -433,6 +452,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.clojure\shell\open\command]
@@ -455,6 +475,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cls\shell\open\command]
@@ -477,6 +498,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cmake\shell\open\command]
@@ -499,6 +521,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.code-workspace\shell\open\command]
@@ -521,6 +544,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.coffee\shell\open\command]
@@ -543,6 +567,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.conf\shell\open\command]
@@ -565,6 +590,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.config\shell\open\command]
@@ -587,6 +613,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.containerfile\shell\open\command]
@@ -609,6 +636,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cpp\shell\open\command]
@@ -631,6 +659,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cs\shell\open\command]
@@ -653,6 +682,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cshtml\shell\open\command]
@@ -675,6 +705,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csproj\shell\open\command]
@@ -697,6 +728,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.css\shell\open\command]
@@ -719,6 +751,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\shell\open\command]
@@ -741,6 +774,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csx\shell\open\command]
@@ -763,6 +797,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ctp\shell\open\command]
@@ -785,6 +820,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.cxx\shell\open\command]
@@ -807,6 +843,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dart\shell\open\command]
@@ -829,6 +866,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.diff\shell\open\command]
@@ -851,6 +889,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerfile\shell\open\command]
@@ -874,6 +913,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dockerignore\shell\open\command]
@@ -896,6 +936,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dot\shell\open\command]
@@ -918,6 +959,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.dtd\shell\open\command]
@@ -940,6 +982,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.editorconfig\shell\open\command]
@@ -962,6 +1005,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.edn\shell\open\command]
@@ -984,6 +1028,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.env\shell\open\command]
@@ -1006,6 +1051,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.erb\shell\open\command]
@@ -1028,6 +1074,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyaml\shell\open\command]
@@ -1050,6 +1097,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.eyml\shell\open\command]
@@ -1072,6 +1120,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fish\shell\open\command]
@@ -1094,6 +1143,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fs\shell\open\command]
@@ -1116,6 +1166,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsi\shell\open\command]
@@ -1138,6 +1189,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsscript\shell\open\command]
@@ -1160,6 +1212,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.fsx\shell\open\command]
@@ -1182,6 +1235,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gemspec\shell\open\command]
@@ -1205,6 +1259,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitattributes\shell\open\command]
@@ -1228,6 +1283,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitconfig\shell\open\command]
@@ -1251,6 +1307,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gitignore\shell\open\command]
@@ -1273,6 +1330,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.go\shell\open\command]
@@ -1295,6 +1353,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.gradle\shell\open\command]
@@ -1317,6 +1376,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.groovy\shell\open\command]
@@ -1339,6 +1399,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h\shell\open\command]
@@ -1361,6 +1422,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.h++\shell\open\command]
@@ -1383,6 +1445,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.handlebars\shell\open\command]
@@ -1405,6 +1468,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hbs\shell\open\command]
@@ -1427,6 +1491,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hh\shell\open\command]
@@ -1449,6 +1514,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hpp\shell\open\command]
@@ -1471,6 +1537,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.htm\shell\open\command]
@@ -1493,6 +1560,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.html\shell\open\command]
@@ -1515,6 +1583,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.hxx\shell\open\command]
@@ -1537,6 +1606,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ini\shell\open\command]
@@ -1559,6 +1629,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.inputrc\shell\open\command]
@@ -1581,6 +1652,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ipynb\shell\open\command]
@@ -1603,6 +1675,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jade\shell\open\command]
@@ -1625,6 +1698,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jav\shell\open\command]
@@ -1647,6 +1721,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.java\shell\open\command]
@@ -1669,6 +1744,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.js\shell\open\command]
@@ -1691,6 +1767,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jscsrc\shell\open\command]
@@ -1713,6 +1790,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshintrc\shell\open\command]
@@ -1735,6 +1813,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jshtm\shell\open\command]
@@ -1757,6 +1836,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json\shell\open\command]
@@ -1779,6 +1859,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.json5\shell\open\command]
@@ -1801,6 +1882,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonc\shell\open\command]
@@ -1823,6 +1905,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\shell\open\command]
@@ -1845,6 +1928,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsp\shell\open\command]
@@ -1867,6 +1951,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell\open\command]
@@ -1889,6 +1974,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.less\shell\open\command]
@@ -1911,6 +1997,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.log\shell\open\command]
@@ -1933,6 +2020,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.lua\shell\open\command]
@@ -1955,6 +2043,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.m\shell\open\command]
@@ -1977,6 +2066,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.makefile\shell\open\command]
@@ -1999,6 +2089,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.markdown\shell\open\command]
@@ -2021,6 +2112,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.md\shell\open\command]
@@ -2043,6 +2135,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdoc\shell\open\command]
@@ -2065,6 +2158,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdown\shell\open\command]
@@ -2087,6 +2181,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtext\shell\open\command]
@@ -2109,6 +2204,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdtxt\shell\open\command]
@@ -2131,6 +2227,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mdwn\shell\open\command]
@@ -2153,6 +2250,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mjs\shell\open\command]
@@ -2175,6 +2273,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mk\shell\open\command]
@@ -2197,6 +2296,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkd\shell\open\command]
@@ -2219,6 +2319,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mkdn\shell\open\command]
@@ -2241,6 +2342,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ml\shell\open\command]
@@ -2263,6 +2365,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell\open\command]
@@ -2286,6 +2389,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.npmignore\shell\open\command]
@@ -2308,6 +2412,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.nu\shell\open\command]
@@ -2330,6 +2435,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.php\shell\open\command]
@@ -2352,6 +2458,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.phtml\shell\open\command]
@@ -2374,6 +2481,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl\shell\open\command]
@@ -2396,6 +2504,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pl6\shell\open\command]
@@ -2418,6 +2527,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.plist\shell\open\command]
@@ -2440,6 +2550,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm\shell\open\command]
@@ -2462,6 +2573,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pm6\shell\open\command]
@@ -2484,6 +2596,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pod\shell\open\command]
@@ -2506,6 +2619,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pp\shell\open\command]
@@ -2528,6 +2642,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.profile\shell\open\command]
@@ -2550,6 +2665,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.properties\shell\open\command]
@@ -2572,6 +2688,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1\shell\open\command]
@@ -2594,6 +2711,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ps1xml\shell\open\command]
@@ -2616,6 +2734,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psd1\shell\open\command]
@@ -2638,6 +2757,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psgi\shell\open\command]
@@ -2660,6 +2780,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.psm1\shell\open\command]
@@ -2682,6 +2803,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.py\shell\open\command]
@@ -2704,6 +2826,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.pyi\shell\open\command]
@@ -2726,6 +2849,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.r\shell\open\command]
@@ -2748,6 +2872,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rb\shell\open\command]
@@ -2770,6 +2895,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rdf\shell\open\command]
@@ -2792,6 +2918,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.reg\shell\open\command]
@@ -2814,6 +2941,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rhistory\shell\open\command]
@@ -2836,6 +2964,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rprofile\shell\open\command]
@@ -2858,6 +2987,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rs\shell\open\command]
@@ -2880,6 +3010,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rst\shell\open\command]
@@ -2902,6 +3033,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.rt\shell\open\command]
@@ -2924,6 +3056,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sass\shell\open\command]
@@ -2946,6 +3079,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.scss\shell\open\command]
@@ -2968,6 +3102,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sh\shell\open\command]
@@ -2990,6 +3125,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.shtml\shell\open\command]
@@ -3012,6 +3148,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.sql\shell\open\command]
@@ -3034,6 +3171,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.svg\shell\open\command]
@@ -3056,6 +3194,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.t\shell\open\command]
@@ -3078,6 +3217,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tex\shell\open\command]
@@ -3100,6 +3240,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell\open\command]
@@ -3122,6 +3263,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell\open\command]
@@ -3144,6 +3286,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsx\shell\open\command]
@@ -3166,6 +3309,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.txt\shell\open\command]
@@ -3188,6 +3332,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vb\shell\open\command]
@@ -3210,6 +3355,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vbs\shell\open\command]
@@ -3232,6 +3378,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.vue\shell\open\command]
@@ -3254,6 +3401,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxi\shell\open\command]
@@ -3276,6 +3424,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxl\shell\open\command]
@@ -3298,6 +3447,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.wxs\shell\open\command]
@@ -3320,6 +3470,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xaml\shell\open\command]
@@ -3342,6 +3493,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xhtml\shell\open\command]
@@ -3364,6 +3516,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell\open\command]
@@ -3386,6 +3539,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yaml\shell\open\command]
@@ -3408,6 +3562,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.yml\shell\open\command]
@@ -3430,6 +3585,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogin\shell\open\command]
@@ -3452,6 +3608,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zlogout\shell\open\command]
@@ -3474,6 +3631,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zprofile\shell\open\command]
@@ -3496,6 +3654,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zsh\shell\open\command]
@@ -3518,6 +3677,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshenv\shell\open\command]
@@ -3540,6 +3700,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.zshrc\shell\open\command]
@@ -3557,6 +3718,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell]
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsidersSourceFile\shell\open\command]

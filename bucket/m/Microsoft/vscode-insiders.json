@@ -1,7 +1,7 @@
 {
     "version": "1.117.0-a947515",
     "description": "Visual Studio Code Insiders is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
-    "homepage": "https://code.visualstudio.com",
+    "homepage": "https://code.visualstudio.com/insiders",
     "license": {
         "identifier": "Freeware",
         "url": "https://code.visualstudio.com/license/insiders"
@@ -90,7 +90,11 @@
     "shortcuts": [
         [
             "Code - Insiders.exe",
-            "Visual Studio Code - Insiders"
+            "Visual Studio Code - Insiders\\Visual Studio Code - Insiders"
+        ],
+        [
+            "Agents - Insiders.exe",
+            "Visual Studio Code - Insiders\\Visual Studio Code Agents - Insiders"
         ]
     ],
     "persist": "data",

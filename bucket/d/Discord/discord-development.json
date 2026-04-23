@@ -1,5 +1,5 @@
 {
-    "version": "1.0.982",
+    "version": "1.0.983",
     "description": "A voice, video, and text communication platform, providing access to the most internal and unrefined builds for development and testing purposes.",
     "homepage": "https://discord.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.982/DiscordDevelopmentSetup.exe",
-            "hash": "8f30c5bbfeff81cb939275e3e179cc3d3d6241bac2ccea79eec47c6000b0575c"
+            "url": "https://development.dl2.discordapp.net/distro/app/development/win/x64/1.0.983/DiscordDevelopmentSetup.exe",
+            "hash": "6beb029d5459d08e5a52ce7e81daec0b3dd81092b5bff64b8d27290610e23d6e"
         }
     },
     "installer": {

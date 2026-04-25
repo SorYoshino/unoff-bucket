@@ -19,7 +19,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/51886700/releases",
+        "github": "https://api.github.com/repos/Taiko2k/Tauon/releases",
         "jsonpath": "$[?(@.prerelease == false && @.assets[?(@.name =~ /windows/i)])].tag_name",
         "regex": "(?<=\")(?<tag>v?([\\d.]+))(?=\")"
     },

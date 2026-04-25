@@ -44,7 +44,7 @@
     ],
     "persist": "User Data",
     "checkver": {
-        "url": "https://api.github.com/repositories/638089306/releases/latest",
+        "github": "https://api.github.com/repos/win32ss/supermium/releases/latest",
         "script": [
             "$release = $page | ConvertFrom-Json -ErrorAction Stop",
             "Write-Output \"$($release.tag_name), $($release.name)\""

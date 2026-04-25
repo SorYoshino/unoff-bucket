@@ -37,7 +37,7 @@
         "screenshots"
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/347905832/releases/latest",
+        "github": "https://api.github.com/repos/smplayer-dev/smplayer/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /portable/i)].browser_download_url",
         "regex": "(?i)download/(?<tag>[^/]+)/smplayer-portable-([\\d.]+)-win32-qt(?<qtversion>[\\d.]+)\\.7z"
     },

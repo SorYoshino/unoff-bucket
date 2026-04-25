@@ -65,7 +65,7 @@
         "Config\\Config.ini"
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/74809720/releases/latest",
+        "github": "https://api.github.com/repos/Chuyu-Team/Dism-Multi-language/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /Dism/i)].browser_download_url",
         "regex": "(?i)download/(?<tag>[^/]+)/(?<name>Dism%2B%2B([\\d.]+\\w?)(?<!_)(?:.+)?\\.[^\"]+)"
     },

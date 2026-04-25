@@ -76,7 +76,7 @@
         ]
     },
     "checkver": {
-        "url": "https://api.github.com/repositories/61958135/releases/latest",
+        "github": "https://api.github.com/repos/mcmilk/7-Zip-zstd/releases/latest",
         "jsonpath": "$.assets[?(@.name =~ /7z(?!.+ndm)/i)].browser_download_url",
         "regex": "(?i)download/(?<tag>v?(?<sevenzip>[^-]+)-v?(?<zstd>[^-]+)-R(?<release>\\d+))/(?<prefix>[^\"]+)-(?:arm|x)",
         "replace": "${sevenzip}-${zstd}-r${release}"

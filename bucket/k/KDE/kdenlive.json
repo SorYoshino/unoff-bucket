@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://cdn.kde.org/ci-builds/multimedia/kdenlive/release-26.04/windows/kdenlive-release_26.04-12478-windows-gcc-x86_64.7z",
-            "hash": "652cadec6bc33e4b6b55cd66f3d49e77f24116500a88c6d726f5749d296b160d"
+            "hash": "aa925802a0eb85359385cdefc065c29e5952ae680e1e05ec11933aaec3e9e9cb"
         }
     },
     "bin": "bin\\kdenlive.exe",

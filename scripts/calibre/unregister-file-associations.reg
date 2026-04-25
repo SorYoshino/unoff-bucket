@@ -14,357 +14,357 @@ Windows Registry Editor Version 5.00
 
 
 [HKEY_CURRENT_USER\Software\Classes\.azw\OpenWithProgIDs]
-"calibre.azw"=-
-"calibreViewer.azw"=-
+"calibre64bit.AssocFile.azw"=-
+"calibreViewer64bit.AssocFile.azw"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.azw]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.azw]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.azw]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.azw1\OpenWithProgIDs]
-"calibre.azw1"=-
+"calibre64bit.AssocFile.azw1"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.azw1]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.azw1]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.azw3\OpenWithProgIDs]
-"calibre.azw3"=-
-"calibreEditor.azw3"=-
-"calibreViewer.azw3"=-
+"calibre64bit.AssocFile.azw3"=-
+"calibreEditor64bit.AssocFile.azw3"=-
+"calibreViewer64bit.AssocFile.azw3"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.azw3]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.azw3]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.azw3]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.azw3]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.azw3]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.azw3]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.book\OpenWithProgIDs]
-"calibre.book"=-
+"calibre64bit.AssocFile.book"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.book]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.book]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cb7\OpenWithProgIDs]
-"calibre.cb7"=-
-"calibreViewer.cb7"=-
+"calibre64bit.AssocFile.cb7"=-
+"calibreViewer64bit.AssocFile.cb7"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.cb7]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.cb7]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.cb7]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.cb7]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cbc\OpenWithProgIDs]
-"calibre.cbc"=-
-"calibreViewer.cbc"=-
+"calibre64bit.AssocFile.cbc"=-
+"calibreViewer64bit.AssocFile.cbc"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.cbc]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.cbc]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbc]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.cbc]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cbr\OpenWithProgIDs]
-"calibre.cbr"=-
-"calibreViewer.cbr"=-
+"calibre64bit.AssocFile.cbr"=-
+"calibreViewer64bit.AssocFile.cbr"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.cbr]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.cbr]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbr]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.cbr]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.cbz\OpenWithProgIDs]
-"calibre.cbz"=-
-"calibreViewer.cbz"=-
+"calibre64bit.AssocFile.cbz"=-
+"calibreViewer64bit.AssocFile.cbz"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.cbz]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.cbz]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.cbz]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.cbz]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.chm\OpenWithProgIDs]
-"calibre.chm"=-
-"calibreViewer.chm"=-
+"calibre64bit.AssocFile.chm"=-
+"calibreViewer64bit.AssocFile.chm"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.chm]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.chm]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.chm]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.chm]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.djv\OpenWithProgIDs]
-"calibre.djv"=-
-"calibreViewer.djv"=-
+"calibre64bit.AssocFile.djv"=-
+"calibreViewer64bit.AssocFile.djv"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.djv]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.djv]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.djv]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.djv]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.djvu\OpenWithProgIDs]
-"calibre.djvu"=-
-"calibreViewer.djvu"=-
+"calibre64bit.AssocFile.djvu"=-
+"calibreViewer64bit.AssocFile.djvu"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.djvu]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.djvu]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.djvu]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.djvu]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.doc\OpenWithProgIDs]
-"calibre.doc"=-
+"calibre64bit.AssocFile.doc"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.doc]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.doc]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.docm\OpenWithProgIDs]
-"calibre.docm"=-
-"calibreViewer.docm"=-
+"calibre64bit.AssocFile.docm"=-
+"calibreViewer64bit.AssocFile.docm"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.docm]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.docm]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.docm]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.docm]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.docx\OpenWithProgIDs]
-"calibre.docx"=-
-"calibreEditor.docx"=-
-"calibreViewer.docx"=-
+"calibre64bit.AssocFile.docx"=-
+"calibreEditor64bit.AssocFile.docx"=-
+"calibreViewer64bit.AssocFile.docx"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.docx]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.docx]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.docx]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.docx]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.docx]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.docx]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.epub\OpenWithProgIDs]
-"calibre.epub"=-
-"calibreEditor.epub"=-
-"calibreViewer.epub"=-
+"calibre64bit.AssocFile.epub"=-
+"calibreEditor64bit.AssocFile.epub"=-
+"calibreViewer64bit.AssocFile.epub"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.epub]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.epub]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.epub]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.epub]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.epub]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.epub]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.fb2\OpenWithProgIDs]
-"calibre.fb2"=-
-"calibreViewer.fb2"=-
+"calibre64bit.AssocFile.fb2"=-
+"calibreViewer64bit.AssocFile.fb2"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.fb2]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.fb2]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.fb2]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.fb2]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.htm\OpenWithProgIDs]
-"calibre.htm"=-
-"calibreEditor.htm"=-
-"calibreViewer.htm"=-
+"calibre64bit.AssocFile.htm"=-
+"calibreEditor64bit.AssocFile.htm"=-
+"calibreViewer64bit.AssocFile.htm"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.htm]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.htm]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.htm]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.htm]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.htm]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.htm]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.html\OpenWithProgIDs]
-"calibre.html"=-
-"calibreEditor.html"=-
-"calibreViewer.html"=-
+"calibre64bit.AssocFile.html"=-
+"calibreEditor64bit.AssocFile.html"=-
+"calibreViewer64bit.AssocFile.html"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.html]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.html]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.html]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.html]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.html]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.html]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ibook\OpenWithProgIDs]
-"calibre.ibook"=-
+"calibre64bit.AssocFile.ibook"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.ibook]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.ibook]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ibooks\OpenWithProgIDs]
-"calibre.ibooks"=-
+"calibre64bit.AssocFile.ibooks"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.ibooks]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.ibooks]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.imp\OpenWithProgIDs]
-"calibre.imp"=-
+"calibre64bit.AssocFile.imp"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.imp]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.imp]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.kfx\OpenWithProgIDs]
-"calibre.kfx"=-
+"calibre64bit.AssocFile.kfx"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.kfx]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.kfx]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.lrf\OpenWithProgIDs]
-"calibre.lrf"=-
-"calibreViewer.lrf"=-
+"calibre64bit.AssocFile.lrf"=-
+"calibreViewer64bit.AssocFile.lrf"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.lrf]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.lrf]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.lrf]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.lrf]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.lrx\OpenWithProgIDs]
-"calibre.lrx"=-
+"calibre64bit.AssocFile.lrx"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.lrx]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.lrx]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.markdown\OpenWithProgIDs]
-"calibre.markdown"=-
-"calibreViewer.markdown"=-
+"calibre64bit.AssocFile.markdown"=-
+"calibreViewer64bit.AssocFile.markdown"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.markdown]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.markdown]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.markdown]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.markdown]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.md\OpenWithProgIDs]
-"calibre.md"=-
-"calibreViewer.md"=-
+"calibre64bit.AssocFile.md"=-
+"calibreViewer64bit.AssocFile.md"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.md]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.md]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.md]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.md]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.mobi\OpenWithProgIDs]
-"calibre.mobi"=-
-"calibreViewer.mobi"=-
+"calibre64bit.AssocFile.mobi"=-
+"calibreViewer64bit.AssocFile.mobi"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.mobi]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.mobi]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.mobi]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.mobi]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.odt\OpenWithProgIDs]
-"calibre.odt"=-
-"calibreViewer.odt"=-
+"calibre64bit.AssocFile.odt"=-
+"calibreViewer64bit.AssocFile.odt"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.odt]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.odt]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.odt]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.odt]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.opf\OpenWithProgIDs]
-"calibreViewer.opf"=-
+"calibreViewer64bit.AssocFile.opf"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.opf]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.opf]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pdb\OpenWithProgIDs]
-"calibre.pdb"=-
-"calibreViewer.pdb"=-
+"calibre64bit.AssocFile.pdb"=-
+"calibreViewer64bit.AssocFile.pdb"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.pdb]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.pdb]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdb]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.pdb]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pdf\OpenWithProgIDs]
-"calibre.pdf"=-
-"calibreViewer.pdf"=-
+"calibre64bit.AssocFile.pdf"=-
+"calibreViewer64bit.AssocFile.pdf"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.pdf]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.pdf]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.pdf]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.pdf]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pml\OpenWithProgIDs]
-"calibre.pml"=-
-"calibreViewer.pml"=-
+"calibre64bit.AssocFile.pml"=-
+"calibreViewer64bit.AssocFile.pml"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.pml]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.pml]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.pml]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.pml]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.pobi\OpenWithProgIDs]
-"calibre.pobi"=-
-"calibreViewer.pobi"=-
+"calibre64bit.AssocFile.pobi"=-
+"calibreViewer64bit.AssocFile.pobi"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.pobi]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.pobi]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.pobi]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.pobi]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.prc\OpenWithProgIDs]
-"calibre.prc"=-
-"calibreViewer.prc"=-
+"calibre64bit.AssocFile.prc"=-
+"calibreViewer64bit.AssocFile.prc"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.prc]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.prc]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.prc]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.prc]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ps\OpenWithProgIDs]
-"calibre.ps"=-
+"calibre64bit.AssocFile.ps"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.ps]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.ps]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.rtf\OpenWithProgIDs]
-"calibre.rtf"=-
-"calibreViewer.rtf"=-
+"calibre64bit.AssocFile.rtf"=-
+"calibreViewer64bit.AssocFile.rtf"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.rtf]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.rtf]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.rtf]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.rtf]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.shtml\OpenWithProgIDs]
-"calibreViewer.shtml"=-
+"calibreViewer64bit.AssocFile.shtml"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.shtml]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.shtml]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.text\OpenWithProgIDs]
-"calibre.text"=-
-"calibreViewer.text"=-
+"calibre64bit.AssocFile.text"=-
+"calibreViewer64bit.AssocFile.text"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.text]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.text]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.text]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.text]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.tpz\OpenWithProgIDs]
-"calibre.tpz"=-
+"calibre64bit.AssocFile.tpz"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.tpz]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.tpz]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.txt\OpenWithProgIDs]
-"calibre.txt"=-
-"calibreViewer.txt"=-
+"calibre64bit.AssocFile.txt"=-
+"calibreViewer64bit.AssocFile.txt"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.txt]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.txt]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.txt]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.txt]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.xhtml\OpenWithProgIDs]
-"calibre.xhtml"=-
-"calibreEditor.xhtml"=-
-"calibreViewer.xhtml"=-
+"calibre64bit.AssocFile.xhtml"=-
+"calibreEditor64bit.AssocFile.xhtml"=-
+"calibreViewer64bit.AssocFile.xhtml"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.xhtml]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.xhtml]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreEditor.xhtml]
+[-HKEY_CURRENT_USER\Software\Classes\calibreEditor64bit.AssocFile.xhtml]
 
-[-HKEY_CURRENT_USER\Software\Classes\calibreViewer.xhtml]
+[-HKEY_CURRENT_USER\Software\Classes\calibreViewer64bit.AssocFile.xhtml]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.xps\OpenWithProgIDs]
-"calibre.xps"=-
+"calibre64bit.AssocFile.xps"=-
 
-[-HKEY_CURRENT_USER\Software\Classes\calibre.xps]
+[-HKEY_CURRENT_USER\Software\Classes\calibre64bit.AssocFile.xps]

@@ -1,45 +1,45 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\.ggb\OpenWithProgIDs]
-"GeoGebra5.ggb"=hex(0):
+"GeoGebra.File"=hex(0):
 
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.File]
 @="GeoGebra File"
 "AppUserModelID"="GeoGebra5.Classic.5"
 "FriendlyTypeName"="GeoGebra File"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.File\DefaultIcon]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.File\shell]
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.File\shell\open]
 "FriendlyAppName"="GeoGebra Classic 5"
 "Icon"="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggb\shell\open\command]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.File\shell\open\command]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\" \"%1\""
 
 
 
 [HKEY_CURRENT_USER\Software\Classes\.ggt\OpenWithProgIDs]
-"GeoGebra5.ggt"=hex(0):
+"GeoGebra.Tool"=hex(0):
 
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.Tool]
 @="GeoGebra Tool"
 "AppUserModelID"="GeoGebra5.Classic.5"
 "FriendlyTypeName"="GeoGebra Tool"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\DefaultIcon]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.Tool\DefaultIcon]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.Tool\shell]
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.Tool\shell\open]
 "FriendlyAppName"="GeoGebra Classic 5"
 "Icon"="\"{{geogebra_dir}}\\GeoGebra.exe\",0"
 
-[HKEY_CURRENT_USER\Software\Classes\GeoGebra5.ggt\shell\open\command]
+[HKEY_CURRENT_USER\Software\Classes\GeoGebra.Tool\shell\open\command]
 @="\"{{geogebra_dir}}\\GeoGebra.exe\" \"%1\""

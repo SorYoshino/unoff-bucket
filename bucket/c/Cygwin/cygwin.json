@@ -72,17 +72,8 @@
         "script": "unlink_persist_data @{ persist = @('root', 'packages') } $dir"
     },
     "checkver": {
-        "script": [
-            "$release_url = 'https://cygwin.com/setup/'",
-            "$version_sort = { if ($_.href.Replace('.x86_64.exe', '') -match `",
-            "    '(?<=setup-)[\\d.]+$') { [version]$matches[0] } else { [version]::new(0, 0, 0) } }",
-            "$release_page = Invoke-WebRequest -Uri $release_url -UseBasicParsing -ErrorAction Stop",
-            "$package_names = $release_page.links | Where-Object { $_.href -like '*.x86_64.exe' } |",
-            "        Sort-Object -Property $version_sort -Descending | ForEach-Object -MemberName href",
-            "$latest_version = $package_names[0] -replace 'setup-([\\d.]+).+', '$1' -replace '\\.$', ''",
-            "Write-Output $latest_version"
-        ],
-        "regex": "([\\d.]+)"
+        "url": "https://cygwin.com/setup/?C=M;O=D",
+        "regex": "setup-([\\d.]+)\\.x86_64"
     },
     "autoupdate": {
         "architecture": {

@@ -44,7 +44,7 @@
             "$request = New-Object -TypeName System.Net.Http.HttpRequestMessage -ArgumentList 'HEAD', $download_url",
             "$response = $client.SendAsync($request).Result",
             "Write-Output $response.RequestMessage.RequestUri.AbsoluteUri",
-            "$response, $request, $client, $http_handler | Where-Object { $null -ne $_ } | ForEach-Object -Process { $_.Dispose() }"
+            "$response, $request, $client, $http_handler | Where-Object -FilterScript { $_ } | ForEach-Object -Process { $_.Dispose() }"
         ],
         "regex": "x64/([\\d.]+)"
     },

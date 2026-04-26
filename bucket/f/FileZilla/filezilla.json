@@ -32,7 +32,7 @@
             "if (-not (Test-Path -Path \"$dir\\setup.exe\" -PathType Leaf)) { abort \"`n[ERROR]  'setup.exe' not found in '$dir'.\" }",
             "Expand-7zipArchive -Path \"$dir\\setup.exe\" -Switches '-xr!$* -xr!unins*' -Removal",
             "[xml]$xml = Get-Content -Path \"$dir\\docs\\fzdefaults.xml.example\" -Encoding utf8",
-            "$comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
+            "$comments = $xml.ChildNodes | Where-Object -FilterScript { $_.NodeType.ToString() -eq 'Comment' }",
             "$comments | ForEach-Object -Process { $_.ParentNode.RemoveChild($_) | Out-Null }",
             "$xml.SelectSingleNode('//Setting[@name=''Disable update check'']').InnerText = '1'",
             "$xml.SelectSingleNode('//Setting[@name=''Cache directory'']').InnerText = 'data\\cache'",

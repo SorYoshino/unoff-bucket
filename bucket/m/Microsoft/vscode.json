@@ -48,7 +48,7 @@
     "post_install": [
         "$vscode_dir = $dir -replace '\\\\', '\\\\'",
         "$product_json_file = Get-ChildItem -Path $dir -Include '*.json' -Depth 3 -File |",
-        "        Where-Object { $_.DirectoryName -match 'app$' -and $_.BaseName -match '^product' } |",
+        "        Where-Object -FilterScript { $_.DirectoryName -match 'app$' -and $_.BaseName -match '^product' } |",
         "        Select-Object -ExpandProperty FullName -First 1",
         "if (Test-Path -Path $product_json_file -PathType Leaf) {",
         "    $scope = if ($global) { '' } else { 'User' }",
@@ -67,7 +67,8 @@
         "Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $register_installed_file) -WindowStyle Hidden -Wait",
         "ensure \"$dir\\resources\\app\\resources\\win32\" | Out-Null",
         "$original_resources_dir = Get-ChildItem -Path $dir -Include '*.ico' -Depth 5 -File |",
-        "        Where-Object { $_.DirectoryName -match 'resources\\\\win32$' } | Select-Object -ExpandProperty DirectoryName -First 1",
+        "        Where-Object -FilterScript { $_.DirectoryName -match 'resources\\\\win32$' } |",
+        "        Select-Object -ExpandProperty DirectoryName -First 1",
         "Copy-Item -Path \"$original_resources_dir\\*\" -Destination \"$dir\\resources\\app\\resources\\win32\" -Force",
         "$data_dir = \"$original_dir\\data\" -replace '\\\\', '/'",
         "$extensions_file = \"$dir\\data\\extensions\\extensions.json\"",
@@ -100,7 +101,7 @@
             "Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $unregister_installed_file) -WindowStyle Hidden -Wait",
             "if ($cmd -ne 'uninstall') { return }",
             "Get-ChildItem -Path $dir -Filter 'un*.reg' -File |",
-            "        Where-Object { $_.BaseName -notmatch 'installed' } | ForEach-Object -Process {",
+            "        Where-Object -FilterScript { $_.BaseName -notmatch 'installed' } | ForEach-Object -Process {",
             "    $registry_file = '\"{0}\"' -f $_.FullName",
             "    Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "}"

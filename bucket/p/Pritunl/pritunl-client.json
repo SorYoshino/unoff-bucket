@@ -42,7 +42,7 @@
         "    $services = Get-CimInstance -ClassName Win32_Service -Filter $name_filter -ErrorAction SilentlyContinue |",
         "            Select-Object -Property *, @{ Name = 'BinaryPathName'; Expression = { $_.PathName } }",
         "}",
-        "$service = $services | Where-Object { $_.BinaryPathName -match $path_regex }",
+        "$service = $services | Where-Object -FilterScript { $_.BinaryPathName -match $path_regex }",
         "if ($service -and @($service.Status, $service.State) -contains 'Running') { return }",
         "if ($service) { abort \"`n[ERROR]  Service '$service_name' exists but failed to start. Installation terminated.\" }",
         "if ($services) {",

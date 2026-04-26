@@ -36,7 +36,7 @@
     "pre_install": [
         "if(-not (Test-Path -Path \"$persist_dir\\ConEmu\\ConEmu.xml\" -PathType Leaf)) {",
         "    [xml]$xml = Get-Content -Path \"$dir\\ConEmu\\ConEmu_Sample.xml\" -Encoding utf8",
-        "    $comments = $xml.ChildNodes | Where-Object { $_.NodeType.ToString() -eq 'Comment' }",
+        "    $comments = $xml.ChildNodes | Where-Object -FilterScript { $_.NodeType.ToString() -eq 'Comment' }",
         "    $comments | ForEach-Object -Process { $_.ParentNode.RemoveChild($_) | Out-Null }",
         "    $xml.SelectSingleNode('//value[@name=''Update.UseBuilds'']').SetAttribute('data', '01')",
         "    $xml.SelectSingleNode('//value[@name=''Update.CheckHourly'']').SetAttribute('data', '00')",

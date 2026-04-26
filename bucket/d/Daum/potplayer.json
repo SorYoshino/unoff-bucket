@@ -86,7 +86,7 @@
             "if ($page -match '\\[(?<tag>\\d+)\\]') {",
             "    $download_url = 'https://t1.daumcdn.net/potplayer/PotPlayer/Version/{0}/PotPlayerSetup64.exe' -f $Matches['tag']",
             "    $download_path = cache_path $app 'unknown' $download_url",
-            "    Invoke-WebRequest -Uri $download_url -OutFile $download_path -UseBasicParsing",
+            "    Invoke-WebRequest -Uri $download_url -OutFile $download_path -UseBasicParsing -Verbose:$false",
             "    $version_info = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($download_path)",
             "    Move-Item -Path $download_path -Destination (cache_path $app $version_info.FileVersion $download_url) -Force",
             "    Write-Output \"$($version_info.FileVersion), $($Matches['tag'])\"",

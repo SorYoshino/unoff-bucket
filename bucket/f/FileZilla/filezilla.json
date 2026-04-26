@@ -50,18 +50,7 @@
     "persist": "data",
     "checkver": {
         "url": "https://community.chocolatey.org/packages/filezilla",
-        "script": [
-            "$version_sort = { [version]$_.Groups['version'].Value }",
-            "$version_regex = 'FileZilla\\s*<span>(?<version>[\\d.]+)<'",
-            "$versions = [regex]::Matches($page, $version_regex) | Sort-Object -Property $version_sort -Descending |",
-            "        ForEach-Object -Process { $_.Groups['version'].Value }",
-            "foreach ($version in $versions) {",
-            "    $version_detail_url = 'https://community.chocolatey.org/packages/filezilla/{0}' -f $version",
-            "    $version_detail_page = Invoke-WebRequest -Uri $version_detail_url -UseBasicParsing -ErrorAction Stop",
-            "    if ($version_detail_page.Content -match '>tools\\\\FileZilla') { Write-Output $version; break }",
-            "}"
-        ],
-        "regex": "([\\d.]+)"
+        "regex": "FileZilla <span>([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://packages.chocolatey.org/filezilla.$version.nupkg",

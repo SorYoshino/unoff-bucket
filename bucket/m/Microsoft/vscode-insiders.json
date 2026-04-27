@@ -1,5 +1,5 @@
 {
-    "version": "1.118.0-603ca23",
+    "version": "1.118.0-1b91e5e",
     "description": "Visual Studio Code Insiders is a lightweight yet powerful, cross-platform source code editor providing rich support for development, debugging, and extension-based customization for modern web and cloud workloads.",
     "homepage": "https://code.visualstudio.com/insiders",
     "license": {
@@ -16,12 +16,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/603ca23a7623678dea30c8f77d129d167af7622d/VSCode-win32-x64-1.118.0-insider.zip",
-            "hash": "783f3d37b04726dbcf1c740b3e2fbfe33e3f6a393946291e6d1124c59a4d61b3"
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/1b91e5ec8aa7a39a2754f88e3be8177f5ea9c511/VSCode-win32-x64-1.118.0-insider.zip",
+            "hash": "08e3b90951feb8362a628d5f65bfa796ca02077e167d999e8cea103e4706fb44"
         },
         "arm64": {
-            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/603ca23a7623678dea30c8f77d129d167af7622d/VSCode-win32-arm64-1.118.0-insider.zip",
-            "hash": "ee5a3463bfc2067c69c32373d7d6baa3db0a74f1dcb43b811acb7ed80807ec2a"
+            "url": "https://vscode.download.prss.microsoft.com/dbazure/download/insider/1b91e5ec8aa7a39a2754f88e3be8177f5ea9c511/VSCode-win32-arm64-1.118.0-insider.zip",
+            "hash": "62bebaa451fc656050280fddfa1f6642d68247d5ced3c3c6a1f4abb69f295b43"
         }
     },
     "pre_install": [

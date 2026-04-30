@@ -1,5 +1,5 @@
 {
-    "version": "26.04-2550",
+    "version": "26.04-2552",
     "description": "A graphical archive management utility that allows users to efficiently browse, create, extract, and modify compressed archives through an intuitive user interface.",
     "homepage": "https://apps.kde.org/ark/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-26.04/windows/ark-release_26.04-2550-windows-cl-msvc2022-x86_64.7z",
-            "hash": "0270281337d92d7795aaa9bf25eef9ab534b97d7d10fbd2c495e6c8b42de79e7"
+            "url": "https://cdn.kde.org/ci-builds/utilities/ark/release-26.04/windows/ark-release_26.04-2552-windows-cl-msvc2022-x86_64.7z",
+            "hash": "c8f8f72b79c6e512fe3f24d4e0cda69f7bf77cabdf588d3fc2e8cd65c585318a"
         }
     },
     "bin": "bin\\ark.exe",

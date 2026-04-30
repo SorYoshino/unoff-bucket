@@ -1,5 +1,5 @@
 {
-    "version": "1.0.33",
+    "version": "1.0.34",
     "description": "A voice, video, and text communication platform for ARM64, offering early access to the newest features via the Public Test Build (PTB) prior to their general release.",
     "homepage": "https://discord.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://ptb.dl2.discordapp.net/distro/app/ptb/win/arm64/1.0.33/DiscordPTBSetup.exe",
-            "hash": "e25671c840fbe39475ba6cf9b84505da4c9ed5f435931d3db9989aadf5f5cfdc"
+            "url": "https://ptb.dl2.discordapp.net/distro/app/ptb/win/arm64/1.0.34/DiscordPTBSetup.exe",
+            "hash": "16e5eb01a57dbca8419a892396607ca1f36248f37c7de2a3d73f0da528ada031"
         }
     },
     "installer": {

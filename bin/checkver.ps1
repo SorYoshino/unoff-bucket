@@ -59,7 +59,7 @@ param(
             $true
         }
     })]
-    [String] $Dir,
+    [String] $Dir = "$PSScriptRoot\..\bucket",
     [Switch] $Update,
     [Switch] $ForceUpdate,
     [Switch] $SkipUpdated,
@@ -67,13 +67,16 @@ param(
     [Switch] $ThrowError
 )
 
-. "$PSScriptRoot\..\lib\core.ps1"
-. "$PSScriptRoot\..\lib\autoupdate.ps1"
-. "$PSScriptRoot\..\lib\manifest.ps1"
-. "$PSScriptRoot\..\lib\buckets.ps1"
-. "$PSScriptRoot\..\lib\json.ps1"
-. "$PSScriptRoot\..\lib\versions.ps1"
-. "$PSScriptRoot\..\lib\download.ps1"
+
+if (-not $env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
+
+. "$env:SCOOP_HOME\lib\core.ps1"
+. "$env:SCOOP_HOME\lib\autoupdate.ps1"
+. "$env:SCOOP_HOME\lib\manifest.ps1"
+. "$env:SCOOP_HOME\lib\buckets.ps1"
+. "$env:SCOOP_HOME\lib\json.ps1"
+. "$env:SCOOP_HOME\lib\versions.ps1"
+. "$env:SCOOP_HOME\lib\download.ps1"
 
 if ($App -ne '*' -and (Test-Path $App -PathType Leaf)) {
     $Dir = Split-Path $App

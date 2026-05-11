@@ -1,5 +1,5 @@
 {
-    "version": "1.0.945",
+    "version": "1.0.946",
     "description": "A voice, video, and text communication platform, serving as the bleeding-edge testing environment for the latest features and architectural updates.",
     "homepage": "https://discord.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.945/DiscordCanarySetup.exe",
-            "hash": "744fb08e30c11211404945da6c78cdeba344caef6f6f07246ef833828ee17fc5"
+            "url": "https://canary.dl2.discordapp.net/distro/app/canary/win/x64/1.0.946/DiscordCanarySetup.exe",
+            "hash": "b564d9923bda9f6a94ca4dcd674a099902319b389bce70fea83f90bec0678264"
         }
     },
     "installer": {

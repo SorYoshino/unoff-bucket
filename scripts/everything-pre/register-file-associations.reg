@@ -10,25 +10,25 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu]
 @="Everything File List"
-"AppUserModelID"="voidtools.Everything.Alpha"
+"AppUserModelID"="voidtools.Everything.Pre-release"
 "FriendlyTypeName"="Everything File List"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\DefaultIcon]
-@="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+@="\"{{everything_pre_dir}}\\Everything.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell]
 @="open"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit]
-"FriendlyAppName"="Everything Alpha"
-"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+"FriendlyAppName"="Everything Pre-release"
+"Icon"="\"{{everything_pre_dir}}\\Everything.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\edit\command]
-@="\"{{everything_alpha_dir}}\\Everything.exe\" -edit \"%1\""
+@="\"{{everything_pre_dir}}\\Everything.exe\" -edit \"%1\""
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open]
-"FriendlyAppName"="Everything Alpha"
-"Icon"="\"{{everything_alpha_dir}}\\Everything.exe\",0"
+"FriendlyAppName"="Everything Pre-release"
+"Icon"="\"{{everything_pre_dir}}\\Everything.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\Everything.efu\shell\open\command]
-@="\"{{everything_alpha_dir}}\\Everything.exe\" -filelist \"%1\""
+@="\"{{everything_pre_dir}}\\Everything.exe\" -filelist \"%1\""

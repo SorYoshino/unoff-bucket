@@ -1,6 +1,6 @@
 {
-    "version": "1.5a",
-    "description": "An alpha-stage file and folder search engine for Windows that instantly locates files and folders by name.",
+    "version": "1.5.0.1412b",
+    "description": "A pre-release, high-performance search engine for Windows, engineered for instantaneous file and directory retrieval by name.",
     "homepage": "https://www.voidtools.com",
     "license": {
         "identifier": "MIT",
@@ -18,12 +18,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/Everything-1.5a.x64.zip",
-            "hash": "e16b3e3f562b13dbc3368b4a78357274ee9515bd3eaada58302c0f3c26af9c0c"
+            "url": "https://www.voidtools.com/Everything-1.5.0.1412b.x64.zip",
+            "hash": "c8b8fa12e8641992295dc513d57ad9de06d8f4ea551d9a3550a7c142aa7a4967"
         },
         "32bit": {
-            "url": "https://www.voidtools.com/Everything-1.5a.x86.zip",
-            "hash": "f1fffd46f6075fa6cc1d9286df260f190f2e30c038680460ec25b2be20c4830f"
+            "url": "https://www.voidtools.com/Everything-1.5.0.1412b.x86.zip",
+            "hash": "d1776f0dcb91cec49722e0a4b68f87c134e30c7a71c4bc7bfd2a21a1e38c1bca"
         }
     },
     "pre_install": [
@@ -38,18 +38,18 @@
         "}",
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "if ($cmd -eq 'install' -and -not (Test-Path -Path \"$persist_dir\\*\")) { return }",
-        "'*.db', '*.csv', '*.ico', '*.ini', '*.lng', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
+        "'*.db', '*.csv', '*.ico', '*.ini', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
         "    if (Test-Path -Path \"$persist_dir\\$_\" -PathType Leaf) {",
         "        Copy-Item -Path \"$persist_dir\\$_\" -Destination $dir -Force",
         "    }",
         "}"
     ],
     "post_install": [
-        "$everything_alpha_dir = $dir -replace '\\\\', '\\\\'",
+        "$everything_pre_dir = $dir -replace '\\\\', '\\\\'",
         "Get-ChildItem -Path \"$bucketsdir\\$bucket\\scripts\\$app\" -Filter '*.reg' -File | ForEach-Object -Process {",
         "    $content = Get-Content -Path $_.FullName -Encoding utf8",
         "    if ($global) { $content = $content -replace 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE' }",
-        "    $content -replace '{{everything_alpha_dir}}', $everything_alpha_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
+        "    $content -replace '{{everything_pre_dir}}', $everything_pre_dir | Set-Content -Path \"$dir\\$($_.Name)\" -Encoding unicode",
         "}"
     ],
     "bin": "Everything.exe",
@@ -67,7 +67,7 @@
     "pre_uninstall": [
         "# Hard links are not applicable here because the application creates a new file instead of modifying the existing one in place.",
         "if ($cmd -eq 'uninstall' -and $purge) { return }",
-        "'*.db', '*.csv', '*.ico', '*.ini', '*.lng', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
+        "'*.db', '*.csv', '*.ico', '*.ini', '*.txt', 'Session*.json', 'NO_ALPHA_INSTANCE' | ForEach-Object -Process {",
         "    if (Test-Path -Path \"$dir\\$_\" -PathType Leaf) {",
         "        Copy-Item -Path \"$dir\\$_\" -Destination $persist_dir -Force",
         "    }",
@@ -81,17 +81,17 @@
             "        Start-Process -FilePath 'reg.exe' -ArgumentList @('import', $registry_file) -WindowStyle Hidden -Wait",
             "    }",
             "}",
-            "$base_service_name = 'Everything'",
+            "$base_name = 'Everything'",
             "$path_regex = [regex]::Escape((Split-Path -Path $dir -Parent))",
-            "$process = Get-Process -Name 'Everything' -ErrorAction SilentlyContinue | Where-Object -FilterScript { $_.Path -match $path_regex }",
+            "$process = Get-Process -Name $base_name -ErrorAction SilentlyContinue | Where-Object -FilterScript { $_.Path -match $path_regex }",
             "if ($process.Count -gt 0) {",
             "    Write-Host \"`nINFO  Identified $($process.Count) running processes for termination.\" -ForegroundColor DarkGray",
             "    Stop-Process -Id $process.Id -Force -ErrorAction SilentlyContinue",
             "}",
             "if ($PSVersionTable.PSVersion -ge [version]::new(6, 0)) {",
-            "    $services = Get-Service -Name \"*$base_service_name*\" -ErrorAction SilentlyContinue",
+            "    $services = Get-Service -Name \"*$base_name*\" -ErrorAction SilentlyContinue",
             "} else {",
-            "    $name_filter = \"Name like '%$base_service_name%'\"",
+            "    $name_filter = \"Name like '%$base_name%'\"",
             "    $services = Get-CimInstance -ClassName Win32_Service -Filter $name_filter -ErrorAction SilentlyContinue |",
             "            Select-Object -Property *, @{ Name = 'BinaryPathName'; Expression = { $_.PathName } }",
             "}",
@@ -99,24 +99,42 @@
             "if ($null -ne $service) {",
             "    if (-not (is_admin)) { abort \"`n[ERROR]  $app requires admin rights to $cmd.\" }",
             "    Stop-Service -Name $service.Name -Force -ErrorAction SilentlyContinue",
-            "    $process.Id | Where-Object -FilterScript { $null -ne $_ } | ForEach-Object -Process {",
-            "        Get-Process -Id $_ -ErrorAction SilentlyContinue | Where-Object -FilterScript { $_.Name -like '*Everything*' }",
+            "    $process.Id | Where-Object -FilterScript { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
+            "        Get-Process -Id $_ -ErrorAction SilentlyContinue | Where-Object -FilterScript { $_.Name -like \"*$base_name*\" }",
             "    } | Stop-Process -Force -ErrorAction SilentlyContinue",
             "    Start-Sleep -Milliseconds 1500",
             "    if ($cmd -ne 'uninstall') { return }",
-            "    $instance_name = if (Test-Path -Path \"$dir\\NO_ALPHA_INSTANCE\" -PathType Leaf) { '' } else { ' (1.5a)' }",
-            "    $service_name = 'Everything{0}' -f $instance_name",
-            "    if ($PSVersionTable.PSVersion -ge [version]::new(6, 0)) {",
-            "        Remove-Service -Name $service_name -ErrorAction SilentlyContinue",
-            "    } else {",
-            "        Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', $service_name) -NoNewWindow -Wait",
+            "    $service.Name | Where-Object -FilterScript { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object -Process {",
+            "        if ($PSVersionTable.PSVersion -ge [version]::new(6, 0)) {",
+            "            Remove-Service -Name $_ -ErrorAction SilentlyContinue",
+            "        } else {",
+            "            Start-Process -FilePath 'sc.exe' -ArgumentList @('delete', $_) -NoNewWindow -Wait",
+            "        }",
             "    }",
             "}"
         ]
     },
+    "post_uninstall": [
+        "if ($cmd -ne 'uninstall') { return }",
+        "$registry_hive = if ($global) { 'HKLM' } else { 'HKCU' }",
+        "$cleanup_tasks = @(",
+        "    @{ Path = \"${registry_hive}:\\Software\\Classes\\Folder\\shell\" }",
+        "    @{ Path = \"${registry_hive}:\\Software\\Classes\\Directory\\background\\shell\" }",
+        "    @{ Path = \"${registry_hive}:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\" }",
+        ")",
+        "foreach ($task in $cleanup_tasks) {",
+        "    if (-not (Test-Path -Path $task.Path)) { continue }",
+        "    Get-ChildItem -Path $task.Path | Where-Object -FilterScript { $_.PSChildName -like 'Search Everything*' } |",
+        "            Remove-Item -Recurse -Force -ErrorAction SilentlyContinue",
+        "    Get-Item -Path $task.Path | ForEach-Object -MemberName GetValueNames |",
+        "        Where-Object -FilterScript { $_ -like 'Everything*' } | ForEach-Object -Process {",
+        "            Remove-ItemProperty -Path $task.Path -Name $_ -Force -ErrorAction SilentlyContinue",
+        "    }",
+        "}"
+    ],
     "checkver": {
         "url": "https://www.voidtools.com/forum/viewtopic.php?t=9787",
-        "regex": "Everything-([\\d.]+a)"
+        "regex": "(?s)Portable.+?Everything-([\\d.]+\\w)"
     },
     "autoupdate": {
         "architecture": {

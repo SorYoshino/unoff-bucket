@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\Search Everything Pre-release...]
+@="Search with &Everything Pre-release"
+"Icon"="\"{{everything_pre_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\Search Everything Pre-release...\command]
+@="\"{{everything_pre_dir}}\\Everything.exe\" -path \"%V\""
+
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\Search Everything Pre-release...]
+@="Search with &Everything Pre-release"
+"Icon"="\"{{everything_pre_dir}}\\Everything.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\Search Everything Pre-release...\command]
+@="\"{{everything_pre_dir}}\\Everything.exe\" -path \"%1\""

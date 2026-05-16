@@ -91,11 +91,7 @@
     "shortcuts": [
         [
             "Code - Insiders.exe",
-            "Visual Studio Code - Insiders\\Visual Studio Code - Insiders"
-        ],
-        [
-            "Agents - Insiders.exe",
-            "Visual Studio Code - Insiders\\Visual Studio Code Agents - Insiders"
+            "Visual Studio Code - Insiders"
         ]
     ],
     "persist": "data",

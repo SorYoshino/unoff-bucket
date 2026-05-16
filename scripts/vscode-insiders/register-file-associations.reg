@@ -10,7 +10,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="AsciiDoc Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\DefaultIcon]
-@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell]
 
@@ -19,6 +19,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.adoc\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.asciidoc\OpenWithProgIDs]
+"VSCodeInsiders.asciidoc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asciidoc]
+@="AsciiDoc Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="AsciiDoc Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asciidoc\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asciidoc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asciidoc\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.asciidoc\shell\open\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 
@@ -741,9 +764,9 @@ Windows Registry Editor Version 5.00
 
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv]
-@="Comma Separated Values Source File"
+@="Comma-Separated Values Source File"
 "AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
-"FriendlyTypeName"="Comma Separated Values Source File"
+"FriendlyTypeName"="Comma-Separated Values Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.csv\DefaultIcon]
 @="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
@@ -1890,14 +1913,37 @@ Windows Registry Editor Version 5.00
 
 
 
+[HKEY_CURRENT_USER\Software\Classes\.jsonl\OpenWithProgIDs]
+"VSCodeInsiders.jsonl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonl]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonl\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonl\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonl\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
 [HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
 "VSCodeInsiders.jsonld"=hex(0):
 
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld]
-@="JSON for Linked Data Source File"
+@="JSON-LD Source File"
 "AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
-"FriendlyTypeName"="JSON for Linked Data Source File"
+"FriendlyTypeName"="JSON-LD Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsonld\DefaultIcon]
 @="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
@@ -1955,6 +2001,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.jsx\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ldjson\OpenWithProgIDs]
+"VSCodeInsiders.ldjson"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ldjson]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ldjson\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ldjson\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ldjson\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ldjson\shell\open\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 
@@ -2369,6 +2438,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.mli\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ndjson\OpenWithProgIDs]
+"VSCodeInsiders.ndjson"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ndjson]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ndjson\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ndjson\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ndjson\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ndjson\shell\open\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 
@@ -3225,6 +3317,29 @@ Windows Registry Editor Version 5.00
 
 
 
+[HKEY_CURRENT_USER\Software\Classes\.tml\OpenWithProgIDs]
+"VSCodeInsiders.tml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tml]
+@="Toml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Toml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tml\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tml\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
 [HKEY_CURRENT_USER\Software\Classes\.toml\OpenWithProgIDs]
 "VSCodeInsiders.toml"=hex(0):
 
@@ -3235,7 +3350,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="Toml Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\DefaultIcon]
-@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.toml\shell]
 
@@ -3267,6 +3382,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.ts\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tsv\OpenWithProgIDs]
+"VSCodeInsiders.tsv"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsv]
+@="Tab-Separated Values Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Tab-Separated Values Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsv\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsv\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.tsv\shell\open\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 
@@ -3520,6 +3658,75 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xml\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsd\OpenWithProgIDs]
+"VSCodeInsiders.xsd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsd]
+@="XML Schema Definition Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="XML Schema Definition Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsd\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsd\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsd\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsl\OpenWithProgIDs]
+"VSCodeInsiders.xsl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsl]
+@="Extensible Stylesheet Language Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Extensible Stylesheet Language Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsl\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsl\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xsl\shell\open\command]
+@="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xslt\OpenWithProgIDs]
+"VSCodeInsiders.xslt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xslt]
+@="Extensible Stylesheet Language Source File"
+"AppUserModelID"="Microsoft.VisualStudioCodeInsiders"
+"FriendlyTypeName"="Extensible Stylesheet Language Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xslt\DefaultIcon]
+@="\"{{vscode_insiders_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xslt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xslt\shell\open]
+"FriendlyAppName"="Visual Studio Code - Insiders"
+"Icon"="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCodeInsiders.xslt\shell\open\command]
 @="\"{{vscode_insiders_dir}}\\Code - Insiders.exe\" \"%1\""
 
 

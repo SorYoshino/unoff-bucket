@@ -6,6 +6,12 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.adoc]
 
 
+[HKEY_CURRENT_USER\Software\Classes\.asciidoc\OpenWithProgIDs]
+"VSCode.asciidoc"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc]
+
+
 [HKEY_CURRENT_USER\Software\Classes\.ascx\OpenWithProgIDs]
 "VSCode.ascx"=-
 
@@ -492,6 +498,12 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.jsonc]
 
 
+[HKEY_CURRENT_USER\Software\Classes\.jsonl\OpenWithProgIDs]
+"VSCode.jsonl"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl]
+
+
 [HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
 "VSCode.jsonld"=-
 
@@ -508,6 +520,12 @@ Windows Registry Editor Version 5.00
 "VSCode.jsx"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.jsx]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ldjson\OpenWithProgIDs]
+"VSCode.ldjson"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.less\OpenWithProgIDs]
@@ -616,6 +634,12 @@ Windows Registry Editor Version 5.00
 "VSCode.mli"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.mli]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ndjson\OpenWithProgIDs]
+"VSCode.ndjson"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.npmignore\OpenWithProgIDs]
@@ -840,6 +864,12 @@ Windows Registry Editor Version 5.00
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.tex]
 
 
+[HKEY_CURRENT_USER\Software\Classes\.tml\OpenWithProgIDs]
+"VSCode.tml"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.tml]
+
+
 [HKEY_CURRENT_USER\Software\Classes\.toml\OpenWithProgIDs]
 "VSCode.toml"=-
 
@@ -850,6 +880,12 @@ Windows Registry Editor Version 5.00
 "VSCode.ts"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.ts]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tsv\OpenWithProgIDs]
+"VSCode.tsv"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.tsv]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.tsx\OpenWithProgIDs]
@@ -916,6 +952,24 @@ Windows Registry Editor Version 5.00
 "VSCode.xml"=-
 
 [-HKEY_CURRENT_USER\Software\Classes\VSCode.xml]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsd\OpenWithProgIDs]
+"VSCode.xsd"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.xsd]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsl\OpenWithProgIDs]
+"VSCode.xsl"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.xsl]
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xslt\OpenWithProgIDs]
+"VSCode.xslt"=-
+
+[-HKEY_CURRENT_USER\Software\Classes\VSCode.xslt]
 
 
 [HKEY_CURRENT_USER\Software\Classes\.yaml\OpenWithProgIDs]

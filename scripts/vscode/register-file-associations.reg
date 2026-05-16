@@ -10,7 +10,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="AsciiDoc Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\DefaultIcon]
-@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\shell]
 
@@ -19,6 +19,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.adoc\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.asciidoc\OpenWithProgIDs]
+"VSCode.asciidoc"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc]
+@="AsciiDoc Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="AsciiDoc Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\markdown.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.asciidoc\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 
@@ -741,9 +764,9 @@ Windows Registry Editor Version 5.00
 
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csv]
-@="Comma Separated Values Source File"
+@="Comma-Separated Values Source File"
 "AppUserModelID"="Microsoft.VisualStudioCode"
-"FriendlyTypeName"="Comma Separated Values Source File"
+"FriendlyTypeName"="Comma-Separated Values Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.csv\DefaultIcon]
 @="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\default.ico\""
@@ -1890,14 +1913,37 @@ Windows Registry Editor Version 5.00
 
 
 
+[HKEY_CURRENT_USER\Software\Classes\.jsonl\OpenWithProgIDs]
+"VSCode.jsonl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.jsonl\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
 [HKEY_CURRENT_USER\Software\Classes\.jsonld\OpenWithProgIDs]
 "VSCode.jsonld"=hex(0):
 
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld]
-@="JSON for Linked Data Source File"
+@="JSON-LD Source File"
 "AppUserModelID"="Microsoft.VisualStudioCode"
-"FriendlyTypeName"="JSON for Linked Data Source File"
+"FriendlyTypeName"="JSON-LD Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsonld\DefaultIcon]
 @="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\json.ico\""
@@ -1955,6 +2001,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.jsx\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ldjson\OpenWithProgIDs]
+"VSCode.ldjson"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ldjson\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 
@@ -2369,6 +2438,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.mli\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.ndjson\OpenWithProgIDs]
+"VSCode.ndjson"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson]
+@="JSON Lines Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="JSON Lines Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\json.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.ndjson\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 
@@ -3225,6 +3317,29 @@ Windows Registry Editor Version 5.00
 
 
 
+[HKEY_CURRENT_USER\Software\Classes\.tml\OpenWithProgIDs]
+"VSCode.tml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tml]
+@="Toml Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="Toml Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tml\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\config.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tml\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tml\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
 [HKEY_CURRENT_USER\Software\Classes\.toml\OpenWithProgIDs]
 "VSCode.toml"=hex(0):
 
@@ -3235,7 +3350,7 @@ Windows Registry Editor Version 5.00
 "FriendlyTypeName"="Toml Source File"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.toml\DefaultIcon]
-@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\config.ico\""
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.toml\shell]
 
@@ -3267,6 +3382,29 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.ts\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.tsv\OpenWithProgIDs]
+"VSCode.tsv"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tsv]
+@="Tab-Separated Values Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="Tab-Separated Values Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tsv\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\default.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tsv\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tsv\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.tsv\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 
@@ -3520,6 +3658,75 @@ Windows Registry Editor Version 5.00
 "Icon"="\"{{vscode_dir}}\\Code.exe\",0"
 
 [HKEY_CURRENT_USER\Software\Classes\VSCode.xml\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsd\OpenWithProgIDs]
+"VSCode.xsd"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsd]
+@="XML Schema Definition Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="XML Schema Definition Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsd\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsd\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsd\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsd\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xsl\OpenWithProgIDs]
+"VSCode.xsl"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsl]
+@="Extensible Stylesheet Language Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="Extensible Stylesheet Language Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsl\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsl\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsl\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xsl\shell\open\command]
+@="\"{{vscode_dir}}\\Code.exe\" \"%1\""
+
+
+
+[HKEY_CURRENT_USER\Software\Classes\.xslt\OpenWithProgIDs]
+"VSCode.xslt"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xslt]
+@="Extensible Stylesheet Language Source File"
+"AppUserModelID"="Microsoft.VisualStudioCode"
+"FriendlyTypeName"="Extensible Stylesheet Language Source File"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xslt\DefaultIcon]
+@="\"{{vscode_dir}}\\resources\\app\\resources\\win32\\xml.ico\""
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xslt\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xslt\shell\open]
+"FriendlyAppName"="Visual Studio Code"
+"Icon"="\"{{vscode_dir}}\\Code.exe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\VSCode.xslt\shell\open\command]
 @="\"{{vscode_dir}}\\Code.exe\" \"%1\""
 
 

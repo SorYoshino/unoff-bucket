@@ -4,7 +4,7 @@
     "homepage": "https://www.aimp.ru",
     "license": {
         "identifier": "Freeware",
-        "url": "https://www.aimp.ru/?do=eula&os=windows"
+        "url": "https://aimp.ru/?do=eula&os=desktop"
     },
     "architecture": {
         "64bit": {
@@ -62,10 +62,6 @@
             "32bit": {
                 "url": "https://aimp.ru/?do=download.file&id=8#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "https://www.aimp.ru/?do=download&os=windows",
-            "regex": "(?si)$url.+?SHA256:\\s*$sha256"
         }
     }
 }

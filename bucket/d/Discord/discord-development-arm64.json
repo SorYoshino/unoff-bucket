@@ -1,5 +1,5 @@
 {
-    "version": "1.0.983",
+    "version": "1.0.992",
     "description": "A voice, video, and text communication platform for ARM64, providing access to the most internal and unrefined builds for development and testing purposes.",
     "homepage": "https://discord.com",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://development.dl2.discordapp.net/distro/app/development/win/arm64/1.0.983/DiscordDevelopmentSetup.exe",
-            "hash": "e32c886d1ac48600c19f79ba5228d00f478657a39e3bcc37768da60c44299a1d"
+            "url": "https://development.dl2.discordapp.net/distro/app/development/win/arm64/1.0.992/DiscordDevelopmentSetup.exe",
+            "hash": "e0826d5212bba9fa705f28bec16a5c80037f9303ac21a340e8bd76cbf46f0c8b"
         }
     },
     "installer": {

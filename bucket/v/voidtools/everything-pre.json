@@ -133,8 +133,8 @@
         "}"
     ],
     "checkver": {
-        "url": "https://www.voidtools.com/forum/viewtopic.php?t=9787",
-        "regex": "(?s)Portable.+?Everything-([\\d.]+\\w)"
+        "url": "https://www.voidtools.com/forum/viewtopic.php?sd=d&t=9787",
+        "regex": "Everything-([\\d.]+\\w)\\.x64"
     },
     "autoupdate": {
         "architecture": {
